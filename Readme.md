@@ -29,7 +29,7 @@
  - <span style="color:yellow">2 ![brackets](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) </span>(14bp)
  - <span style="color:cyan">2 ![brackets](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![brackets](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) </span>(14bp)
  - <span style="color:yellow">4 ![brackets](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) </span>(16bp)
- -<span style="color:cyan"> 4 ![brackets](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![brackets](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) </span>(16bp)
+ - <span style="color:cyan"> 4 ![brackets](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![brackets](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) </span>(16bp)
 
 - ##### Category B1 - Lane Mergers/Splitters
  - <span style="color:yellow">4:2:1 ![brackets](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) </span>(27bp)
