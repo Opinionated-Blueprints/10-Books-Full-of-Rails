@@ -13,7 +13,7 @@ right click & open image in new tab for better resolution
 
 
 # Features: 
-- All blueprints are always upgradeable into their equivalents from other books placed lower on the list in the "Books" section as long as they are in the same category
+- All blueprints are always upgradable into their equivalents from other books placed lower on the list in the "Books" section as long as they are in the same category
  - some blueprints are upgradable into others from the same book or even other categories
    - some of that upgradability was sacrificed for the sake of throughput
  - to achieve that, many blueprints don't have the best possible signal placement
