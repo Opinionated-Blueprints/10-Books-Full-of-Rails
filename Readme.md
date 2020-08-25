@@ -1,4 +1,4 @@
-###### Quarantine proved to be the perfect time to spend more than a week pretty much only designing some intersections. I've got to 107 before I finally said to myself: "ENOUGH" (I've still had some ideas tho). Actually, there are 214 blueprints, but half of that is just versions with solar panels and accumulators fit in between the lanes because "why not?". At first, these were called "Books of 1001 Railway Blueprints" and there were 10 books to get separately, but since 1.0 came out, I've decided to finally make use of book nesting and do some polishing/updates with the recent features and some new ideas. Hope you'll enjoy, and remember: Factory Must Grow.
+###### Quarantine proved to be the perfect time to spend more than a week pretty much only designing some intersections. I've got to 107 before I finally said to myself: "ENOUGH". Actually, there are 214 blueprints, but half of that is just versions with solar panels and accumulators fit in between the lanes because "why not?". At first, these were called "Books of 1001 Railway Blueprints" and there were 10 books to get separately, but since 1.0 came out, I've decided to finally make use of book nesting and do some polishing/updates with the recent features and some new ideas. Hope you'll enjoy, and remember: Factory Must Grow.
 
 
 
@@ -145,7 +145,7 @@ right click & open image in new tab for better resolution
 20:00 UTC 23.08.2020
 - Added more pictures to description
 
-13:30 UTC 23.08.2020
+13:30 UTC 25.08.2020
 - Added Absolute Reference Point setting to every blueprint
 - Changed Non-Solar Books' colour-coding from yellow to dark orange for better visibility on toolitps
 - Fixed "![](https://factorioprints.com/icons/signal-4.png):![](https://factorioprints.com/icons/signal-2.png) ![](https://factorioprints.com/icons/signal-T.png) Junction ![](https://factorioprints.com/icons/signal-R.png)ight" from "<span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span>" and
