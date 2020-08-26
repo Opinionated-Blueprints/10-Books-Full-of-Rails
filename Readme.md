@@ -39,17 +39,18 @@ right click & open image in new tab for better resolution
 
 <img src=https://i.imgur.com/RS4CAlX.png width = 100%>
 <font size = 1><div align="center">
+Blue Belt Stations | Row 1: Provider - Front | Row 2: Provider - Rear | Row 3: Requester - Front | Row 4: Requester - Rear<br>
 right click & open image in new tab for better resolution
 </font></div>
 
 - Every station comes in 2 variants:
    - Vanilla
-   - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible (see: [LTN - Logistic Train Network - Manual](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) and [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/))
+   - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible (see: [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072) and [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/))
 - Compatible trains: < C || < C > || < CC || < CCCC > || << CCCC || < CCCC <> CCCC > || << CCC <> CCC >
 - Balanced loading and unloading
 -  ![green wire](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) & ![red wire](https://wiki.factorio.com/images/thumb/Red_wire.png/32px-Red_wire.png) included so you can save some precious seconds when doing some wire magic (chests are already connected with green wire)
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
-- Blue Belt only, not enough underground reach on different belts
+- ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable) 
 
 
 
@@ -63,6 +64,7 @@ right click & open image in new tab for better resolution
 - ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
 - Floor tiles seen on the picture are included in the book but require [Asphalt Roads](https://mods.factorio.com/mod/AsphaltRoads) mod to work, (there is a vanilla version too, but it's not as pretty). Feel free to use those for designing your own rail blueprints. If you go for a different grid size [they're for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png)(length) or 21x21 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) or 42x42 tiles] you'll have to rescale them
 - I'm no master of LTN nor I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here.
+If you don't have aforementioned mods (LTN, Asphalt Roads) You'll get some error messages in the chat when importing this book. That only means that you won't be able to use blueprints that require those mods, but there is always a version of those blueprints that are vanilla friendly so you can use those.
 
 
 # Books:
@@ -73,7 +75,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (14bp)
  - <span style="color:cyan">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (14bp)
 
-<img src="https://imgur.com/637QkJe.png" width="100%">
+<img src="https://i.imgur.com/HF0K6lB.png" width="100%">
 
 <font size = 1><div align="center">
 2 Lane Solar | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits  <br>
@@ -83,7 +85,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
  - <span style="color:cyan"> 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
 
-<img src="https://i.imgur.com/QtFUgso.png" width="100%">
+<img src="https://i.imgur.com/7Vhy52k.png" width="100%">
 
 <font size = 1><div align="center">
 4 Lane Solar | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits <br>
@@ -98,7 +100,7 @@ right click & open image in new tab for better resolution
  - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (27bp)
 
 
-<img src="https://i.imgur.com/bdAecDE.png" width = 100%>
+<img src="https://i.imgur.com/oyPy9NB.png" width = 100%>
 
 <font size = 1><div align="center">
 4:2:1 Lane Solar | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits<br>
@@ -112,7 +114,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(27bp)
  - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (27bp)
 
-<img src="https://i.imgur.com/x88bfuO.png" width="100%">
+<img src="https://i.imgur.com/oVcE7aV.png" width="100%">
 
 <font size = 1><div align="center">
 4:2:1 Lane Solar Diagonal | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits <br>
@@ -126,7 +128,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split</span> (23bp)
  - <span style="color:cyan">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (23bp)
 
-<img src="https://i.imgur.com/V2zpNn1.png" width="100%">
+<img src="https://i.imgur.com/8vYzmOz.png" width="100%">
 
 <font size = 1><div align="center">
 2 & 4 Lane Solar Split Junctions | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits<br>
@@ -143,6 +145,7 @@ right click & open image in new tab for better resolution
 
 
 # The Plan:
+- Add bot serviced stations
 - Add fluid stations
 - New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
 - Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
@@ -176,90 +179,21 @@ right click & open image in new tab for better resolution
 - Added stations for < C || < C > || < CC || < CCCC > || << CCCC || < CCCC <> CCCC > || << CCC <> CCC > trains and their simple LTN equivalents
 - Added blueprints for creating stations from smaller components both for vanilla and LTN
 
+12:00 UTC 26.08.2020
+- Added missing signals to double-headed stations
+- All LTN stations now have appropriate maximum and minimum train length set
+
+15:30 UTC 26.08.2020
+- Slightly redesigned all <CC stations and all but <<CCC<>CCC>> provider stations in order to make all stations red belt compatible 
+- Added Red Belt stations (upgradable to blue belt)
+- Removed the unnecessary middle power pole from all "![](https://factorioprints.com/icons/signal-S.png)traight ![](https://factorioprints.com/icons/signal-T.png) Junction" (Category A) blueprints
+
+16:00 UTC 26.08.2020
+- Fixed "Provider - Loading" from Rails -> Stations -> Vanilla (Red Belt) -> Staton Parts (was the same blueprint as for LTN version)
 
 
-All designs are made by me and any similarities are coincidental, though I was influenced by these books:
-https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
-
-<img src="https://i.imgur.com/bdAecDE.png" width = 100%>
-
-<font size = 1><div align="center">
-4:2:1 Lane Solar | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits<br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
-- ##### Category B2 - Lane Mergers/Splitters (Diagonal)
-(exits don't have equal amount of lanes)
-
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(27bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (27bp)
-
-<img src="https://i.imgur.com/x88bfuO.png" width="100%">
-
-<font size = 1><div align="center">
-4:2:1 Lane Solar Diagonal | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits <br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
-- ##### Category C - Split Junctions
-(not all exits are connected to each other)
-
- - <span style="color:orange">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split</span> (23bp)
- - <span style="color:cyan">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (23bp)
-
-<img src="https://i.imgur.com/V2zpNn1.png" width="100%">
-
-<font size = 1><div align="center">
-2 & 4 Lane Solar Split Junctions | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits<br>
-right click & open image in new tab for better resolution
-</font></div>
-
-###### *Categories do not represent book nesting
-
-
-
-# Known Issues:
-- Most books included here have their names display a bit bugged when in grid view in the blueprint library. I don't think I can do anything about it  without changing their names and/or used Rich Text (reported to devs)
-
-
-
-# The Plan:
-
-- New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
-- Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
-- If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never
-
-
-
-# Change Log:
-
-18:00 UTC 22.08.2020
-- Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
-- All non-diagonal blueprints now have grid settings to enable placing by dragging. They're placed next to the previous one but only on the horizontal or vertical axis, not on diagonals. If support for that releases I'll update them too.
-- New title
-
-19:00 UTC 23.08 2020
-- Landfill added under every blueprint to allow placing on water
-- For some stupid reason, I've renamed all 45° turn blueprints to 135° previously, now it's the right way again
-- Improved upgradability in and between Category A (Solar) books
-
-20:00 UTC 25.08.2020
-- Added more pictures to description
-
-13:30 UTC 23.08.2020
-- Added Absolute Reference Point setting to every blueprint
-- Changed Non-Solar Books' colour-coding from yellow to dark orange for better visibility on toolitps
-- Fixed "![](https://factorioprints.com/icons/signal-4.png):![](https://factorioprints.com/icons/signal-2.png) ![](https://factorioprints.com/icons/signal-T.png) Junction ![](https://factorioprints.com/icons/signal-R.png)ight" from "<span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span>" and
- "<span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" books (one exit was 1 piece of rail too long)
-- Added missing lamps to "![](https://factorioprints.com/icons/signal-4.png):![](https://factorioprints.com/icons/signal-2.png) ![](https://factorioprints.com/icons/signal-T.png) Junction ![](https://factorioprints.com/icons/signal-L.png)eft" from "<span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span>" book
-
-22:00 UTC 25.08.2020
-- Added stations for < C || < C > || < CC || < CCCC > || << CCCC || < CCCC <> CCCC > || << CCC <> CCC > trains and their simple LTN versions
-- Added blueprints for creating stations from smaller components both for vanilla and LTN
-
-
+I think it may be the longest blueprint string on Factorio Prints. <br>
+Also: Bookworm Adventures Deluxe
 
 All designs are made by me and any similarities are coincidental, though I was influenced by these books:
-https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
+https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1Fixed
