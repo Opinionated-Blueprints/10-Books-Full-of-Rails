@@ -2,7 +2,7 @@ At this point the original title is inaccurate. There no longer is just 10 books
 
 
 
-###### Quarantine proved to be the perfect time to spend more than a week pretty much only designing some intersections. I've got to 107 before I finally said to myself: "ENOUGH". Actually, there are 214 (rail) blueprints, but half of that is just versions with solar panels and accumulators fit in between the lanes because "why not?". At first, these were called "Books of 1001 Railway Blueprints" and there were 10 books to get separately, but since 1.0 came out, I've decided to finally make use of book nesting and do some polishing/updates with the recent features and some new ideas. Hope you'll enjoy, and remember: Factory Must Grow.
+###### Quarantine proved to be the perfect time to spend more than a week pretty much only designing some intersections. I've got to 107 before I finally said to myself: "ENOUGH". Actually, there were 214 (rail) blueprints (now 218), but half of that is just versions with solar panels and accumulators fit in between the lanes because "why not?". At first, these were called "Books of 1001 Railway Blueprints" and there were 10 books to get separately, but since 1.0 came out, I've decided to finally make use of book nesting and do some polishing/updates with the recent features and some new ideas. Hope you'll enjoy, and remember: Factory Must Grow.
 
 
 
@@ -38,7 +38,7 @@ right click & open image in new tab for better resolution
 <img src=https://i.imgur.com/gddN5h7.png width = 100%>
 <font size = 1><div align="center">
 Blue Belt Stations | Row 1: Provider - Front | Row 2: Provider - Rear | Row 3: Provider - Front & Rear | Row 4: Requester - Front | Row 5: Requester - Rear | Row 6: Requester - Front & Rear<br>
-Not all stations are visible here <br>
+LTN Depots are not visible here <br>
 right click & open image in new tab for better resolution
 </font></div>
 
@@ -52,28 +52,6 @@ right click & open image in new tab for better resolution
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
 - ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable)
 - (LTN) Depots included
-
-
-
-# Notes:
-
-
-### Rails:
-
-- Most of your network will consist of blueprints from Category A, Category B will find some use for sure, but these books are more specialized, and Category C will be used very rarely if at all 
-- Outer lanes in 4-way Intersections from 4 Lane books (category A) do not have left turns. Use Line changers provided
-- Category B has some split junctions. The main difference between B and C is that category C blueprints all have the same number of lanes. Blueprints from category B don't
-- Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
-- No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails so you don't accidentally recreate [Population transfers in the Soviet Union](https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union), except bots. The real reason: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your robot's range, it won't reach its destination and instead, its power reserves will deplete, the bot will come back to where it started to recharge and try again thus falling into an endless loop
-- ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
-- Floor tiles seen on the rail pictures are included in the book but require [Asphalt Roads](https://mods.factorio.com/mod/AsphaltRoads) mod to work, (there is a vanilla version too, but it's not as pretty). Feel free to use those for designing your own rail blueprints. If you go for a different grid size [they're for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png)(length) or 21x21 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) or 42x42 tiles] you'll have to rescale them
-
-
-### Other:
-
-- There is a lot of Factorio's in-game Rich Text - it's awesome, believe me
-- If you don't have aforementioned mods (LTN, Asphalt Roads) You'll get some error messages in the chat when importing this book. That only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
-- I'm no master of LTN nor I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
 
 
 
@@ -99,6 +77,7 @@ right click & open image in new tab for better resolution
 
 <font size = 1><div align="center">
 4 Lane Solar | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits <br>
+"Straight Lane Switch U-turn" and "Diagonal Lane Switch U-turn" are not visible here <br>
 right click & open image in new tab for better resolution
 </font></div>
 
@@ -146,6 +125,28 @@ right click & open image in new tab for better resolution
 </font></div>
 
 ###### *Categories do not represent book nesting
+
+
+
+# Notes:
+
+
+### Rails:
+
+- Most of your network will consist of blueprints from Category A, Category B will find some use for sure, but these books are more specialized, and Category C will be used very rarely if at all 
+- Outer lanes in 4-way Intersections from 4 Lane books (category A) do not have left turns. Use Line changers provided
+- Category B has some split junctions. The main difference between B and C is that category C blueprints all have the same number of lanes. Blueprints from category B don't
+- Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
+- No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails so you don't accidentally recreate [Population transfers in the Soviet Union](https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union), except bots. The real reason: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your robot's range, it won't reach its destination and instead, its power reserves will deplete, the bot will come back to where it started to recharge and try again thus falling into an endless loop
+- ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
+- Floor tiles seen on the rail pictures are included in the book but require [Asphalt Roads](https://mods.factorio.com/mod/AsphaltRoads) mod to work, (there is a vanilla version too, but it's not as pretty). Feel free to use those for designing your own rail blueprints. If you go for a different grid size [they're for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png)(length) or 21x21 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) or 42x42 tiles] you'll have to rescale them
+
+
+### Other:
+
+- There is a lot of Factorio's in-game Rich Text - it's awesome, believe me
+- If you don't have aforementioned mods (LTN, Asphalt Roads) You'll get some error messages in the chat when importing this book. That only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
+- I'm no master of LTN nor I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
 
 
 
@@ -208,6 +209,11 @@ right click & open image in new tab for better resolution
 - Added "Provider Front & Rear" and "Requester Front & Rear" to all 12 car stations
 - Added more blueprints to "Stations Parts" books
 
+15:30 UTC 27.08.2020
+- Added "![](https://factorioprints.com/icons/signal-S.png)traight ![](https://factorioprints.com/icons/signal-L.png)ane ![](https://factorioprints.com/icons/signal-S.png)witch ![](https://factorioprints.com/icons/signal-U.png)-turn" and "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-L.png)ane ![](https://factorioprints.com/icons/signal-S.png)witch ![](https://factorioprints.com/icons/signal-U.png)-turn" to all 4 Lane Category A Books
+- Reworked signaling in "![](https://factorioprints.com/icons/signal-S.png)traight ![](https://factorioprints.com/icons/signal-U.png)-turn" and "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-U.png)-turn" in all 4 Lane Category A Books in order to make them upgradable to the above. Also "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-U.png)-turn" looks like a square now.
+- Fixed modularity of rail blueprints with diagonal exits (previously solar panels would overlap)
+
 
 ---
 
@@ -216,5 +222,5 @@ Also: Bookworm Adventures Deluxe
 
 ---
 
-Unless stated otherwise, I've made every blueprint in here. For most of my Factorio experience before making this book I've been using Hectar's network. It's been a great help.
+Great thanks for all feedback, MadZuri for his balanced train loading/unloading designs and Hactar for his rail network, I've been using before making this book.
 https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
