@@ -1,4 +1,5 @@
-At this point the original title is inaccurate. There no longer is just 10 books... but 47. And that's only the endpoints of the book tree.
+
+At this point the original title is inaccurate. There no longer is just 10 books... but 53. And that's only the endpoints of the book tree.
 
 
 
@@ -38,20 +39,20 @@ right click & open image in new tab for better resolution
 <img src=https://i.imgur.com/gddN5h7.png width = 100%>
 <font size = 1><div align="center">
 Blue Belt Stations | Row 1: Provider - Front | Row 2: Provider - Rear | Row 3: Provider - Front & Rear | Row 4: Requester - Front | Row 5: Requester - Rear | Row 6: Requester - Front & Rear<br>
-LTN Depots are not visible here <br>
+LTN Depots  and some other stations are not visible here <br>
 right click & open image in new tab for better resolution
 </font></div>
 
 - Every station comes in 2 variants:
    - Vanilla
-   - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible (see: [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072) and [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/))
-- Compatible trains: < C || < C > || < CC || < CCCC > || << CCCC || < CCCC <> CCCC > || << CCC <> CCC >
+   - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible (see: [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072) & [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/) & [LTN Mod Tutorial - Logistic Train Network](https://www.youtube.com/watch?v=a3ujEdPfGHk) & [Factorio 0.17 Logistic Train Network Tutorial](https://www.youtube.com/watch?v=bpfVzfWeqj8))
+- Compatible trains: <C || >C> || <CC || <CCCC> || <<CCCC || <CCCC<>CCCC> || <<CCC<>CCC> || <<CCCC<<CCCC || <<CCCCCCCCCC
 - Includes a book with some smaller parts for creating custom stations
-- Balanced loading and unloading using MadZuri's design
--  ![green wire](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) & ![red wire](https://wiki.factorio.com/images/thumb/Red_wire.png/32px-Red_wire.png) included for wire magic [chests are  connected with green wire, and the second insater lane from the train is connecter with red wire (both for purpose of balanced loading/unloading]
+- Balanced loading and unloading using MadZuri's designs
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
 - ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable)
 - (LTN) Depots included
+- "Instructions" book to help with setting up balanced loading, and LTN stations
 
 
 
@@ -152,10 +153,11 @@ right click & open image in new tab for better resolution
 
 # Known Issues:
 - Most books included here have their names display a bit bugged when in grid view in the blueprint library. I don't think I can do anything about it  without changing their names and/or used Rich Text (reported to devs)
-
+- I think I messed up ltn stations by badly combining their cables with MadZuri's balanced loader. It could be the other way. I'll fix it
 
 
 # The Plan:
+- Add Junk provider Station
 - Add bot serviced stations
 - New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
 - Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
@@ -214,6 +216,12 @@ right click & open image in new tab for better resolution
 - Reworked signaling in "![](https://factorioprints.com/icons/signal-S.png)traight ![](https://factorioprints.com/icons/signal-U.png)-turn" and "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-U.png)-turn" in all 4 Lane Category A Books in order to make them upgradable to the above. Also "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-U.png)-turn" looks like a square now.
 - Fixed modularity of rail blueprints with diagonal exits (previously solar panels would overlap)
 
+16:30 UTC 28.08.2020
+- Changed some blueprints in "Station Parts" books and added new ones
+- Added "Instructions" book. Inside you can find instructions on setting up MadZuri's Balanced Train Loading and my LTN Stations
+- Fixed wiring in Provider stations
+- Simplified LTN Station Logic "Provide Threshold" and "Request Threshold" replaced with "Provide Stack Threshold" and "Request Stack Threshold"
+- Added train stations for 2L-10C Single-headed trains
 
 ---
 
