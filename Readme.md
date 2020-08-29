@@ -1,4 +1,3 @@
-
 At this point the original title is inaccurate. There no longer is just 10 books... but 53. And that's only the endpoints of the book tree.
 
 
@@ -47,6 +46,7 @@ right click & open image in new tab for better resolution
    - Vanilla
    - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible (see: [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072) & [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/) & [LTN Mod Tutorial - Logistic Train Network](https://www.youtube.com/watch?v=a3ujEdPfGHk) & [Factorio 0.17 Logistic Train Network Tutorial](https://www.youtube.com/watch?v=bpfVzfWeqj8))
 - Compatible trains: <C || >C> || <CC || <CCCC> || <<CCCC || <CCCC<>CCCC> || <<CCC<>CCC> || <<CCCC<<CCCC || <<CCCCCCCCCC
+- Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 6, 4, 3)
 - Includes a book with some smaller parts for creating custom stations
 - Balanced loading and unloading using MadZuri's designs
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
@@ -84,7 +84,7 @@ right click & open image in new tab for better resolution
 
 
 - ##### Category B1 - Lane Mergers/Splitters
-(exits don't have an equal amount of lanes)
+(exits don't have equal amount of lanes)
 
  - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (27bp)
  - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (27bp)
@@ -153,12 +153,10 @@ right click & open image in new tab for better resolution
 
 # Known Issues:
 - Most books included here have their names display a bit bugged when in grid view in the blueprint library. I don't think I can do anything about it  without changing their names and/or used Rich Text (reported to devs)
-- I think I messed up ltn stations by badly combining their cables with MadZuri's balanced loader. It could be the other way. I'll fix it
 
-
-# The Plan:
-- Add Junk provider Station
-- Add bot serviced stations
+          
+# The Plan
+- ~~Add bot serviced stations~~ (abandoned, at least for now)
 - New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
 - Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
 - If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never
@@ -223,6 +221,11 @@ right click & open image in new tab for better resolution
 - Simplified LTN Station Logic "Provide Threshold" and "Request Threshold" replaced with "Provide Stack Threshold" and "Request Stack Threshold"
 - Added train stations for 2L-10C Single-headed trains
 
+17:30 UTC 28.0.2020
+- Normalized train stations
+- Added train stackers
+- Improved some signalling/removed misplaced "yellow state" signals
+
 ---
 
 I think it may be the longest blueprint string on Factorio Prints. <br>
@@ -230,5 +233,5 @@ Also: Bookworm Adventures Deluxe
 
 ---
 
-Great thanks for all feedback, MadZuri for his balanced train loading/unloading designs and Hactar for his rail network, I've been using before making this book.
+Great thanks for all feedback, MadZuri for his balanced train loading/unloading designs and Hactar for his rail network, I've been using before making this book. <br>
 https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
