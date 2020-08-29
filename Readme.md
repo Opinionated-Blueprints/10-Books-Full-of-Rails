@@ -226,6 +226,9 @@ right click & open image in new tab for better resolution
 - Added train stackers
 - Improved some signalling/removed misplaced "yellow state" signals
 
+21:30 UTC 29.08.2020
+- Provider stations finally work as they should be I swear (all it took was changing "Anything" to "Everything" in inserter settings so you can just put new station over the old one and settings ill be updated)
+
 ---
 
 I think it may be the longest blueprint string on Factorio Prints. <br>
