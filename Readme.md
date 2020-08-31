@@ -35,7 +35,7 @@ right click & open image in new tab for better resolution
 
 ### Stations:
 
-<img src=https://i.imgur.com/gddN5h7.png width = 100%>
+<img src= "https://camo.githubusercontent.com/80036b45e33e8f300eef63fe8beac7e74d98f615/68747470733a2f2f692e696d6775722e636f6d2f6764644e3568372e706e67" width = 100%>
 <font size = 1><div align="center">
 Blue Belt Stations | Row 1: Provider - Front | Row 2: Provider - Rear | Row 3: Provider - Front & Rear | Row 4: Requester - Front | Row 5: Requester - Rear | Row 6: Requester - Front & Rear<br>
 LTN Depots  and some other stations are not visible here <br>
@@ -45,7 +45,7 @@ right click & open image in new tab for better resolution
 - Every station comes in 2 variants:
    - Vanilla
    - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible (see: [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072) & [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/) & [LTN Mod Tutorial - Logistic Train Network](https://www.youtube.com/watch?v=a3ujEdPfGHk) & [Factorio 0.17 Logistic Train Network Tutorial](https://www.youtube.com/watch?v=bpfVzfWeqj8))
-- Compatible trains: <C || >C> || <CC || <CCCC> || <<CCCC || <CCCC<>CCCC> || <<CCC<>CCC> || <<CCCC<<CCCC || <<CCCCCCCCCC
+- Trains compatible with pre-made stations: L-C - SH || L-C-L - DH || L-2C - SH || L-4C-L - DH || 2L-4C - SH || L-4C-2L-4C-L - DH || 2L-3C-2L-3C-2L || 2L-4C-2L-4C || 2L-10C - SH (SH - Single-headed, DH - Double Headed)
 - Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 6, 4, 3)
 - Includes a book with some smaller parts for creating custom stations
 - Balanced loading and unloading using MadZuri's designs
@@ -64,8 +64,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (14bp)
  - <span style="color:cyan">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (14bp)
 
-<img src="https://i.imgur.com/HF0K6lB.png" width="100%">
-
+<img src= "https://camo.githubusercontent.com/265028ffc4abb3c2ad2d7a67d81200763c81e49c/68747470733a2f2f692e696d6775722e636f6d2f4846304b366c422e706e67" width="100%">
 <font size = 1><div align="center">
 2 Lane Solar | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits  <br>
 right click & open image in new tab for better resolution
@@ -74,8 +73,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
  - <span style="color:cyan"> 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
 
-<img src="https://i.imgur.com/7Vhy52k.png" width="100%">
-
+<img src= "https://camo.githubusercontent.com/f76538d8ee0f6a10ad14ed35063f28536ad438f5/68747470733a2f2f692e696d6775722e636f6d2f3756687935326b2e706e67" width="100%">
 <font size = 1><div align="center">
 4 Lane Solar | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits <br>
 "Straight Lane Switch U-turn" and "Diagonal Lane Switch U-turn" are not visible here <br>
@@ -90,8 +88,7 @@ right click & open image in new tab for better resolution
  - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (27bp)
 
 
-<img src="https://i.imgur.com/oyPy9NB.png" width = 100%>
-
+<img src= "https://camo.githubusercontent.com/23c40884cfc55a975412cc298317c7c1afe14912/68747470733a2f2f692e696d6775722e636f6d2f6f795079394e422e706e67" width = 100%>
 <font size = 1><div align="center">
 4:2:1 Lane Solar | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits<br>
 right click & open image in new tab for better resolution
@@ -104,8 +101,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(27bp)
  - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (27bp)
 
-<img src="https://i.imgur.com/oVcE7aV.png" width="100%">
-
+<img src= "https://camo.githubusercontent.com/45d324d20b9bc60ce84cd6408b240116686baa1b/68747470733a2f2f692e696d6775722e636f6d2f6f5663453761562e706e67" width="100%">
 <font size = 1><div align="center">
 4:2:1 Lane Solar Diagonal | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits <br>
 right click & open image in new tab for better resolution
@@ -118,8 +114,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split</span> (23bp)
  - <span style="color:cyan">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (23bp)
 
-<img src="https://i.imgur.com/8vYzmOz.png" width="100%">
-
+<img src= "https://camo.githubusercontent.com/a715f0b242608a46209ceb3a00bd4c6d14c03067/68747470733a2f2f692e696d6775722e636f6d2f3876597a6d4f7a2e706e67" width="100%">
 <font size = 1><div align="center">
 2 & 4 Lane Solar Split Junctions | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits<br>
 right click & open image in new tab for better resolution
@@ -228,6 +223,9 @@ right click & open image in new tab for better resolution
 
 21:30 UTC 29.08.2020
 - Provider stations finally work as they should be I swear (all it took was changing "Anything" to "Everything" in inserter settings so you can just put new station over the old one and settings ill be updated)
+
+12:30 UTC 31.0.2020
+- Fixed snapping on "![](https://factorioprints.com/icons/signal-2.png):![](https://factorioprints.com/icons/signal-1.png) ![](https://factorioprints.com/icons/signal-E.png)xit ![](https://factorioprints.com/icons/signal-U.png)-turned"
 
 ---
 
