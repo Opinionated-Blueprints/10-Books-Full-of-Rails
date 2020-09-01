@@ -12,7 +12,7 @@ At this point the original title is inaccurate. There no longer is just 10 books
 
 <img src="https://preview.redd.it/3l9ao5k6ogi51.png?width=1637&format=png&auto=webp&s=84a9b1b3c0b49fa5e067717d8092529057e0e612" width="100%">
 <font size = 1><div align="center">
-the solar panels/accumulators included blueprints, not all of them tho <br>
+the 'solar panels/accumulators included' blueprints as of release. More have been added later <br>
 right click & open image in new tab for better resolution
 </font></div>
 
