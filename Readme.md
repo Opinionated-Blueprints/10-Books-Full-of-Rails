@@ -12,14 +12,14 @@ At this point the original title is inaccurate. There no longer is just 10 books
 
 <img src="https://preview.redd.it/3l9ao5k6ogi51.png?width=1637&format=png&auto=webp&s=84a9b1b3c0b49fa5e067717d8092529057e0e612" width="100%">
 <font size = 1><div align="center">
-all blueprints with solar panels and accumulators <br>
+the solar panels/accumulators included blueprints, not all of them tho <br>
 right click & open image in new tab for better resolution
 </font></div>
 
 - All blueprints are always upgradable into their equivalents from other books placed lower on the list in the "Rail Book Categories" section as long as they are in the same category
  - some blueprints are upgradable into others from the same book or even other categories
    - some of that upgradability was sacrificed for the sake of throughput
- - to achieve that, many blueprints don't have the best possible signal placement
+ - to achieve that, many blueprints don't have the best possible signal placement, but it's still perfect signaling (no 2 crosses of rail are in the same block)
 - Each book comes in 2 variants:
  - standard (no ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png))
  - ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png) included because why would you want to waste so much space (aesthetics first though)
@@ -155,7 +155,7 @@ right click & open image in new tab for better resolution
 - New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
 - Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
 - If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never
-
+- Updates may and will be delayed due to petty reasons such as school
 
 
 # Change Log:
@@ -230,7 +230,9 @@ right click & open image in new tab for better resolution
 ---
 
 I think it may be the longest blueprint string on Factorio Prints. <br>
-Also: Bookworm Adventures Deluxe
+Also: 
+- Bookworm Adventures Deluxe
+- Praise The Sun \\[T]/
 
 ---
 
