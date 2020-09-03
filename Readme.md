@@ -172,7 +172,7 @@ right click & open image in new tab for better resolution
           
 <details>
   <summary><span style="color:cyan">The Plan</summary>
-- ~~Add bot serviced stations~~ (abandoned, at least for now)
+- <s>Add bot serviced stations</s> (abandoned, at least for now)
 - New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
 - Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
 - If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never
