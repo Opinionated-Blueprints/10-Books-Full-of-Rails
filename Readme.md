@@ -162,7 +162,9 @@ right click & open image in new tab for better resolution
 
 <details>
   <summary><span style="color:cyan">Known Issues</summary>
-- Most books included here have their names display a bit bugged when in grid view in the blueprint library. I don't think I can do anything about it  without changing their names and/or used Rich Text (reported to devs)
+- Most books included here have their names display a bit bugged when in grid view in the blueprint library. I don't think I can do anything about it  without changing their names and/or used Rich Text (reported to devs) <br>
+
+<img src= "https://uploads.disquscdn.com/images/e3d06b3efd5741f4427230293887cccbf5ad0bbba186238e6513b16e2061ab05.png" width =25%>
 
 </details>
 
@@ -180,7 +182,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update: 12:30 UTC 31.09.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -246,7 +248,7 @@ right click & open image in new tab for better resolution
 21:30 UTC 29.08.2020
 - Provider stations finally work as they should be I swear (all it took was changing "Anything" to "Everything" in inserter settings so you can just put new station over the old one and settings ill be updated)
 
-12:30 UTC 31.0.2020
+12:30 UTC 31.09.2020
 - Fixed snapping on "![](https://factorioprints.com/icons/signal-2.png):![](https://factorioprints.com/icons/signal-1.png) ![](https://factorioprints.com/icons/signal-E.png)xit ![](https://factorioprints.com/icons/signal-U.png)-turned"
 
 </details>
