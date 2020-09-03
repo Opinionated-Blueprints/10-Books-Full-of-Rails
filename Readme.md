@@ -1,14 +1,18 @@
 At this point the original title is inaccurate. There no longer is just 10 books... but 55. And that's only the endpoints of the book tree.
 
+# Short summary:
+Have you ever fought to yourself "Man, I really could use over a 100 different rail intersections... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradable. On top of that, you can find stations for aforementioned train sizes (includes LTN variants) and a kit to make new ones, as well as some basic stackers. Everything is spiced up with rich text.
 
 
-###### Quarantine proved to be the perfect time to spend more than a week pretty much only designing some intersections. I've got to 107 before I finally said to myself: "ENOUGH". Actually, there were 214 (rail) blueprints (now 218), but half of that is just versions with solar panels and accumulators fit in between the lanes because "why not?". At first, these were called "Books of 1001 Railway Blueprints" and there were 10 books to get separately, but since 1.0 came out, I've decided to finally make use of book nesting and do some polishing/updates with the recent features and some new ideas. Hope you'll enjoy, and remember: Factory Must Grow.
 
+### Details:
+<sup>(click to expand)</sup>
 
+<details>
+  <summary><span style="color:cyan">Features</summary>
 
-# Features:
-
-### Rails:
+<details>
+  <summary><span style="color:yellow">Rails</summary>
 
 <img src="https://preview.redd.it/3l9ao5k6ogi51.png?width=1637&format=png&auto=webp&s=84a9b1b3c0b49fa5e067717d8092529057e0e612" width="100%">
 <font size = 1><div align="center">
@@ -33,7 +37,11 @@ right click & open image in new tab for better resolution
 - Grid and Absolute Reference Point are on, so you can use them like a "chunk aligned network" (blueprints can only be placed on an artificial grid that lets you start building from 2 completely disconnected points on the map and ensures that they can still be perfectly connected, see [FFF #357](https://factorio.com/blog/post/fff-357) under the "Snapping" section)
 - Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
 
-### Stations:
+</details>
+
+
+<details>
+  <summary><span style="color:yellow">Stations</summary>
 
 <img src= "https://camo.githubusercontent.com/80036b45e33e8f300eef63fe8beac7e74d98f615/68747470733a2f2f692e696d6775722e636f6d2f6764644e3568372e706e67" width = 100%>
 <font size = 1><div align="center">
@@ -54,9 +62,12 @@ right click & open image in new tab for better resolution
 - (LTN) Depots included
 - "Instructions" book to help with setting up balanced loading, and LTN stations
 
+</details>
+</details>
 
 
-# Rail Book Categories:
+<details>
+  <summary><span style="color:cyan">Rail Book Categories</summary>
 
 - ##### Category A - Basic Blueprints
 (90% of every rail network ever made)
@@ -121,16 +132,17 @@ right click & open image in new tab for better resolution
 </font></div>
 
 ###### *Categories do not represent book nesting
+</details>
 
 
-
-# Notes:
-
+<details>
+  <summary><span style="color:cyan">Notes</summary>
 
 ### Rails:
 
-- Most of your network will consist of blueprints from Category A, Category B will find some use for sure, but these books are more specialized, and Category C will be used very rarely if at all 
+- Most of your network will consist of blueprints from Category A, Category B will find some use for sure, but these books are more specialized, and Category C will be used very rarely if at all
 - Outer lanes in 4-way Intersections from 4 Lane books (category A) do not have left turns. Use Line changers provided
+- Some chain signals may seem unnecessary. Their sole purpose is to divide larger blocks inside a junction into two smaller ones so the train leaves the first one faster thus allowing other trains that would also cross through that block to start accelerating faster
 - Category B has some split junctions. The main difference between B and C is that category C blueprints all have the same number of lanes. Blueprints from category B don't
 - Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
 - No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails so you don't accidentally recreate [Population transfers in the Soviet Union](https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union), except bots. The real reason: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your robot's range, it won't reach its destination and instead, its power reserves will deplete, the bot will come back to where it started to recharge and try again thus falling into an endless loop
@@ -144,21 +156,31 @@ right click & open image in new tab for better resolution
 - If you don't have aforementioned mods (LTN, Asphalt Roads) You'll get some error messages in the chat when importing this book. That only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
 - I'm no master of LTN nor I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
 
+</details>
 
 
-# Known Issues:
+
+<details>
+  <summary><span style="color:cyan">Known Issues</summary>
 - Most books included here have their names display a bit bugged when in grid view in the blueprint library. I don't think I can do anything about it  without changing their names and/or used Rich Text (reported to devs)
 
+</details>
+
+
           
-# The Plan
+<details>
+  <summary><span style="color:cyan">The Plan</summary>
 - ~~Add bot serviced stations~~ (abandoned, at least for now)
 - New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
 - Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
 - If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never
 - Updates may and will be delayed due to petty reasons such as school
 
+</details>
 
-# Change Log:
+
+<details>
+  <summary><span style="color:cyan">Change Log</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -227,14 +249,15 @@ right click & open image in new tab for better resolution
 12:30 UTC 31.0.2020
 - Fixed snapping on "![](https://factorioprints.com/icons/signal-2.png):![](https://factorioprints.com/icons/signal-1.png) ![](https://factorioprints.com/icons/signal-E.png)xit ![](https://factorioprints.com/icons/signal-U.png)-turned"
 
+</details>
+
 ---
 
-I think it may be the longest blueprint string on Factorio Prints. <br>
+<s>I think it may be the longest blueprint string on Factorio Prints.</s> Scratch that, forgot about songs<br>
 Also: 
 - Bookworm Adventures Deluxe
 - Praise The Sun \\[T]/
-
 ---
 
-Great thanks for all feedback, MadZuri for his balanced train loading/unloading designs and Hactar for his rail network, I've been using before making this book. <br>
+Great thanks for all feedback, MadZuri for his balanced train loading/unloading designs and Hactar for his rail network, I've been using before making this book: <br>
 https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
