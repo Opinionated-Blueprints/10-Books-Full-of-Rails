@@ -172,17 +172,17 @@ right click & open image in new tab for better resolution
           
 <details>
   <summary><span style="color:cyan">The Plan</summary>
-- <s>Add bot serviced stations</s> (abandoned, at least for now)
-- New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this
-- Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it
-- If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never
-- Updates may and will be delayed due to petty reasons such as school
+- <s>Add bot serviced stations</s> (abandoned, at least for now) <br>
+- New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this <br>
+- Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it <br>
+- If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never <br>
+- Updates may and will be delayed due to petty reasons such as school <br>
 
 </details>
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update: 12:30 UTC 31.09.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 10:00 UTC  26.09.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -248,8 +248,11 @@ right click & open image in new tab for better resolution
 21:30 UTC 29.08.2020
 - Provider stations finally work as they should be I swear (all it took was changing "Anything" to "Everything" in inserter settings so you can just put new station over the old one and settings ill be updated)
 
-12:30 UTC 31.09.2020
+12:30 UTC 31.08.2020
 - Fixed snapping on "![](https://factorioprints.com/icons/signal-2.png):![](https://factorioprints.com/icons/signal-1.png) ![](https://factorioprints.com/icons/signal-E.png)xit ![](https://factorioprints.com/icons/signal-U.png)-turned"
+
+10:00 UTC  26.09.2020
+- Provider stations now have their chest number set in their arithmetic combinator for balanced loading
 
 </details>
 
