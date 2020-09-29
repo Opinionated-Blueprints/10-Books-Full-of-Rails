@@ -182,6 +182,25 @@ right click & open image in new tab for better resolution
 
 
 <details>
+ <summary><span style="color:cyan">Tutorials/Guides</summary>
+
+### Rail Network/Signaling
+- [Train Signals | Factorio](https://www.youtube.com/watch?v=N6a8k5x_oV8)
+- [Getting Started with TRAINS & SIGNALS - Everything You Need To Know | Factorio Tutorial/Guide/How-to](https://www.youtube.com/watch?v=3TKBs6TD7WU)
+- [Stations, Junctions, and all things deadlock - IMAGE HEAVY](https://forums.factorio.com/viewtopic.php?f=18&t=18621)
+- [Factorio Train Automation](https://drive.google.com/drive/folders/0B22HAM7WzR-RdjFYZHZlX29pSVE)
+- And the famous 1.5 hour long video on absolute basics: [Factorio Train Tutorial - Absolute Basics](https://www.youtube.com/watch?v=Co136r7pkTk)
+
+### Logistic Train Network
+- [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072)
+- [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/)
+- [LTN Mod Tutorial - Logistic Train Network](https://www.youtube.com/watch?v=a3ujEdPfGHk)
+- [Factorio 0.17 Logistic Train Network Tutorial](https://www.youtube.com/watch?v=bpfVzfWeqj8)
+
+</details>
+
+
+<details>
   <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 10:00 UTC  26.09.2020)</summary>
 
 18:00 UTC 22.08.2020
