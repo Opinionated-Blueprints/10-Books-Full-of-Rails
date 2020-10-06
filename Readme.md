@@ -1,4 +1,4 @@
-At this point the original title is inaccurate. There no longer is just 10 books... but 55. And that's only the endpoints of the book tree.
+this point the original title is inaccurate. There no longer is just 10 books... but 55. And that's only the endpoints of the book tree.
 
 # Short summary:
 Have you ever fought to yourself "Man, I really could use over a 100 different rail intersections... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradable. On top of that, you can find stations for aforementioned train sizes (includes LTN variants) and a kit to make new ones, as well as some basic stackers. Everything is spiced up with rich text.
@@ -272,6 +272,9 @@ right click & open image in new tab for better resolution
 
 10:00 UTC  26.09.2020
 - Provider stations now have their chest number set in their arithmetic combinator for balanced loading
+
+12:30 UTC 06.10.2020
+- Forgot to use an upgrade planner on red belt station books, fixed
 
 </details>
 
