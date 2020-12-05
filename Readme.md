@@ -278,7 +278,7 @@ right click & open image in new tab for better resolution
 - Forgot to use an upgrade planner on red belt station books, fixed
 
 18:00 UTC 05.12.2020
-- Moved signals from exits of rail blueprints to their entrances as suggested by Josch. Helps blueprints connect better by mitigating some conflicts
+- Moved signals from exits of rail blueprints to their entrances as suggested by Josch. Helps blueprints connect better by mitigating some conflicts (if you're planning to use this update on a save where you already have use older versions, you should delete signals with filtered deconstruction planner and overlay new blueprints on top of old ones. Otherwise rail blocks will be awkward where old and new connect)
 - Improved signaling on all "u-turned" blueprints from 4:2:1 books
 - Changed "Diagonal U-turn" from 4 Lane books so it is upgradable to "Diagonal Lane Switch U-turn" as originally intended
  
