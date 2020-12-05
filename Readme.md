@@ -281,7 +281,8 @@ right click & open image in new tab for better resolution
 - Moved signals from exits of rail blueprints to their entrances as suggested by Josch. Helps blueprints connect better by mitigating some conflicts (if you're planning to use this update on a save where you already have used older versions, you should place a signal in the middle of a big rail block that forms where old rails connect with new. That's not a perfect solution, but anything better would require to replace signalling on all old rails)
 - Improved signaling on all "u-turned" blueprints from 4:2:1 books
 - Changed "Diagonal U-turn" from 4 Lane books so it is upgradable to "Diagonal Lane Switch U-turn" as originally intended
- 
+- If you're playing on 1.1, Factorio saves cable connections in blueprints now, you know what that means
+
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
