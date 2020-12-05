@@ -1,4 +1,4 @@
-this point the original title is inaccurate. There no longer is just 10 books... but 55. And that's only the endpoints of the book tree.
+At this point the original title is inaccurate. There no longer is just 10 books... but 55. And that's only the endpoints of the book tree.
 
 # Short summary:
 Have you ever fought to yourself "Man, I really could use over a 100 different rail intersections... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradable. On top of that, you can find stations for aforementioned train sizes (includes LTN variants) and a kit to make new ones, as well as some basic stackers. Everything is spiced up with rich text.
@@ -36,6 +36,7 @@ right click & open image in new tab for better resolution
 - Each section is 21x21 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) or 42x42 tiles big (books are focused on throughput for 6  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) trains and that is exactly the border length of the square in which all blueprints here fit, hence they are not chunk aligned)
 - Grid and Absolute Reference Point are on, so you can use them like a "chunk aligned network" (blueprints can only be placed on an artificial grid that lets you start building from 2 completely disconnected points on the map and ensures that they can still be perfectly connected, see [FFF #357](https://factorio.com/blog/post/fff-357) under the "Snapping" section)
 - Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
+- Pretty ![copper_cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) connections for Factorio 1.1 and above
 
 </details>
 
@@ -201,7 +202,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 10:00 UTC  26.09.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 05.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -276,14 +277,17 @@ right click & open image in new tab for better resolution
 12:30 UTC 06.10.2020
 - Forgot to use an upgrade planner on red belt station books, fixed
 
+18:00 UTC 05.12.2020
+- Moved signals from exits of rail blueprints to their entrances as suggested by Josch. Helps blueprints connect better by mitigating some conflicts
+- Improved signaling on all "u-turned" blueprints from 4:2:1 books
+- Changed "Diagonal U-turn" from 4 Lane books so it is upgradable to "Diagonal Lane Switch U-turn" as originally intended
+ 
 </details>
 
 ---
 
 <s>I think it may be the longest blueprint string on Factorio Prints.</s> Scratch that, forgot about songs<br>
-Also: 
-- Bookworm Adventures Deluxe
-- Praise The Sun \\[T]/
+
 ---
 
 Great thanks for all feedback, MadZuri for his balanced train loading/unloading designs and Hactar for his rail network, I've been using before making this book: <br>
