@@ -284,6 +284,8 @@ right click & open image in new tab for better resolution
  
 </details>
 
+###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
+
 ---
 
 <s>I think it may be the longest blueprint string on Factorio Prints.</s> Scratch that, forgot about songs<br>
