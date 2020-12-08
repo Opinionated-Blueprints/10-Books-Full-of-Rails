@@ -202,7 +202,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 05.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:30 UTC 08.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -282,6 +282,9 @@ right click & open image in new tab for better resolution
 - Improved signaling on all "u-turned" blueprints from 4:2:1 books
 - Changed "Diagonal U-turn" from 4 Lane books so it is upgradable to "Diagonal Lane Switch U-turn" as originally intended
 - If you're playing on 1.1, Factorio saves cable connections in blueprints now, you know what that means
+
+15:30 UTC 8.12.2020
+- Stackers for each train size now have their own books rather than all being shoved together
 
 </details>
 
