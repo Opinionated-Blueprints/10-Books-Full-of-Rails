@@ -1,4 +1,4 @@
-At this point the original title is inaccurate. There no longer is just 10 books... but 55. And that's only the endpoints of the book tree.
+At this point the original title is inaccurate. There no longer is just 10 books... but over 50. And that's only the endpoints of the book tree.
 
 # Short summary:
 Have you ever fought to yourself "Man, I really could use over a 100 different rail intersections... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradable. On top of that, you can find stations for aforementioned train sizes (includes LTN variants) and a kit to make new ones, as well as some basic stackers. Everything is spiced up with rich text.
@@ -163,7 +163,7 @@ right click & open image in new tab for better resolution
 
 <details>
   <summary><span style="color:cyan">Known Issues</summary>
-- Most books included here have their names display a bit bugged when in grid view in the blueprint library. I don't think I can do anything about it  without changing their names and/or used Rich Text (reported to devs) <br>
+- Some book have their names a bit bugged when in grid view in the blueprint library. It's game's fault, I can't do anything about it without changing rich text (reported to devs) <br>
 
 <img src= "https://uploads.disquscdn.com/images/e3d06b3efd5741f4427230293887cccbf5ad0bbba186238e6513b16e2061ab05.png" width =25%>
 
@@ -202,7 +202,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:30 UTC 08.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:00 UTC 10.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -285,6 +285,10 @@ right click & open image in new tab for better resolution
 
 15:30 UTC 8.12.2020
 - Stackers for each train size now have their own books rather than all being shoved together
+
+20:00 UTC 10.12.2020
+- I've missed all of 4:2:1 Solar book, when alligning blueprint grid after update from 06.10.2020 - Fixed
+- After previous update, stackers had align to grid checked with some ridiculous values for some reason beyond my understanding- Fixed
 
 </details>
 
