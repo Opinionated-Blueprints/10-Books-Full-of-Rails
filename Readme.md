@@ -202,7 +202,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:00 UTC 10.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 12:30 UTC 13.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -289,6 +289,9 @@ right click & open image in new tab for better resolution
 20:00 UTC 10.12.2020
 - I've missed all of 4:2:1 Solar book, when alligning blueprint grid after update from 06.10.2020 - Fixed
 - After previous update, stackers had align to grid checked with some ridiculous values for some reason beyond my understanding- Fixed
+
+12:30 UTC 13.12.2020
+- The reason beyond my understanding from the previous update has been understood. It has to do with changes to blueprint alignment settings in Factorio 1.1. Stations too have been affected by it - Fixed
 
 </details>
 
