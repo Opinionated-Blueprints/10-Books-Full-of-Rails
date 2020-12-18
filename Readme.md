@@ -1,9 +1,11 @@
 At this point the original title is inaccurate. There no longer is just 10 books... but over 50. And that's only the endpoints of the book tree.
 
+---
+
 # Short summary:
-Have you ever fought to yourself "Man, I really could use over a 100 different rail intersections... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradable. On top of that, you can find stations for aforementioned train sizes (includes LTN variants) and a kit to make new ones, as well as some basic stackers. Everything is spiced up with rich text.
+Have you ever fought to yourself "Man, I really could use over a 100 different rail intersections... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradable. There also is a set of wall blueprints to protect your rails from natives. On top of that, you can find stations for aforementioned train sizes (includes LTN variants) and a kit to make new ones, as well as some basic stackers. Everything is spiced up with rich text.
 
-
+---
 
 ### Details:
 <sup>(click to expand)</sup>
@@ -65,7 +67,6 @@ right click & open image in new tab for better resolution
 
 </details>
 </details>
-
 
 <details>
   <summary><span style="color:cyan">Rail Book Categories</summary>
@@ -202,7 +203,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 12:30 UTC 13.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 21:00 UTC 18.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -287,11 +288,22 @@ right click & open image in new tab for better resolution
 - Stackers for each train size now have their own books rather than all being shoved together
 
 20:00 UTC 10.12.2020
-- I've missed all of 4:2:1 Solar book, when alligning blueprint grid after update from 06.10.2020 - Fixed
+- I've missed all of 4:2:1 Solar book, when aligning blueprint grid after update from 06.10.2020 - Fixed
 - After previous update, stackers had align to grid checked with some ridiculous values for some reason beyond my understanding- Fixed
 
 12:30 UTC 13.12.2020
 - The reason beyond my understanding from the previous update has been understood. It has to do with changes to blueprint alignment settings in Factorio 1.1. Stations too have been affected by it - Fixed
+
+19:30 UTC 18.12.2020
+(Compatible with older versions)
+- All blueprints containing a 90° turn including the various 90° Turns have been redesigned to actually do so. Exceptions are: 1) the entirety of Category B, since it was impossible to do, 2)curved/diagonal blueprints from Category C - impossible or already compatible
+- Solar blueprints have been redesigned accordingly
+- Overall this update increases number of blueprints that both 2 Lane and 4 Lane 90° Turns can be upgraded into
+- Great thanks to An Entire Sleeve for helping out
+
+21:00 UTC 18.12.2020
+(Compatible with older versions)
+- Added "Wall" book, containing 7 blueprints designed to protecc your trains from natives
 
 </details>
 
@@ -303,5 +315,9 @@ right click & open image in new tab for better resolution
 
 ---
 
-Great thanks for all feedback, MadZuri for his balanced train loading/unloading designs and Hactar for his rail network, I've been using before making this book: <br>
+### Thank You
+- MadZuri for his balanced train loading/unloading designs
+- Hactar for his rail network, I've been using before making this book: <br>
 https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
+- An Entire Sleeve for helping out with testing
+- Everyone who submitted feedback, suggested features, reported my oversights, and generally helped improve this book
