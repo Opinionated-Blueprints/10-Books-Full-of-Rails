@@ -141,7 +141,7 @@ Slap one of these anywhere on your straight piece and you're good to go, you can
 
 <img src= "https://user-images.githubusercontent.com/70019596/103171376-00056500-484c-11eb-87df-445b1a111b0a.png" width="100%">
 <font size = 1><div align="center">
-2 & 4 Lane Split Junctions | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
+Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
 right click & open image in new tab for better resolution
 </font></div>
 
@@ -151,7 +151,7 @@ right click & open image in new tab for better resolution
 
 <img src= "https://user-images.githubusercontent.com/70019596/103171375-fed43800-484b-11eb-909a-99a7d80a261f.png" width="100%">
 <font size = 1><div align="center">
-2 & 4 Lane Split Junctions | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
+Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
 right click & open image in new tab for better resolution
 </font></div>
 
