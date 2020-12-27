@@ -19,7 +19,7 @@ Have you ever fought to yourself "Man, I really could use over a 100 different r
 <img src="https://preview.redd.it/3l9ao5k6ogi51.png?width=1637&format=png&auto=webp&s=84a9b1b3c0b49fa5e067717d8092529057e0e612" width="100%">
 <font size = 1><div align="center">
 the 'solar panels/accumulators included' blueprints as of release. More have been added later <br>
-right click & open image in new tab for better resolution
+right click & open image in new tab for better resolution | outdated, will be changed
 </font></div>
 
 - All blueprints are always upgradable into their equivalents from other books placed lower on the list in the "Rail Book Categories" section as long as they are in the same category
@@ -80,7 +80,7 @@ right click & open image in new tab for better resolution
 <img src= "https://camo.githubusercontent.com/265028ffc4abb3c2ad2d7a67d81200763c81e49c/68747470733a2f2f692e696d6775722e636f6d2f4846304b366c422e706e67" width="100%">
 <font size = 1><div align="center">
 2 Lane Solar | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits  <br>
-right click & open image in new tab for better resolution
+right click & open image in new tab for better resolution | outdated, will be changed
 </font></div>
 
  - <span style="color:orange">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
@@ -90,7 +90,7 @@ right click & open image in new tab for better resolution
 <font size = 1><div align="center">
 4 Lane Solar | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits <br>
 "Straight Lane Switch U-turn" and "Diagonal Lane Switch U-turn" are not visible here <br>
-right click & open image in new tab for better resolution
+right click & open image in new tab for better resolution | outdated, will be changed
 </font></div>
 
 
@@ -104,7 +104,7 @@ right click & open image in new tab for better resolution
 <img src= "https://camo.githubusercontent.com/23c40884cfc55a975412cc298317c7c1afe14912/68747470733a2f2f692e696d6775722e636f6d2f6f795079394e422e706e67" width = 100%>
 <font size = 1><div align="center">
 4:2:1 Lane Solar | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits<br>
-right click & open image in new tab for better resolution
+right click & open image in new tab for better resolution | outdated, will be changed
 </font></div>
 
 
@@ -117,7 +117,7 @@ right click & open image in new tab for better resolution
 <img src= "https://camo.githubusercontent.com/45d324d20b9bc60ce84cd6408b240116686baa1b/68747470733a2f2f692e696d6775722e636f6d2f6f5663453761562e706e67" width="100%">
 <font size = 1><div align="center">
 4:2:1 Lane Solar Diagonal | Row 1: 4 & 1 Lane exits | Row 2: 4 & 2 Lane exits | Row 3: 2 & 1 Lane exits <br>
-right click & open image in new tab for better resolution
+right click & open image in new tab for better resolution | outdated, will be changed
 </font></div>
 
 
@@ -130,8 +130,14 @@ right click & open image in new tab for better resolution
 <img src= "https://camo.githubusercontent.com/a715f0b242608a46209ceb3a00bd4c6d14c03067/68747470733a2f2f692e696d6775722e636f6d2f3876597a6d4f7a2e706e67" width="100%">
 <font size = 1><div align="center">
 2 & 4 Lane Solar Split Junctions | Row 1: Vertical/Horizontal exits | Row 2: Vertical/Horizontal/Diagonal exits | Row 3: Diagonal exits<br>
-right click & open image in new tab for better resolution
+right click & open image in new tab for better resolution | outdated, will be changed
 </font></div>
+
+
+- ##### Category D - Station Entrances/Exits
+Take off a single lane from your already placed rails anywhere you want
+
+(images coming soon)
 
 ###### *Categories do not represent book nesting
 </details>
@@ -174,11 +180,11 @@ right click & open image in new tab for better resolution
           
 <details>
   <summary><span style="color:cyan">The Plan</summary>
+- make new pictures (old ones are outdated)
+- Come up with a better name, as the current simply doesn't fit anymore
 - <s>Add bot serviced stations</s> (abandoned, at least for now) <br>
-- New category - D - merging C and B by creating Split intersections (C) where exits have a different amount of lanes (B). Would anyone ever use one of those? That's the main reason holding me back, so let me know if you'd like something like this <br>
 - Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it <br>
 - If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never <br>
-- Updates may and will be delayed due to petty reasons such as school <br>
 
 </details>
 
@@ -203,7 +209,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 21:00 UTC 18.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 1:00 UTC 27.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "![](https://factorioprints.com/icons/signal-D.png)iagonal ![](https://factorioprints.com/icons/signal-4.png)-way" from "<span style="color:cyan">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span>" book
@@ -304,6 +310,13 @@ right click & open image in new tab for better resolution
 21:00 UTC 18.12.2020
 (Compatible with older versions)
 - Added "Wall" book, containing 7 blueprints designed to protecc your trains from natives
+
+1:00 UTC 27.12.2020
+(Compatible with older versions)
+- Added "Entry/Exit" books (new category - D) containing most blueprints from category B with severe modifications (they are way better now)
+- Added 4:1 4-way Intersections
+- Stackers have grid snapping (again)
+- Reworked blueprint naming so your eyes don't bleed anymore
 
 </details>
 
