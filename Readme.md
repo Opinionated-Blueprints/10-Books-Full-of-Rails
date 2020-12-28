@@ -139,7 +139,7 @@ Slap one of these anywhere on your straight piece and you're good to go, you can
  - <span style="color:orange">Entry/Exit</span> (10bp)
  - <span style="color:cyan">Entry/Exit</span> (10bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103171376-00056500-484c-11eb-87df-445b1a111b0a.png" width="100%">
+<img src= "https://user-images.githubusercontent.com/70019596/103184223-65427000-48b7-11eb-8518-23a5e1a134e8.png" width="100%">
 <font size = 1><div align="center">
 Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
 right click & open image in new tab for better resolution
