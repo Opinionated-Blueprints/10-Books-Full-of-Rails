@@ -173,7 +173,6 @@ right click & open image in new tab for better resolution
 - ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
 - I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inpiration or whatever else you'd like. They require [Asphalt Roads](https://mods.factorio.com/mod/AsphaltRoads) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
 
-
 ### Other:
 
 - There is a lot of Factorio's in-game Rich Text - it's awesome, believe me
@@ -223,7 +222,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 1:00 UTC 27.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 1:00 UTC 28.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -331,6 +330,11 @@ right click & open image in new tab for better resolution
 - Added 4:1 4-way Intersections in 4 variants and their diagonal equivalents
 - Stackers have grid snapping (again)
 - Reworked blueprint naming so your eyes don't bleed anymore
+
+1:00 UTC 28.12.2020
+(Compatible with older versions)
+- Fixed signalling in category D (some blueprints had signals on the wrong side of the rail)
+- deleted blueprints from category D in solar book that had the singular lane connected to only one side of the main track
 
 </details>
 
