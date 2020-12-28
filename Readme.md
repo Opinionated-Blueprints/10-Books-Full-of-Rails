@@ -222,7 +222,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 1:00 UTC 28.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 28.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -335,6 +335,10 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Fixed signalling in category D (some blueprints had signals on the wrong side of the rail)
 - deleted blueprints from category D in solar book that had the singular lane connected to only one side of the main track
+
+15:00 UTC 28.12.2020
+(Compatible with older versions)
+- Added grid snapping to non-diagonal blueprints from category D. It actually works and its amazing. Unfortunately it's not possible to do this to diagonal blueprints right now
 
 </details>
 
