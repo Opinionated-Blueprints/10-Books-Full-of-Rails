@@ -346,6 +346,7 @@ right click & open image in new tab for better resolution
 - Complete rework of the stations, more freedom with their setup, better belt layouts, switched from circuit-based balancing to mechanical on provider stations - thanks to this there is also less fiddling with LTN stations, no need to worry about where each wire is connected and so on. There is less blueprints overall and instead of having 2 separate books for red and blue belts, now there is only one with red ones, upgradable with a provided upgrade planners. Largely influenced by Nilaus's tutorials
 - Added 4:2 4-way with three ends with 4 lanes and one end with 2 lanes
 - Added 10 car and 5 car stackers
+- It's a big update so there is more potential for bug than normally, I'll fix them as I get reports or notice the m myself
 
 </details>
 
