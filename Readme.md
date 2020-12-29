@@ -1,4 +1,4 @@
-At this point the original title is inaccurate. There no longer is just 10 books... but over 50. And that's only the endpoints of the book tree.
+At this point the original title is inaccurate. There no longer is just 10 books... but over 50. And that's only the endpoints of the book tree. Keeping for historical reasons and my satisfaction every time I see how this book grew
 
 ---
 
@@ -16,7 +16,7 @@ Have you ever fought to yourself "Man, I really could use over a 100 different r
 <details>
   <summary><span style="color:yellow">Rails</summary>
 
-<img src="https://user-images.githubusercontent.com/70019596/103171687-8622ab00-484e-11eb-943e-08a438c2fd6b.png?width=1637&format=png&auto=webp&s=84a9b1b3c0b49fa5e067717d8092529057e0e612" width="100%">
+<img src="https://user-images.githubusercontent.com/70019596/103308220-2e34a180-4a12-11eb-8e38-cc3b1ff32f63.png" width="100%">
 <font size = 1><div align="center"> All of them in non-solar variants | see Rail Book Categories for close ups<br>
 right click & open image in new tab for better resolution
 </font></div>
@@ -29,6 +29,7 @@ right click & open image in new tab for better resolution
  - standard (no ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png))
  - ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png) included because why would you want to waste so much space (aesthetics first though)
    - there are some paths left between solar panels so you can get run over by a train again
+   - not a perfect ratio, I'm not a masochist and it probably would be impossible anyway
 - Rail Spacing: ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)
 - Optimized for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) long trains, but works well with it's multiples and divisors. Any length will work, those are just suggestions  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) (to avoid deadlocks there should be space equivalent or larger to the length of your longest train between intersections.)
 - ![green wire](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) & ![red wire](https://wiki.factorio.com/images/thumb/Red_wire.png/32px-Red_wire.png) + ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
@@ -45,24 +46,24 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src= "https://camo.githubusercontent.com/80036b45e33e8f300eef63fe8beac7e74d98f615/68747470733a2f2f692e696d6775722e636f6d2f6764644e3568372e706e67" width = 100%>
-<font size = 1><div align="center">
-Blue Belt Stations | Row 1: Provider - Front | Row 2: Provider - Rear | Row 3: Provider - Front & Rear | Row 4: Requester - Front | Row 5: Requester - Rear | Row 6: Requester - Front & Rear<br>
-LTN Depots  and some other stations are not visible here <br>
+<img src= "https://user-images.githubusercontent.com/70019596/103305451-78665480-4a0b-11eb-9ecf-afc2f5e5b84e.png" width = 100%>
+Vanilla stations and Buffers <font size = 1><div align="center">
+<br>
+LTN Stations and depots are not visible here <br>
 right click & open image in new tab for better resolution
 </font></div>
 
 - Every station comes in 2 variants:
    - Vanilla
-   - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible (see: [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072) & [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/) & [LTN Mod Tutorial - Logistic Train Network](https://www.youtube.com/watch?v=a3ujEdPfGHk) & [Factorio 0.17 Logistic Train Network Tutorial](https://www.youtube.com/watch?v=bpfVzfWeqj8))
-- Trains compatible with pre-made stations: L-C - SH || L-C-L - DH || L-2C - SH || L-4C-L - DH || 2L-4C - SH || L-4C-2L-4C-L - DH || 2L-3C-2L-3C-2L || 2L-4C-2L-4C || 2L-10C - SH (SH - Single-headed, DH - Double Headed)
-- Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 6, 4, 3)
+   - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible
+- Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 10, 6, 5, 3, 2)
 - Includes a book with some smaller parts for creating custom stations
-- Balanced loading and unloading using MadZuri's designs
+- Mechanically balanced loading and unloading
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
 - ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable)
 - LTN Depots included
-- "Instructions" book to help with setting up balanced loading, and LTN stations
+- Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
+- "Instructions" book to help with LTN stations
 
 </details>
 </details>
@@ -222,7 +223,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 28.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 19:00 UTC 29.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -340,6 +341,12 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Added grid snapping to non-diagonal blueprints from category D. It actually works and its amazing. Unfortunately it's not possible to do this to diagonal blueprints right now
 
+19:00 UTC 29.12.2020
+(Stations were completely reworked, but there shouldn't be any compatibility issues as long as you don't fiddle with the ones you already placed)
+- Complete rework of the stations, more freedom with their setup, better belt layouts, switched from circuit-based balancing to mechanical on provider stations - thanks to this there is also less fiddling with LTN stations, no need to worry about where each wire is connected and so on. There is less blueprints overall and instead of having 2 separate books for red and blue belts, now there is only one with red ones, upgradable with a provided upgrade planners. Largely influenced by Nilaus's tutorials
+- Added 4:2 4-way with three ends with 4 lanes and one end with 2 lanes
+- Added 10 car and 5 car stackers
+
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
@@ -351,7 +358,8 @@ right click & open image in new tab for better resolution
 ---
 
 ### Thank You
-- MadZuri for his balanced train loading/unloading designs
+- Nilaus for his tutorials on trains stations
+- MadZuri for his balanced train loading/unloading designs (used in previous versions)
 - Hactar for his rail network, I've been using before making this book: <br>
 https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
 - An Entire Sleeve for helping out with testing
