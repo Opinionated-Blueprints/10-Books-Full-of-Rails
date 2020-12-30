@@ -369,9 +369,8 @@ right click & open image in new tab for better resolution
 ---
 
 ### Thank You
-- Nilaus for his tutorials on trains stations
+- [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his tutorials on trains stations
 - MadZuri for his balanced train loading/unloading designs (used in previous versions)
-- Hactar for his rail network, I've been using before making this book: <br>
-https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1
+- Hactar for his [rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
 - An Entire Sleeve for helping out with testing
 - Everyone who submitted feedback, suggested features, reported my oversights, and generally helped improve this book
