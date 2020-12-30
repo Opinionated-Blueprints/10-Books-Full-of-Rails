@@ -46,7 +46,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src= "https://user-images.githubusercontent.com/70019596/103305451-78665480-4a0b-11eb-9ecf-afc2f5e5b84e.png" width = 100%>
+<img src= "https://user-images.githubusercontent.com/70019596/103384015-1e41be00-4af5-11eb-92d6-b79f2153430f.png" width = 100%>
 
 <font size = 1><div align="center">
 Vanilla stations and Buffers <br>
@@ -224,7 +224,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 16:30 UTC 30.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 22:30 UTC 30.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -357,6 +357,11 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Lane split isn't fixed to a specific position on straight lane like it was before giving more freedom with it's positioning
 - 4:1 4-ways were replaced with a 4:1 4-way that actually is 4-way. 
+
+22:30 UTC 30.12.2020
+{Compatible with older versions)
+- Light on stations have been moved outside to allow for placing additional signals if one so desires
+- Chests on vanilla stations have been connected with green wires for wire sorcerers
 
 </details>
 
