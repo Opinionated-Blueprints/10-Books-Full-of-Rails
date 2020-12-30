@@ -47,8 +47,9 @@ right click & open image in new tab for better resolution
   <summary><span style="color:yellow">Stations</summary>
 
 <img src= "https://user-images.githubusercontent.com/70019596/103305451-78665480-4a0b-11eb-9ecf-afc2f5e5b84e.png" width = 100%>
-Vanilla stations and Buffers <font size = 1><div align="center">
-<br>
+
+<font size = 1><div align="center">
+Vanilla stations and Buffers <br>
 LTN Stations and depots are not visible here <br>
 right click & open image in new tab for better resolution
 </font></div>
@@ -223,7 +224,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 19:00 UTC 29.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 14:00 UTC 30.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -347,6 +348,9 @@ right click & open image in new tab for better resolution
 - Added 4:2 4-way with three ends with 4 lanes and one end with 2 lanes
 - Added 10 car and 5 car stackers
 - It's a big update so there is more potential for bug than normally, I'll fix them as I get reports or notice the m myself
+
+14:00 UTC 30.12.2020
+- Added landfill to stackers
 
 </details>
 
