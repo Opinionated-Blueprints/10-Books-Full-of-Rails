@@ -350,6 +350,7 @@ right click & open image in new tab for better resolution
 - It's a big update so there is more potential for bug than normally, I'll fix them as I get reports or notice the m myself
 
 14:00 UTC 30.12.2020
+(Compatible with older versions)
 - Added landfill to stackers
 
 </details>
