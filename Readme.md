@@ -88,7 +88,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (18bp)
  - <span style="color:cyan"> 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (18bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103171372-fb40b100-484b-11eb-818e-5d1478045667.png" width="100%">
+<img src= "https://user-images.githubusercontent.com/70019596/103366614-6516c000-4ac3-11eb-85a3-4aaab788c4db.png" width="100%">
 <font size = 1><div align="center">
 4 Lane | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends <br>
 right click & open image in new tab for better resolution
@@ -98,11 +98,11 @@ right click & open image in new tab for better resolution
 - ##### Category B1 - Lane Mergers/Splitters
 (ends don't have equal number of lanes)
 
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (13bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (13bp)
+ - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (12bp)
+ - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (12bp)
 
 
-<img src= "https://user-images.githubusercontent.com/70019596/103171374-fda30b00-484b-11eb-81ff-2c2a3c266ff7.png" width = 100%>
+<img src= "https://user-images.githubusercontent.com/70019596/103365832-444d6b00-4ac1-11eb-843d-34f423293c8a.png" width = 100%>
 <font size = 1><div align="center">
 4:2:1 <br>
 right click & open image in new tab for better resolution
@@ -112,10 +112,10 @@ right click & open image in new tab for better resolution
 - ##### Category B2 - Lane Mergers/Splitters (Diagonal)
 (ends don't have equal number of lanes)
 
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(13bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (13bp)
+ - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(12bp)
+ - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (12bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103171373-fc71de00-484b-11eb-8166-4848f4039a59.png" width="100%">
+<img src= "https://user-images.githubusercontent.com/70019596/103365834-47485b80-4ac1-11eb-8e7b-ab20e6eaf2ca.png" width="100%">
 <font size = 1><div align="center">
 4:2:1 Lane Diagonal<br>
 right click & open image in new tab for better resolution
@@ -224,7 +224,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 14:00 UTC 30.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 16:30 UTC 30.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -352,6 +352,11 @@ right click & open image in new tab for better resolution
 14:00 UTC 30.12.2020
 (Compatible with older versions)
 - Added landfill to stackers
+
+16:30 UTC 30.12.2020
+(Compatible with older versions)
+- Lane split isn't fixed to a specific position on straight lane like it was before giving more freedom with it's positioning
+- 4:1 4-ways were replaced with a 4:1 4-way that actually is 4-way. 
 
 </details>
 
