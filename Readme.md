@@ -367,6 +367,7 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Added a 42x42 square outline made out of stone bricks. It's the same size as grid on which all rail blueprints are based on. Can be used as a placeholder for future rails
 - Some small fixes regarding spelling mistakes and blueprint tooltip changes
+- As Asphalt Roads mod wasn't updated since 0.18 I've changed the one and only blueprint that required it to instead require Dectorio
 
 </details>
 
