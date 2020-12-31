@@ -173,12 +173,12 @@ right click & open image in new tab for better resolution
 - Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
 - No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails so you don't accidentally recreate [Population transfers in the Soviet Union](https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union), except bots. The real reason: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your robot's range, it won't reach its destination and instead, its power reserves will deplete, the bot will come back to where it started to recharge and try again thus falling into an endless loop
 - ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
-- I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inpiration or whatever else you'd like. They require [Asphalt Roads](https://mods.factorio.com/mod/AsphaltRoads) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
+- I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inpiration or whatever else you'd like. They require [Dectorio](https://mods.factorio.com/mods/PantherX/Dectorio) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
 
 ### Other:
 
 - There is a lot of Factorio's in-game Rich Text - it's awesome, believe me
-- If you don't have aforementioned mods (LTN, Asphalt Roads) You'll get some error messages in the chat when importing this book. It only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
+- If you don't have aforementioned mods (LTN, Dectorio) You'll get some error messages in the chat when importing this book. It only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
 - I'm no master of LTN nor I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
 
 </details>
@@ -224,7 +224,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 22:30 UTC 30.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:00 UTC 30.12.2020)</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -359,9 +359,14 @@ right click & open image in new tab for better resolution
 - 4:1 4-ways were replaced with a 4:1 4-way that actually is 4-way. 
 
 22:30 UTC 30.12.2020
-{Compatible with older versions)
+(Compatible with older versions)
 - Light on stations have been moved outside to allow for placing additional signals if one so desires
 - Chests on vanilla stations have been connected with green wires for wire sorcerers
+
+20:00 UTC 30.12.2020
+(Compatible with older versions)
+- Added a 42x42 square outline made out of stone bricks. It's the same size as grid on which all rail blueprints are based on. Can be used as a placeholder for future rails
+- Some small fixes regarding spelling mistakes and blueprint tooltip changes
 
 </details>
 
