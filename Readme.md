@@ -15,8 +15,7 @@ Have you ever fought to yourself "Man, I really could use over a 100 different r
 
 <details>
   <summary><span style="color:yellow">Rails</summary>
-
-<img src="https://user-images.githubusercontent.com/70019596/103308220-2e34a180-4a12-11eb-8e38-cc3b1ff32f63.png" width="100%">
+![Rails - non-solar](https://user-images.githubusercontent.com/70019596/103308220-2e34a180-4a12-11eb-8e38-cc3b1ff32f63.png)
 <font size = 1><div align="center"> All of them in non-solar variants | see Rail Book Categories for close ups<br>
 right click & open image in new tab for better resolution
 </font></div>
@@ -46,7 +45,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src= "https://user-images.githubusercontent.com/70019596/103443445-a8a63100-4c5f-11eb-89c2-9904cbf7c274.png" width = 100%>
+![Stations - Vanilla](https://user-images.githubusercontent.com/70019596/103443445-a8a63100-4c5f-11eb-89c2-9904cbf7c274.png)
 
 <font size = 1><div align="center">
 Vanilla stations and Buffers <br>
@@ -78,7 +77,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (14bp)
  - <span style="color:cyan">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (14bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103171377-01369200-484c-11eb-9949-d08832efd9c9.png" width="100%">
+![2 Lane](https://user-images.githubusercontent.com/70019596/103171377-01369200-484c-11eb-9949-d08832efd9c9.png)
 <font size = 1><div align="center">
 2 Lane Solar | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends  <br>
 right click & open image in new tab for better resolution
@@ -88,7 +87,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (18bp)
  - <span style="color:cyan"> 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (18bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103366614-6516c000-4ac3-11eb-85a3-4aaab788c4db.png" width="100%">
+![4 Lane](https://user-images.githubusercontent.com/70019596/103366614-6516c000-4ac3-11eb-85a3-4aaab788c4db.png)
 <font size = 1><div align="center">
 4 Lane | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends <br>
 right click & open image in new tab for better resolution
@@ -102,7 +101,7 @@ right click & open image in new tab for better resolution
  - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (12bp)
 
 
-<img src= "https://user-images.githubusercontent.com/70019596/103365832-444d6b00-4ac1-11eb-843d-34f423293c8a.png" width = 100%>
+![4;2;1 Lane](https://user-images.githubusercontent.com/70019596/103365832-444d6b00-4ac1-11eb-843d-34f423293c8a.png)
 <font size = 1><div align="center">
 4:2:1 | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
 right click & open image in new tab for better resolution
@@ -115,7 +114,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(12bp)
  - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (12bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103365834-47485b80-4ac1-11eb-8e7b-ab20e6eaf2ca.png" width="100%">
+![4;2;1 Lane Diagonal](https://user-images.githubusercontent.com/70019596/103365834-47485b80-4ac1-11eb-8e7b-ab20e6eaf2ca.png)
 <font size = 1><div align="center">
 4:2:1 Lane Diagonal | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
 right click & open image in new tab for better resolution
@@ -128,7 +127,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split</span> (23bp)
  - <span style="color:cyan">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (23bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103171368-f8de5700-484b-11eb-92ad-bc931ca16982.png" width="100%">
+![2&4 Lane Split Junctions](https://user-images.githubusercontent.com/70019596/103171368-f8de5700-484b-11eb-92ad-bc931ca16982.png)
 <font size = 1><div align="center">
 2 & 4 Lane Split Junctions | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends<br>
 right click & open image in new tab for better resolution
@@ -141,7 +140,7 @@ Slap one of these anywhere on your straight piece and you're good to go, you can
  - <span style="color:orange">Entry/Exit</span> (10bp)
  - <span style="color:cyan">Entry/Exit</span> (10bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103184223-65427000-48b7-11eb-8518-23a5e1a134e8.png" width="100%">
+![Entrances-Exits](https://user-images.githubusercontent.com/70019596/103444484-e3f92d80-4c68-11eb-9909-f4cd25b2916a.png)
 <font size = 1><div align="center">
 Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
 right click & open image in new tab for better resolution
@@ -151,7 +150,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">Entry/Exit Diagonal</span> (10bp)
  - <span style="color:cyan">Entry/Exit Diagonal</span> (10bp)
 
-<img src= "https://user-images.githubusercontent.com/70019596/103171375-fed43800-484b-11eb-909a-99a7d80a261f.png" width="100%">
+![Entrances-Exits Diagonal](https://user-images.githubusercontent.com/70019596/103171375-fed43800-484b-11eb-909a-99a7d80a261f.png)
 <font size = 1><div align="center">
 Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
 right click & open image in new tab for better resolution
@@ -189,7 +188,7 @@ right click & open image in new tab for better resolution
   <summary><span style="color:cyan">Known Issues</summary>
 - Some book have their names a bit bugged when in grid view in the blueprint library. It's game's fault, I can't do anything about it without changing rich text (reported to devs) <br>
 
-<img src= "https://uploads.disquscdn.com/images/e3d06b3efd5741f4427230293887cccbf5ad0bbba186238e6513b16e2061ab05.png" width =25%>
+![](https://uploads.disquscdn.com/images/e3d06b3efd5741f4427230293887cccbf5ad0bbba186238e6513b16e2061ab05.png)
 
 </details>
 
@@ -224,7 +223,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 01.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:30 UTC 01.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -371,6 +370,10 @@ right click & open image in new tab for better resolution
 18:00 UTC 01.01.2021
 (Compatible with older versions)
 - Station buffers got a bit of a remake and more have been added
+
+18:30 UTC 01.01.2021
+(Compatible with older versions)
+- Both 4 Lane Entries from Entry/Exit books had some signals on the wrong side of the rails, fixed
 
 </details>
 
