@@ -46,7 +46,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src= "https://user-images.githubusercontent.com/70019596/103384015-1e41be00-4af5-11eb-92d6-b79f2153430f.png" width = 100%>
+<img src= "https://user-images.githubusercontent.com/70019596/103443445-a8a63100-4c5f-11eb-89c2-9904cbf7c274.png" width = 100%>
 
 <font size = 1><div align="center">
 Vanilla stations and Buffers <br>
@@ -104,7 +104,7 @@ right click & open image in new tab for better resolution
 
 <img src= "https://user-images.githubusercontent.com/70019596/103365832-444d6b00-4ac1-11eb-843d-34f423293c8a.png" width = 100%>
 <font size = 1><div align="center">
-4:2:1 <br>
+4:2:1 | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
 right click & open image in new tab for better resolution
 </font></div>
 
@@ -117,7 +117,7 @@ right click & open image in new tab for better resolution
 
 <img src= "https://user-images.githubusercontent.com/70019596/103365834-47485b80-4ac1-11eb-8e7b-ab20e6eaf2ca.png" width="100%">
 <font size = 1><div align="center">
-4:2:1 Lane Diagonal<br>
+4:2:1 Lane Diagonal | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
 right click & open image in new tab for better resolution
 </font></div>
 
@@ -173,12 +173,12 @@ right click & open image in new tab for better resolution
 - Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
 - No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails so you don't accidentally recreate [Population transfers in the Soviet Union](https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union), except bots. The real reason: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your robot's range, it won't reach its destination and instead, its power reserves will deplete, the bot will come back to where it started to recharge and try again thus falling into an endless loop
 - ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
-- I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inpiration or whatever else you'd like. They require [Dectorio](https://mods.factorio.com/mods/PantherX/Dectorio) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
+- I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inpiration or whatever else you'd like. They require [Asphalt Roads](https://mods.factorio.com/mod/AsphaltRoads) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
 
 ### Other:
 
 - There is a lot of Factorio's in-game Rich Text - it's awesome, believe me
-- If you don't have aforementioned mods (LTN, Dectorio) You'll get some error messages in the chat when importing this book. It only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
+- If you don't have aforementioned mods (LTN, Asphalt Roads) You'll get some error messages in the chat when importing this book. It only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
 - I'm no master of LTN nor I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
 
 </details>
@@ -224,7 +224,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:00 UTC 30.12.2020)</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 01.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -363,11 +363,14 @@ right click & open image in new tab for better resolution
 - Light on stations have been moved outside to allow for placing additional signals if one so desires
 - Chests on vanilla stations have been connected with green wires for wire sorcerers
 
-20:00 UTC 30.12.2020
+20:00 UTC 31.12.2020
 (Compatible with older versions)
-- Added a 42x42 square outline made out of stone bricks. It's the same size as grid on which all rail blueprints are based on. Can be used as a placeholder for future rails
-- Some small fixes regarding spelling mistakes and blueprint tooltip changes
-- As Asphalt Roads mod wasn't updated since 0.18 I've changed the one and only blueprint that required it to instead require Dectorio
+- Added an outline of a  42x42 square of stone bricks to the Tiles book, it's the same size as the grid on which all rail blueprints a re based on, so it can be used as a placeholder for future rails
+- some minor fixes like correcting spelling mistakes, changing blueprint tooltips a bit and so on
+
+18:00 UTC 01.01.2021
+(Compatible with older versions)
+- Station buffers got a bit of a remake and more have been added
 
 </details>
 
@@ -383,5 +386,3 @@ right click & open image in new tab for better resolution
 - [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his tutorials on trains stations
 - MadZuri for his balanced train loading/unloading designs (used in previous versions)
 - Hactar for his [rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
-- An Entire Sleeve for helping out with testing
-- Everyone who submitted feedback, suggested features, reported my oversights, and generally helped improve this book
