@@ -223,7 +223,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 14:00 UTC 02.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 14:30 UTC 03.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -379,6 +379,11 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Added more wall blueprints
 - Fixed some naming and icon errors 
+
+14:30 UTC 03.01.2021
+(Compatible with older versions)
+- Added more stackers
+- Reworked stacker naming and icons
 
 </details>
 
