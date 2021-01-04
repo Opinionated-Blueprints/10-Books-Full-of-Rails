@@ -214,7 +214,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 16 UTC 03.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 16:00 UTC 04.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -376,7 +376,7 @@ right click & open image in new tab for better resolution
 - Added more stackers
 - Reworked stacker naming and icons
 
-16 UTC 03.01.2021
+16:00 UTC 04.01.2021
 (Compatible with older versions)
 - Added stations for 4 car long trains
 - Added Maintenance book with a handful of blueprints to keep your walls in good shape
