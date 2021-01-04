@@ -193,15 +193,6 @@ right click & open image in new tab for better resolution
 </details>
 
 
-          
-<details>
-  <summary><span style="color:cyan">The Plan</summary>
-- Come up with a better name, as the current one simply isn't true to the book's contents anymore
-- Idk, maybe I've missed some blueprint? If so, let me know, and I'll make it <br>
-- If you have any suggestions on how I could improve this book, let me know. I can't promise that I'll check the comments often, but better late than never <br>
-
-</details>
-
 
 <details>
  <summary><span style="color:cyan">Tutorials/Guides</summary>
@@ -223,7 +214,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 14:30 UTC 03.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 16 UTC 03.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -384,6 +375,11 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Added more stackers
 - Reworked stacker naming and icons
+
+16 UTC 03.01.2021
+(Compatible with older versions)
+- Added stations for 4 car long trains
+- Added Maintenance book with a handful of blueprints to keep your walls in good shape
 
 </details>
 
