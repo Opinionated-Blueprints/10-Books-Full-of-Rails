@@ -66,6 +66,31 @@ right click & open image in new tab for better resolution
 - "Instructions" book to help with LTN stations
 
 </details>
+
+
+<details>
+  <summary><span style="color:yellow">Wall</summary>
+
+<img src = "https://user-images.githubusercontent.com/70019596/103836945-d093fb00-508a-11eb-8092-fec9baacbb24.png" width = 100%>
+
+<font size = 1><div align="center">
+Wall Yoga <br>
+Everything on this picture was placed from blueprints <br>
+right click & open image in new tab for better resolution
+</font></div>
+
+- Every wall blueprint has grid snapping for the same grid as rails
+   - There is no overlap with rails, so you never have to manually correct anything
+   - They connect nicely to each other
+- There are gates too, but no diagonal ones as there is no logic in the game itself that would allow for placing gates on diagonal rails
+- There is a book called "Maintenance" where you can find:
+   - Stations suited for maintaining your walls in good shape
+   - Trains with set schedules to make use of those stations
+   - A blueprint of a roboport with a buffer chest to supply your walls no matter how far from the station they span
+   - Another book, with the same blueprints except for the fact that they care about artillery. It is meant to be used before you research artillery, and stations that can service artillery wagons won't work without it.
+
+
+</details>
 </details>
 
 <details>
