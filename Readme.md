@@ -63,7 +63,6 @@ right click & open image in new tab for better resolution
 - ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable)
 - LTN Depots included
 - Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
-- "Instructions" book to help with LTN stations
 
 </details>
 
@@ -83,6 +82,7 @@ right click & open image in new tab for better resolution
    - There is no overlap with rails, so you never have to manually correct anything
    - They connect nicely to each other
 - There are gates too, but no diagonal ones as there is no logic in the game itself that would allow for placing gates on diagonal rails
+- No ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay - who needs walls on water?
 - There is a book called "Maintenance" where you can find:
    - Stations suited for maintaining your walls in good shape
    - Trains with set schedules to make use of those stations
