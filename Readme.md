@@ -214,7 +214,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:30 UTC 04.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 00.30 UTC 07.01.20211</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -387,6 +387,14 @@ right click & open image in new tab for better resolution
 - Wall Maintenance requester stations are no more compact
 - I LTN depots are now more compact
 - Fixed wrong car numeration in LTN Depots
+
+00.30 UTC 07.01.2021
+(Compatible with older versions)
+- Wall Maintenance stations can now service artillery shells
+ - Maintenance trains are now longer by 1 car (artillery wagon) which is used to transport said shells
+ - There are still variants of those stations that do not have such capabilities for those who have yet to unleash the artillery's might (without artillery, the ones that can service it won't work)
+- Added a U shaped wall segment (meant for surrounding U-turns
+- Some more wall beautification happened, very likely to be the last
 
 </details>
 
