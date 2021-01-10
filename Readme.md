@@ -15,7 +15,7 @@ Have you ever fought to yourself "Man, I really could use over a 100 different r
 
 <details>
   <summary><span style="color:yellow">Rails</summary>
-<img src = "https://user-images.githubusercontent.com/70019596/103308220-2e34a180-4a12-11eb-8e38-cc3b1ff32f63.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/104123781-69599d80-534d-11eb-8aa3-becf231eba20.png" width = 100%>
 <font size = 1><div align="center"> All of them in non-solar variants | see Rail Book Categories for close ups<br>
 right click & open image in new tab for better resolution
 </font></div>
@@ -165,7 +165,7 @@ Slap one of these anywhere on your straight piece and you're good to go, you can
  - <span style="color:orange">Entry/Exit</span> (10bp)
  - <span style="color:cyan">Entry/Exit</span> (10bp)
 
-<img src = "https://user-images.githubusercontent.com/70019596/103444484-e3f92d80-4c68-11eb-9909-f4cd25b2916a.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/104123891-e7b63f80-534d-11eb-8eef-d1fe9f8d1384.png" width = 100%>
 <font size = 1><div align="center">
 Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
 right click & open image in new tab for better resolution
@@ -175,7 +175,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">Entry/Exit Diagonal</span> (10bp)
  - <span style="color:cyan">Entry/Exit Diagonal</span> (10bp)
 
-<img src = "https://user-images.githubusercontent.com/70019596/103171375-fed43800-484b-11eb-909a-99a7d80a261f.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/104123892-ea189980-534d-11eb-802f-53ffa8a9e12a.png" width = 100%>
 <font size = 1><div align="center">
 Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
 right click & open image in new tab for better resolution
@@ -239,7 +239,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 00.30 UTC 07.01.20211</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 13:30 UTC 10.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -420,6 +420,10 @@ right click & open image in new tab for better resolution
  - There are still variants of those stations that do not have such capabilities for those who have yet to unleash the artillery's might (without artillery, the ones that can service it won't work)
 - Added a U shaped wall segment (meant for surrounding U-turns
 - Some more wall beautification happened, very likely to be the last
+
+13:30 UTC 10.01.2021
+(Compatible with older versions)
+- Blueprints from Entry/Exit books now have normal signals instead of chain signals at their ends, increased thruoghput 
 
 </details>
 
