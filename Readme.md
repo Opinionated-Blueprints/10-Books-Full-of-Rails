@@ -423,7 +423,7 @@ right click & open image in new tab for better resolution
 
 13:30 UTC 10.01.2021
 (Compatible with older versions)
-- Blueprints from Entry/Exit books now have normal signals instead of chain signals at their ends, increased thruoghput 
+- Blueprints from Entry/Exit books now have normal signals instead of chain signals at their ends, increased throughput
 
 </details>
 
