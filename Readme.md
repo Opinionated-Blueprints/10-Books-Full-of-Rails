@@ -56,7 +56,7 @@ right click & open image in new tab for better resolution
 - Every station comes in 2 variants:
    - Vanilla
    - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible
-- Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 10, 6, 5, 3, 2)
+- Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 10, 8, 6, 5, 4, 3, 2)
 - Includes a book with some smaller parts for creating custom stations
 - Mechanically balanced loading and unloading
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
@@ -239,7 +239,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 16:30 UTC 20.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 17:00 UTC 20.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -427,11 +427,15 @@ right click & open image in new tab for better resolution
 
 16:30 UTC 20.01.2021
 (Technically compatible but station names changed so you'll have to change the names of your existing stations accordingly or suffer OCD damage for the rest of the run. Alternatively you can copy your stations book, and replace the one from this update with it to get the rest)
-- station names changed from colored text to icons of respective logistic chests resulting in drastically reduced length
-- added 8 car stations
-- added 2 lane buffered 4-way intersections based on "Whirlpool" by Tallinu
+- Station names changed from colored text to icons of respective logistic chests resulting in drastically reduced length
+- Added 8 car stations
+- Added 2 lane buffered 4-way intersections based on "Whirlpool" by Tallinu
 - 4:2 4-way (2) has been improved. While It was proven impossible to make it upgradable from 2 lane 4-way, it is now symmetric and doesn't let trains change lanes resulting in higher throughput
 
+17:00 UTC 20.01.2021
+(Compatible with older versions)
+- Added 8 car stackers
+- Removed unnecessary signals from diagonal stackers
 
 </details>
 
