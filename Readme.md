@@ -441,7 +441,7 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Added another 4:2 4-way. This one has two 4L ends oposite of two 2L ends. Both straight and diagonal versions
 - Added Power Indicators book. Who knows what's inside?
-- Added Safe Rail Crossing blueprins
+- Added Safe Rail Crossing blueprints
 - With 1.1 release it is now possible to flip blueprints using F and G. Because of this there is no reason to maintain both Left and Right versions of station buffers and as such they were removed
 - Slightly modified the "L" shaped wall so that it doesn't overlap with diagonal U-turns
 
