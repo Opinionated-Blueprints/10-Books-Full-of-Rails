@@ -211,10 +211,7 @@ right click & open image in new tab for better resolution
 
 <details>
   <summary><span style="color:cyan">Known Issues</summary>
-- Some book have their names a bit bugged when in grid view in the blueprint library. It's game's fault, I can't do anything about it without changing rich text (reported to devs) <br>
-
-<img src = "https://uploads.disquscdn.com/images/e3d06b3efd5741f4427230293887cccbf5ad0bbba186238e6513b16e2061ab05.png" width = 25%>
-
+- None, but please report if you encounter something, I can't guarantee a quick response if you comment here, but I'm always hanging out on factorio discord, so you can catch me there (@Bocian)
 </details>
 
 
@@ -439,7 +436,7 @@ right click & open image in new tab for better resolution
 
 11:00 UTC 29.01.2021
 (Compatible with older versions)
-- Added another 4:2 4-way. This one has two 4L ends oposite of two 2L ends. Both straight and diagonal versions
+- Added another 4:2 4-way. This one has two 4L ends opposite of two 2L ends. Both straight and diagonal versions
 - Added Power Indicators book. Who knows what's inside?
 - Added Safe Rail Crossing blueprints
 - With 1.1 release it is now possible to flip blueprints using F and G. Because of this there is no reason to maintain both Left and Right versions of station buffers and as such they were removed
@@ -448,6 +445,8 @@ right click & open image in new tab for better resolution
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
+
+If You have any suggestions, ideas, questions or encounter problems, I'm always hanging out on Factorio Discord, so ping me there (@Bocian). Comment on Factorio Prints will work too, but it may take a long time for me to see it and respond as I don't get any notifications about them
 
 ---
 
