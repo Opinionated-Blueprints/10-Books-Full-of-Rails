@@ -15,7 +15,7 @@ Have you ever fought to yourself "Man, I really could use over a 100 different r
 
 <details>
   <summary><span style="color:yellow">Rails</summary>
-<img src = "https://user-images.githubusercontent.com/70019596/105204204-3466fb00-5b44-11eb-8230-2930ff877f93.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106266298-8be22680-6228-11eb-8ed0-d3bb35d5b10e.png" width = 100%>
 <font size = 1><div align="center"> All of them in non-solar variants | see Rail Book Categories for close ups<br>
 right click & open image in new tab for better resolution
 </font></div>
@@ -37,7 +37,7 @@ right click & open image in new tab for better resolution
 - Each section is 21x21 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) or 42x42 tiles big (books are focused on throughput for 6  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) trains and that is exactly the border length of the square in which all blueprints here fit, hence they are not chunk aligned)
 - Grid snapping is on, so you can use them like a "chunk aligned network" (blueprints can only be placed on an artificial grid that lets you start building from 2 completely disconnected points on the map and ensures that they can still be perfectly connected, see [FFF #357](https://factorio.com/blog/post/fff-357) under the "Snapping" section)
 - Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
-- Pretty ![copper_cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) connections for Factorio 1.1 and above
+- Pretty ![copper_cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) connections
 
 </details>
 
@@ -45,7 +45,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src = "https://user-images.githubusercontent.com/70019596/103443445-a8a63100-4c5f-11eb-89c2-9904cbf7c274.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106267227-a7016600-6229-11eb-9253-181963554490.png" width = 100%>
 
 <font size = 1><div align="center">
 Vanilla stations and Buffers <br>
@@ -70,7 +70,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Wall</summary>
 
-<img src = "https://user-images.githubusercontent.com/70019596/103836945-d093fb00-508a-11eb-8092-fec9baacbb24.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106266452-b9c76b00-6228-11eb-9fc9-6e45222ec9b6.png" width = 100%>
 
 <font size = 1><div align="center">
 Wall Yoga <br>
@@ -99,8 +99,8 @@ right click & open image in new tab for better resolution
 - ##### Category A - Basic Blueprints
 (90% of every rail network ever made)
 
- - <span style="color:orange">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (14bp)
- - <span style="color:cyan">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (14bp)
+ - <span style="color:orange">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
+ - <span style="color:cyan">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
 
 <img src = "https://user-images.githubusercontent.com/70019596/105203876-e3ef9d80-5b43-11eb-876a-872bd0bba78a.png" width = 100%>
 <font size = 1><div align="center">
@@ -122,11 +122,11 @@ right click & open image in new tab for better resolution
 - ##### Category B1 - Lane Mergers/Splitters
 (ends don't have equal number of lanes)
 
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (12bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (12bp)
+ - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (13bp)
+ - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (13bp)
 
 
-<img src = "https://user-images.githubusercontent.com/70019596/105203791-cc181980-5b43-11eb-941d-1ba0ad8afd1c.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106266332-96042500-6228-11eb-8c39-8b3e31d3f3ec.png" width = 100%>
 <font size = 1><div align="center">
 4:2:1 | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
 right click & open image in new tab for better resolution
@@ -136,10 +136,10 @@ right click & open image in new tab for better resolution
 - ##### Category B2 - Lane Mergers/Splitters (Diagonal)
 (ends don't have equal number of lanes)
 
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(12bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (12bp)
+ - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(13bp)
+ - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (13bp)
 
-<img src = "https://user-images.githubusercontent.com/70019596/103365834-47485b80-4ac1-11eb-8e7b-ab20e6eaf2ca.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106266346-98ff1580-6228-11eb-8949-d9db55e59ac4.png" width = 100%>
 <font size = 1><div align="center">
 4:2:1 Lane Diagonal | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
 right click & open image in new tab for better resolution
@@ -239,7 +239,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 17:00 UTC 20.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 11:00 UTC 29.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -436,6 +436,14 @@ right click & open image in new tab for better resolution
 (Compatible with older versions)
 - Added 8 car stackers
 - Removed unnecessary signals from diagonal stackers
+
+11:00 UTC 29.01.2021
+(Compatible with older versions)
+- Added another 4:2 4-way. This one has two 4L ends oposite of two 2L ends. Both straight and diagonal versions
+- Added Power Indicators book. Who knows what's inside?
+- Added Safe Rail Crossing blueprins
+- With 1.1 release it is now possible to flip blueprints using F and G. Because of this there is no reason to maintain both Left and Right versions of station buffers and as such they were removed
+- Slightly modified the "L" shaped wall so that it doesn't overlap with diagonal U-turns
 
 </details>
 
