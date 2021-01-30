@@ -15,7 +15,7 @@ Have you ever fought to yourself "Man, I really could use over a 100 different r
 
 <details>
   <summary><span style="color:yellow">Rails</summary>
-<img src = "https://user-images.githubusercontent.com/70019596/106266298-8be22680-6228-11eb-8ed0-d3bb35d5b10e.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106368255-9e538180-6348-11eb-955d-388e757714ec.png" width = 100%>
 <font size = 1><div align="center"> All of them in non-solar variants | see Rail Book Categories for close ups<br>
 right click & open image in new tab for better resolution
 </font></div>
@@ -23,7 +23,7 @@ right click & open image in new tab for better resolution
 - All blueprints are always upgradable into their equivalents from other books placed lower on the list in the "Rail Book Categories" section as long as they are in the same category
  - many blueprints are upgradable into others from the same book or even other categories
    - some of that upgradability was sacrificed for the sake of throughput (extreme edge cases)
- - to achieve that, some blueprints don't have the best possible signal placement, but it's still perfect signaling (no 2 crosses of rail are in the same block)
+ - to achieve that, some blueprints don't have the best possible signal placement, but it's still perfect signalling (no 2 crosses of rail are in the same block)
 - Each book comes in 2 variants:
  - standard (no ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png))
  - ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png) included because why would you want to waste so much space (aesthetics first though)
@@ -45,7 +45,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src = "https://user-images.githubusercontent.com/70019596/106267227-a7016600-6229-11eb-9253-181963554490.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106368455-d0b1ae80-6349-11eb-985e-8df2fed273b0.png" width = 100%>
 
 <font size = 1><div align="center">
 Vanilla stations and Buffers <br>
@@ -59,6 +59,8 @@ right click & open image in new tab for better resolution
 - Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 10, 8, 6, 5, 4, 3, 2)
 - Includes a book with some smaller parts for creating custom stations
 - Mechanically balanced loading and unloading
+- Depots included
+- Train Limit Control blueprints included
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
 - ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable)
 - LTN Depots included
@@ -102,7 +104,7 @@ right click & open image in new tab for better resolution
  - <span style="color:orange">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
  - <span style="color:cyan">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
 
-<img src = "https://user-images.githubusercontent.com/70019596/105203876-e3ef9d80-5b43-11eb-876a-872bd0bba78a.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106368261-a6abbc80-6348-11eb-98d8-0dfe3476df0b.png" width = 100%>
 <font size = 1><div align="center">
 2 Lane Solar | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends  <br>
 right click & open image in new tab for better resolution
@@ -122,13 +124,13 @@ right click & open image in new tab for better resolution
 - ##### Category B1 - Lane Mergers/Splitters
 (ends don't have equal number of lanes)
 
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (13bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (13bp)
+ - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
+ - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
 
 
-<img src = "https://user-images.githubusercontent.com/70019596/106266332-96042500-6228-11eb-8c39-8b3e31d3f3ec.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106368271-b1fee800-6348-11eb-9124-0a4a7b42793d.png" width = 100%>
 <font size = 1><div align="center">
-4:2:1 | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
+4:2:1 Lan   |   No Particular Order <br>
 right click & open image in new tab for better resolution
 </font></div>
 
@@ -136,12 +138,12 @@ right click & open image in new tab for better resolution
 - ##### Category B2 - Lane Mergers/Splitters (Diagonal)
 (ends don't have equal number of lanes)
 
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(13bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (13bp)
+ - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(16bp)
+ - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
 
-<img src = "https://user-images.githubusercontent.com/70019596/106266346-98ff1580-6228-11eb-8949-d9db55e59ac4.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/106368274-bc20e680-6348-11eb-882a-9b716e6efef5.png" width = 100%>
 <font size = 1><div align="center">
-4:2:1 Lane Diagonal | Row 1 & Row 2: 4:2 | Row 3: 4:1 & 2:1 <br>
+4:2:1 Lane Diagonal   |   No Particular Order
 right click & open image in new tab for better resolution
 </font></div>
 
@@ -197,7 +199,7 @@ right click & open image in new tab for better resolution
 - Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
 - No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails so you don't accidentally recreate [Population transfers in the Soviet Union](https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union), except bots. The real reason: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your robot's range, it won't reach its destination and instead, its power reserves will deplete, the bot will come back to where it started to recharge and try again thus falling into an endless loop
 - ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
-- I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inpiration or whatever else you'd like. They require [Dectorio](https://mods.factorio.com/mod/https://mods.factorio.com/mod/Dectorio) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
+- I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inspiration or whatever else you'd like. They require [Dectorio](https://mods.factorio.com/mod/https://mods.factorio.com/mod/Dectorio) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
 
 ### Other:
 
@@ -219,12 +221,16 @@ right click & open image in new tab for better resolution
 <details>
  <summary><span style="color:cyan">Tutorials/Guides</summary>
 
-### Rail Network/Signaling
+### Rail Network/Signalling
 - [Train Signals | Factorio](https://www.youtube.com/watch?v=N6a8k5x_oV8)
+- [A Guide to Signals - Factorio 0.16 train tutorial #3](https://www.youtube.com/watch?v=Q6xCGExnens)
+- [Tutorial:Train signals](https://wiki.factorio.com/Tutorial:Train_signals) on Factorio Wiki
 - [Getting Started with TRAINS & SIGNALS - Everything You Need To Know | Factorio Tutorial/Guide/How-to](https://www.youtube.com/watch?v=3TKBs6TD7WU)
 - [Stations, Junctions, and all things deadlock - IMAGE HEAVY](https://forums.factorio.com/viewtopic.php?f=18&t=18621)
 - [Factorio Train Automation](https://drive.google.com/drive/folders/0B22HAM7WzR-RdjFYZHZlX29pSVE)
+- [Train Limits in 1.1 and how to Upgrade Many-to-Many Train Networks | Factorio Tutorial/Guide/How-to](https://www.youtube.com/watch?v=x2CfoEXa77M)
 - And the famous 1.5 hour long video on absolute basics: [Factorio Train Tutorial - Absolute Basics](https://www.youtube.com/watch?v=Co136r7pkTk)
+There are also in-game tutorials (button under the minimap)
 
 ### Logistic Train Network
 - [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072)
@@ -236,7 +242,7 @@ right click & open image in new tab for better resolution
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 11:00 UTC 29.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 21:30 UTC 30.01.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -253,7 +259,7 @@ right click & open image in new tab for better resolution
 
 13:30 UTC 23.08.2020
 - Added Absolute Reference Point setting to every blueprint
-- Changed Non-Solar Books' color-coding from yellow to dark orange for better visibility on toolitps
+- Changed Non-Solar Books' color-coding from yellow to dark orange for better visibility on tooltips
 - Fixed "4:2 T Junction Right" from "4:2:1 Lane" and
  "4:2:1 Lane Solar" books (one exit was 1 piece of rail too long)
 - Added missing lamps to "4:2 T Junction Left" from "4:2:1 Lane" book
@@ -284,7 +290,7 @@ right click & open image in new tab for better resolution
 
 15:30 UTC 27.08.2020
 - Added "Straight Lane Switch U-turn" and "Diagonal Lane Switch U-turn" to all 4 Lane Category A Books
-- Reworked signaling in "Straight U-turn" and "Diagonal U-turn" in all 4 Lane Category A Books in order to make them upgradable to the above. Also Diagonal U)-turn" looks like a square now.
+- Reworked signalling in "Straight U-turn" and "Diagonal U-turn" in all 4 Lane Category A Books in order to make them upgradable to the above. Also Diagonal U)-turn" looks like a square now.
 - Fixed modularity of rail blueprints with diagonal exits (previously solar panels would overlap)
 
 16:30 UTC 28.08.2020
@@ -313,7 +319,7 @@ right click & open image in new tab for better resolution
 
 18:00 UTC 05.12.2020
 - Moved signals from exits of rail blueprints to their entrances as suggested by Josch. Helps blueprints connect better by mitigating some conflicts (if you're planning to use this update on a save where you already have used older versions, you should place a signal in the middle of a big rail block that forms where old rails connect with new. That's not a perfect solution, but anything better would require to replace signalling on all old rails)
-- Improved signaling on all "u-turned" blueprints from 4:2:1 books
+- Improved signalling on all "u-turned" blueprints from 4:2:1 books
 - Changed "Diagonal U-turn" from 4 Lane books so it is upgradable to "Diagonal Lane Switch U-turn" as originally intended
 - If you're playing on 1.1, Factorio saves cable connections in blueprints now, you know what that means
 
@@ -420,11 +426,11 @@ right click & open image in new tab for better resolution
 
 13:30 UTC 10.01.2021
 (Compatible with older versions)
-- Blueprints from Entry/Exit books now have normal signals instead of chain signals at their ends, increased thruoghput 
+- Blueprints from Entry/Exit books now have normal signals instead of chain signals at their ends, increased throughput
 
 16:30 UTC 20.01.2021
 (Technically compatible but station names changed so you'll have to change the names of your existing stations accordingly or suffer OCD damage for the rest of the run. Alternatively you can copy your stations book, and replace the one from this update with it to get the rest)
-- Station names changed from colored text to icons of respective logistic chests resulting in drastically reduced length
+- Station names changed from coloured text to icons of respective logistic chests resulting in drastically reduced length
 - Added 8 car stations
 - Added 2 lane buffered 4-way intersections based on "Whirlpool" by Tallinu
 - 4:2 4-way (2) has been improved. While It was proven impossible to make it upgradable from 2 lane 4-way, it is now symmetric and doesn't let trains change lanes resulting in higher throughput
@@ -442,11 +448,22 @@ right click & open image in new tab for better resolution
 - With 1.1 release it is now possible to flip blueprints using F and G. Because of this there is no reason to maintain both Left and Right versions of station buffers and as such they were removed
 - Slightly modified the "L" shaped wall so that it doesn't overlap with diagonal U-turns
 
+21:30 UTC 30.01.2021
+{Train stop names in LTN depots have been changed - simple copy paste will do) 
+- Added Train Limit Control blueprints for vanilla Provider and Requester stations
+- Added vanilla train Depots
+- Added 3 more splits to 4:2:1 books
+- (fix) Added green wire connecting vanilla requester stations' buffers
+- All Station Buffers now have listed their storage capacity for different stack sizes
+- Reworked color-coding/symbolism in Stations book to make it more consistent
+ - LTN Depots now use Roboport Icon instead of the Depot Signal and are color-coded gray 
+ - Stackers book now uses purple, and books/blueprints inside it are plain white as blue was reserved for requesters
+
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
 
-If You have any suggestions, ideas, questions or encounter problems, I'm always hanging out on Factorio Discord, so ping me there (@Bocian). Comment on Factorio Prints will work too, but it may take a long time for me to see it and respond as I don't get any notifications about them
+If You have any suggestions, ideas, questions, requests or encounter problems, I'm always hanging out on Factorio Discord, so ping me there (@Bocian). Comment on Factorio Prints will work too, but it may take a long time for me to see it and respond as I don't get any notifications about them
 
 ---
 
