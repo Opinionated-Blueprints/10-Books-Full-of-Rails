@@ -242,7 +242,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 21:30 UTC 30.01.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 12:30 UTC 31.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -449,7 +449,7 @@ There are also in-game tutorials (button under the minimap)
 - Slightly modified the "L" shaped wall so that it doesn't overlap with diagonal U-turns
 
 21:30 UTC 30.01.2021
-{Train stop names in LTN depots have been changed - simple copy paste will do) 
+(Train stop names in LTN depots have been changed - simple copy paste will do) 
 - Added Train Limit Control blueprints for vanilla Provider and Requester stations
 - Added vanilla train Depots
 - Added 3 more splits to 4:2:1 books
@@ -458,6 +458,12 @@ There are also in-game tutorials (button under the minimap)
 - Reworked color-coding/symbolism in Stations book to make it more consistent
  - LTN Depots now use Roboport Icon instead of the Depot Signal and are color-coded gray 
  - Stackers book now uses purple, and books/blueprints inside it are plain white as blue was reserved for requesters
+
+12:30 UTC 31.02.2021
+(Compatible with older versions)
+- Slight improvements to signalling in 4:2:1 blueprints
+- (fix) 2 Lane Safe Rail Crossing is no longer misaligned
+- (fix) Solar Safe Lane Crossing blueprints now are truly solar 
 
 </details>
 
