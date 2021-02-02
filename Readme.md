@@ -242,7 +242,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 12:30 UTC 31.02.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:30 UTC 02.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -459,11 +459,16 @@ There are also in-game tutorials (button under the minimap)
  - LTN Depots now use Roboport Icon instead of the Depot Signal and are color-coded gray 
  - Stackers book now uses purple, and books/blueprints inside it are plain white as blue was reserved for requesters
 
-12:30 UTC 31.02.2021
+12:30 UTC 31.01.2021
 (Compatible with older versions)
 - Slight improvements to signalling in 4:2:1 blueprints
 - (fix) 2 Lane Safe Rail Crossing is no longer misaligned
 - (fix) Solar Safe Lane Crossing blueprints now are truly solar 
+
+20:30 UTC 02.02.2021
+(Compatible with older versions)
+- Blueprint description changes/updates, more fancy rich text shenanigans
+- Added 7, 9 and 11 car stations and stackers coz why not just have everything from 2 to 12 at this point. And let's not forget about the option of deleting blueprints you're never going to use
 
 </details>
 
