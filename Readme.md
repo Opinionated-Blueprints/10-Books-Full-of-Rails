@@ -45,7 +45,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src = "https://user-images.githubusercontent.com/70019596/106368455-d0b1ae80-6349-11eb-985e-8df2fed273b0.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/107150227-21826200-695d-11eb-9a53-1a696de82a54.png" width = 100%>
 
 <font size = 1><div align="center">
 Vanilla stations and Buffers <br>
@@ -242,7 +242,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:30 UTC 02.02.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 07.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -470,6 +470,11 @@ There are also in-game tutorials (button under the minimap)
 - Blueprint description changes/updates, more fancy rich text shenanigans
 - Added 7, 9 and 11 car stations and stackers coz why not just have everything from 2 to 12 at this point. And let's not forget about the option of deleting blueprints you're never going to use
 
+15:00 UTC 07.02.2021
+(Compatible with older versions)
+- Added 1, 2 an 3 car balance fluid buffers and modified 4 car ones slightly so that it is possible to transfer information about stored fluid through green wire. All are based on Nilaus's design.
+- (fix) 7 car stacker book now has the right blueprints
+
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
@@ -484,6 +489,6 @@ If You have any suggestions, ideas, questions, requests or encounter problems, I
 
 ### Thank You
 - An Entire Sleeve for helping out with testing, many reports and suggestions
-- [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his tutorials on trains stations
+- [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his fluid buffer designs
 - MadZuri for his balanced train loading/unloading designs (used in previous versions)
 - Hactar for his [rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
