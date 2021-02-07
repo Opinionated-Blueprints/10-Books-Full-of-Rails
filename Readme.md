@@ -242,7 +242,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 07.02.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 07.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -474,6 +474,10 @@ There are also in-game tutorials (button under the minimap)
 (Compatible with older versions)
 - Added 1, 2 an 3 car balance fluid buffers and modified 4 car ones slightly so that it is possible to transfer information about stored fluid through green wire. All are based on Nilaus's design.
 - (fix) 7 car stacker book now has the right blueprints
+
+18:00 UTC 07.02.2021
+(Compatible with older versions)
+- (fix) Corrected that some blueprints had the wrong blueprint snapping mode or had it at all when they shouldn't
 
 </details>
 
