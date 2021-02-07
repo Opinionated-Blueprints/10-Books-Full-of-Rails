@@ -143,13 +143,13 @@ right click & open image in new tab for better resolution
 
 <img src = "https://user-images.githubusercontent.com/70019596/106368274-bc20e680-6348-11eb-882a-9b716e6efef5.png" width = 100%>
 <font size = 1><div align="center">
-4:2:1 Lane Diagonal   |   No Particular Order
+4:2:1 Lane Diagonal   |   No Particular Order <br>
 right click & open image in new tab for better resolution
 </font></div>
 
 
 - ##### Category C - Split Junctions
-(not all ends are connected to each other)
+(not all turns are possible)
 
  - <span style="color:orange">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split</span> (23bp)
  - <span style="color:cyan">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (23bp)
