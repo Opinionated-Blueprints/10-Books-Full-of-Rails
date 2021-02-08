@@ -28,7 +28,7 @@ right click & open image in new tab for better resolution
  - standard (no ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png))
  - ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png) included because why would you want to waste so much space (aesthetics first though)
    - there are some paths left between solar panels so you can get run over by a train again
-   - not a perfect ratio, I'm not a masochist and it probably would be impossible anyway
+   - not a perfect ratio, I'm not a masochist and it "probably" would be impossible anyway
 - Rail Spacing: ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)
 - Optimized for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) long trains, but works well with it's multiples and divisors. Any length will work, those are just suggestions  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) (to avoid deadlocks there should be space equivalent or larger to the length of your longest train between intersections.)
 - ![green wire](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) & ![red wire](https://wiki.factorio.com/images/thumb/Red_wire.png/32px-Red_wire.png) + ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
@@ -56,15 +56,15 @@ right click & open image in new tab for better resolution
 - Every station comes in 2 variants:
    - Vanilla
    - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible
-- Some basic train stackers - nothing special, but still nice to have (currently available lengths: 12, 10, 8, 6, 5, 4, 3, 2)
+- Some basic train stackers of lengths 2-12 - nothing special, but still nice to have
 - Includes a book with some smaller parts for creating custom stations
 - Mechanically balanced loading and unloading
-- Depots included
+- Depots for both vanilla and LTN
 - Train Limit Control blueprints included
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
 - ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable)
-- LTN Depots included
 - Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
+- Naming/symbolism/color-coding tries to resemble that of logistic system's components
 
 </details>
 
@@ -242,7 +242,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 07.02.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 08.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -478,6 +478,10 @@ There are also in-game tutorials (button under the minimap)
 18:00 UTC 07.02.2021
 (Compatible with older versions)
 - (fix) Corrected that some blueprints had the wrong blueprint snapping mode or had it at all when they shouldn't
+
+15:00 UTC 08.02.2021
+(Compatible with older versions)
+- (fix) Added ONE missing belt to vanilla 1 car requester buffer ;)
 
 </details>
 
