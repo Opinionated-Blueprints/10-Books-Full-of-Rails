@@ -213,7 +213,9 @@ right click & open image in new tab for better resolution
 
 <details>
   <summary><span style="color:cyan">Known Issues</summary>
-- None, but please report if you encounter something, I can't guarantee a quick response if you comment here, but I'm always hanging out on factorio discord, so you can catch me there (@Bocian)
+- Presumably one of the mods I'm using causes some entities to disappear seemingly at random from blueprints during their editing. Because of just how random it is I can't pinpoint which mod is causing that and therefore you may encounter some blueprints that just lack a single piece of rail or an inserter. Please report it if you do.
+
+If you encounter something, I can't guarantee a quick response if you comment here, but I'm always hanging out on factorio discord, so you can catch me there (@Bocian)
 </details>
 
 
@@ -242,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 08.02.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 09.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -482,6 +484,13 @@ There are also in-game tutorials (button under the minimap)
 15:00 UTC 08.02.2021
 (Compatible with older versions)
 - (fix) Added ONE missing belt to vanilla 1 car requester buffer ;)
+
+15:00 UTC 09.02.2021
+(Compatible with older versions)
+- Y junctions and splits are now more compact
+- Added a cursed diagonal rail signal based power display
+- Added a circular rail based power display (large and mini)
+- Added ONION
 
 </details>
 
