@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 12:30 UTC 10.02.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 13:00 UTC 10.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -496,6 +496,9 @@ There are also in-game tutorials (button under the minimap)
 (Compatible with older versions)
 - (fix) some spelling in blueprint descriptions
 
+13:00 UTC 10.02.2021
+(Compatible with older versions)
+- small changes to wiring of 2 car fluid provider and requeter buffers resultng in better pump behavior
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
