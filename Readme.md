@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 09.02.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 12:30 UTC 10.02.2021</summary>
 
 18:00 UTC 22.08.2020
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -491,6 +491,10 @@ There are also in-game tutorials (button under the minimap)
 - Added a cursed diagonal rail signal based power display
 - Added a circular rail based power display (large and mini)
 - Added ONION
+
+12:30 UTC 10.02.2021
+(Compatible with older versions)
+- (fix) some spelling in blueprint descriptions
 
 </details>
 
