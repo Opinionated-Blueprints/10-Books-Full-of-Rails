@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 17:00 UTC 08.03.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 17:30 UTC 09.03.2021</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -506,6 +506,10 @@ There are also in-game tutorials (button under the minimap)
 - Improvements to grid snapping settings on station buffers
 - (fix) Added missing wires on 'Provider -> 4 car fluid buffer'  connecting storage tanks to the power poles
 - Some additions/changes to the "Tiles" book, I'm working on something more flexible too
+
+######  <span style="color:white">17:30 UTC 09.03.2021</color>
+(Compatible with older versions)
+- In "Tiles" book you can now find 4 new books (2 vanilla/2 modded) containing parts that let you construct new tile patterns like the premade ones but with custom size and rail spacing
 
 </details>
 
