@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 23.04.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 09.06.2021</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -519,6 +519,16 @@ There are also in-game tutorials (button under the minimap)
 (Compatible with older versions)
 - (fix) 'Non-Solar & solar -> Entry/Exit -> 4 Lane Exit (R)': a rail piece was missing
 
+######  <span style="color:white">19:30 UTC 02.06.2021</color>
+(Compatible with older versions)
+- (fix) better gate behavior in safe rail crossings, smaller probability of getting stuck inside
+
+######  <span style="color:white">18:00 UTC 09.06.2021</color>
+(Compatible with older versions)
+- (fix) blueprints of gated walls didn't have gates in the dragon's teeth
+- minor improvements to some tooltips (mostly aesthetic)
+- changed landfill layout under safe rale crossing blueprints a bit
+
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
@@ -535,4 +545,4 @@ If You have any suggestions, ideas, questions, requests or encounter problems, I
 - An Entire Sleeve for helping out with testing, many reports and suggestions
 - [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his fluid buffer designs
 - MadZuri for his balanced train loading/unloading designs (used in previous versions)
-- Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before 
+- Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
