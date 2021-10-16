@@ -530,7 +530,12 @@ There are also in-game tutorials (button under the minimap)
 - changed landfill layout under safe rail crossing blueprints a bit
 
 ######  <span style="color:white">18:00 UTC 16.10.2021</color>
-(Compatible with older versions)
+(You may need to change the naming scheme of your stations to be consistent with the new one if you're using a many-to-many train system or something similar, relying on station names. This console command should take care of renaming stations to the new format but only stations: ```/c
+local stops = game.surfaces["nauvis"].find_entities_filtered{type="train-stop"}
+for _, stop in pairs(stops) do
+stop.backer_name = string.gsub(stop.backer_name, "item=", "img=item/")
+stop.backer_name = string.gsub(stop.backer_name, "fluid=", "img=fluid/")
+end```)
 - Changed formatting for station names, so that chat messages are less cluttered and all-round more pleasant to look at
 - Updated some tooltips
 - Some more minor changes
