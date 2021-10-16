@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 18:00 UTC 09.06.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 10:30 UTC 16.10.2021</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -509,7 +509,7 @@ There are also in-game tutorials (button under the minimap)
 
 ######  <span style="color:white">17:30 UTC 09.03.2021</color>
 (Compatible with older versions)
-- In "Tiles" book you can now find 4 new books (2 vanilla/2 modded) containing parts that let you construct new tile patterns like the premade ones but with custom size and rail spacing
+- In "Tiles" book you can now find 4 new books (2 vanilla/2 modded) containing parts that let you construct new tile patterns like the pre-made ones but with custom size and rail spacing
 
 ######  <span style="color:white">12:30 UTC 13.03.2021</color>
 (Compatible with older versions)
@@ -527,7 +527,13 @@ There are also in-game tutorials (button under the minimap)
 (Compatible with older versions)
 - (fix) blueprints of gated walls didn't have gates in the dragon's teeth
 - minor improvements to some tooltips (mostly aesthetic)
-- changed landfill layout under safe rale crossing blueprints a bit
+- changed landfill layout under safe rail crossing blueprints a bit
+
+######  <span style="color:white">18:00 UTC 16.10.2021</color>
+(Compatible with older versions)
+- Changed formatting for station names, so that chat messages are less cluttered and all-round more pleasant to look at
+- Updated some tooltips
+- Some more minor changes
 
 </details>
 
