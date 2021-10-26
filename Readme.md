@@ -544,7 +544,7 @@ end```)
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
 
-If You have any suggestions, ideas, questions, requests or encounter problems, I'm always hanging out on Factorio Discord, so ping me there (@Bocian). Comment on Factorio Prints will work too, but it may take a long time for me to see it and respond as I don't get any notifications about them
+If You have any suggestions, ideas, questions, requests or encounter problems I'm Bocian#4023 on discord. Comment on Factorio Prints will work too, but it may take a long time for me to see it and respond as I don't get any notifications about them
 
 ---
 
