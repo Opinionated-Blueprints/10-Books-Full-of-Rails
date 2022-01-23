@@ -197,7 +197,7 @@ right click & open image in new tab for better resolution
 - Some chain signals may seem unnecessary. Their sole purpose is to divide larger blocks inside a junction into two smaller ones so the train leaves the first one faster thus allowing other trains that would also cross through that block to start accelerating faster
 - Category B has some split junctions. The main difference between B and C is that category C blueprints all have the same number of lanes. Blueprints from category B don't
 - Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
-- No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails so you don't accidentally recreate [Population transfers in the Soviet Union](https://en.wikipedia.org/wiki/Population_transfer_in_the_Soviet_Union), except bots. The real reason: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your robot's range, it won't reach its destination and instead, its power reserves will deplete, the bot will come back to where it started to recharge and try again thus falling into an endless loop
+- No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your bot's range, it won't reach its destination and instead, its power reserves will deplete, tan he bot will come back to where it started to recharge and try again thus falling into an endless loop
 - ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
 - I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inspiration or whatever else you'd like. They require [Dectorio](https://mods.factorio.com/mod/https://mods.factorio.com/mod/Dectorio) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
 
@@ -540,6 +540,15 @@ end```)
 - Updated some tooltips
 - Some more minor changes
 
+######  <span style="color:white">21:30 UTC 23.01.2022</color>
+(Compatible with older versions)
+- maintenance train schedules updated to latest station naming scheme
+- maintenance requesters will now request a new delivery when any item goes below 20-25% (dependent on the item) of requested amount (was 50 items below request); you can safely paste over the new blueprints over the old ones
+- maintenance requester stations had their request numbers modified to require exactly 20 stacks for full delivery so that a maintenance train can carry 2 whole requesters' worth of supply
+- filters in maintenance trains' wagons modified accordingly
+- replaced storage chests with passive provider chests in maintenance requesters, don't even ask me it wasn't that way from the outset
+- LTN providers now use filter inserters between buffer chests and trains
+- Added the Whirlpool 2.0 power indicator featuring my latest achievements in Factorio animation
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
