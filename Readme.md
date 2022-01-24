@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 10:30 UTC 16.10.2021</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 21:30 UTC 23.01.2022</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
