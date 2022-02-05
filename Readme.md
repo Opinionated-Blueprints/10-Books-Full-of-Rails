@@ -45,7 +45,7 @@ right click & open image in new tab for better resolution
 <details>
   <summary><span style="color:yellow">Stations</summary>
 
-<img src = "https://user-images.githubusercontent.com/70019596/107150227-21826200-695d-11eb-9a53-1a696de82a54.png" width = 100%>
+<img src = "https://user-images.githubusercontent.com/70019596/152643032-4d3e9b68-ad39-4577-a181-9536622db968.png" width = 100%>
 
 <font size = 1><div align="center">
 Vanilla stations and Buffers <br>
@@ -53,16 +53,15 @@ LTN Stations and depots are not visible here <br>
 right click & open image in new tab for better resolution
 </font></div>
 
-- Every station comes in 2 variants:
+- Modular design to fit all your needs
+- Every station module comes in 2 variants:
    - Vanilla
    - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible
 - Some basic train stackers of lengths 2-12 - nothing special, but still nice to have
-- Includes a book with some smaller parts for creating custom stations
-- Mechanically balanced loading and unloading
+- Multiple buffer choices
 - Depots for both vanilla and LTN
-- Train Limit Control blueprints included
+- Train Limit Control Addon blueprints included
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
-- ![red belt](https://wiki.factorio.com/images/thumb/Fast_transport_belt.png/32px-Fast_transport_belt.png) and ![blue belt](https://wiki.factorio.com/images/thumb/Express_transport_belt.png/32px-Express_transport_belt.png) versions (upgradable)
 - Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
 - Naming/symbolism/color-coding tries to resemble that of logistic system's components
 
@@ -244,7 +243,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 21:30 UTC 23.01.2022</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 13:00 UTC 05.02.2022</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -550,6 +549,13 @@ end```)
 - LTN providers now use filter inserters between buffer chests and trains
 - Added the Whirlpool 2.0 power indicator featuring my latest achievements in Factorio animation
 </details>
+
+######  <span style="color:white">13:00 UTC 05.02.2022</color>
+(Compatible with older versions)
+- Added 2 new lategame unloading buffers, efficient, small and cheap
+- General improvements to station buffer naming/descriptions
+- Removed Station Construction Books - I'm constantly forgetting to bring them up to date with the main station books, and those main books became so customizable by now, that I don't feel like they're needed for anything anymore
+- Book names now use bold font for better aesthetics
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
 
