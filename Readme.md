@@ -548,7 +548,6 @@ end```)
 - replaced storage chests with passive provider chests in maintenance requesters, don't even ask me it wasn't that way from the outset
 - LTN providers now use filter inserters between buffer chests and trains
 - Added the Whirlpool 2.0 power indicator featuring my latest achievements in Factorio animation
-</details>
 
 ######  <span style="color:white">13:00 UTC 05.02.2022</color>
 (Compatible with older versions)
@@ -556,6 +555,8 @@ end```)
 - General improvements to station buffer naming/descriptions
 - Removed Station Construction Books - I'm constantly forgetting to bring them up to date with the main station books, and those main books became so customizable by now, that I don't feel like they're needed for anything anymore
 - Book names now use bold font for better aesthetics
+    
+</details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
 
