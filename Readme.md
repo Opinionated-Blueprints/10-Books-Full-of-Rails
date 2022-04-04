@@ -214,13 +214,14 @@ right click & open image in new tab for better resolution
   <summary><span style="color:cyan">Known Issues</summary>
 - Presumably one of the mods I'm using causes some entities to disappear seemingly at random from blueprints during their editing. Because of just how random it is I can't pinpoint which mod is causing that and therefore you may encounter some blueprints that just lack a single piece of rail or an inserter. Please report it if you do.
 
-If you encounter something, I can't guarantee a quick response if you comment here, but I'm always hanging out on factorio discord, so you can catch me there (@Bocian)
+If you encounter something, I can't guarantee a quick response if you comment here, but I'm always hanging out on factorio discord, so you can catch me there (@Bocian#4023)
 </details>
 
 
 
 <details>
  <summary><span style="color:cyan">Tutorials/Guides</summary>
+Not for this book specifically, just some general stuff explaining how things work; all you should need to know to use this book is included in blueprint tooltips. If you're still having trouble, you can contact me on discord; Bocian#4023
 
 ### Rail Network/Signalling
 - [Train Signals | Factorio](https://www.youtube.com/watch?v=N6a8k5x_oV8)
@@ -243,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 13:00 UTC 05.02.2022</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:00 UTC 04.04.2022</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
@@ -553,9 +554,13 @@ end```)
 (Compatible with older versions)
 - Added 2 new lategame unloading buffers, efficient, small and cheap
 - General improvements to station buffer naming/descriptions
-- Removed Station Construction Books - I'm constantly forgetting to bring them up to date with the main station books, and those main books became so customizable by now, that I don't feel like they're needed for anything anymore
+- Removed Statiom Construction Books - I'm constantly forgetting to bring them up to date with the main station books, and those main books became so customizable by now, that I don't feel like they're needed for anything anymore
 - Book names now use bold font for better aesthetics
-    
+
+######  <span style="color:white">20:00 UTC 04.04.2022</color>
+(Compatible with older versions)
+- Fixed a deadlock case in the 'Entry/Exit' blueprints (not entire books, just the blueprints with 'Entry/Exit' in the name have been altered slightly)
+
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
