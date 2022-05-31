@@ -1,9 +1,9 @@
-At this point the original title is inaccurate. There no longer is just 10 books... but over 50. And that's only the endpoints of the book tree. Keeping for historical reasons and my satisfaction every time I see how this book grew
+At this point the original title is inaccurate. There no longer are just 10 books... but over 50. And that's only the endpoints of the book tree. Keeping for historical reasons and my satisfaction every time I see how this book grew
 
 ---
 
-# Short summary:
-Have you ever fought to yourself "Man, I really could use over a 100 different rail blueprints... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradable. There also is a set of wall blueprints to protect your rails from natives. On top of that, you can find stations for aforementioned train sizes (includes LTN variants) and a kit to make new ones, as well as some basic stackers. Everything is spiced up with rich text.
+# Summary:
+Have you ever fought to yourself "Man, I really could use over 100 different rail blueprints... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, the train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradeable. There also is a set of wall blueprints to protect your rails from natives. On top of that, you can find stations for all train sizes from 2 to 12 cars (including LTN variants), as well as some basic stackers. Everything is spiced up with rich text.
 
 ---
 
@@ -30,7 +30,7 @@ right click & open image in new tab for better resolution
    - there are some paths left between solar panels so you can get run over by a train again
    - not a perfect ratio, I'm not a masochist and it "probably" would be impossible anyway
 - Rail Spacing: ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)
-- Optimized for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) long trains, but works well with it's multiples and divisors. Any length will work, those are just suggestions  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) (to avoid deadlocks there should be space equivalent or larger to the length of your longest train between intersections.)
+- Optimized for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) long trains, but works well with its multiples and divisors. Any length will work, those are just suggestions  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) (to avoid deadlocks there should be space equivalent to, or larger to the length of your longest train between intersections.)
 - ![green wire](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) & ![red wire](https://wiki.factorio.com/images/thumb/Red_wire.png/32px-Red_wire.png) + ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
 - Modular
 - Right-Hand Drive
@@ -63,7 +63,7 @@ right click & open image in new tab for better resolution
 - Train Limit Control Addon blueprints included
 - ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
 - Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
-- Naming/symbolism/color-coding tries to resemble that of logistic system's components
+- Naming/symbolism/colour-coding tries to resemble that of the logistic system's components
 
 </details>
 
@@ -81,7 +81,7 @@ right click & open image in new tab for better resolution
 
 - Every wall blueprint has grid snapping for the same grid as rails
    - There is no overlap with rails, so you never have to manually correct anything
-   - They connect nicely to each other
+   - They connect nicely with each other
 - There are gates too, but no diagonal ones as there is no logic in the game itself that would allow for placing gates on diagonal rails
 - No ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay - who needs walls on water?
 - There is a book called "Maintenance" where you can find:
@@ -203,8 +203,8 @@ right click & open image in new tab for better resolution
 ### Other:
 
 - There is a lot of Factorio's in-game Rich Text - it's awesome, believe me
-- If you don't have aforementioned mods (LTN, Dectorio) You'll get some error messages in the chat when importing this book. It only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
-- I'm no master of LTN nor I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
+- If you don't have the aforementioned mods (LTN, Dectorio) You'll get some error messages in the chat when importing this book. It only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
+- I'm no master of LTN nor do I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
 
 </details>
 
@@ -231,7 +231,7 @@ Not for this book specifically, just some general stuff explaining how things wo
 - [Stations, Junctions, and all things deadlock - IMAGE HEAVY](https://forums.factorio.com/viewtopic.php?f=18&t=18621)
 - [Factorio Train Automation](https://drive.google.com/drive/folders/0B22HAM7WzR-RdjFYZHZlX29pSVE)
 - [Train Limits in 1.1 and how to Upgrade Many-to-Many Train Networks | Factorio Tutorial/Guide/How-to](https://www.youtube.com/watch?v=x2CfoEXa77M)
-- And the famous 1.5 hour long video on absolute basics: [Factorio Train Tutorial - Absolute Basics](https://www.youtube.com/watch?v=Co136r7pkTk)
+- And the famous 1.5-hour-long video on absolute basics: [Factorio Train Tutorial - Absolute Basics](https://www.youtube.com/watch?v=Co136r7pkTk)
 There are also in-game tutorials (button under the minimap)
 
 ### Logistic Train Network
@@ -244,10 +244,10 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 20:00 UTC 04.04.2022</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 10:30 UTC 31.05.2022</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
-- Added the missing accumulator to "Diagonal 4-way" from "4 Lane Solar" book
+- Added the missing accumulator to "Diagonal 4-way" from the "4 Lane Solar" book
 - All non-diagonal blueprints now have grid settings to enable placing by dragging. They're placed next to the previous one but only on the horizontal or vertical axis, not on diagonals. If support for that releases I'll update them too.
 - New title
 
@@ -308,7 +308,7 @@ There are also in-game tutorials (button under the minimap)
 - Improved some signalling/removed misplaced "yellow state" signals
 
 ###### <span style="color:white">21:30 UTC 29.08.2020</color>
-- Provider stations finally work as they should be I swear (all it took was changing "Anything" to "Everything" in inserter settings so you can just put new station over the old one and settings ill be updated)
+- Provider stations finally work as they should be I swear (all it took was changing "Anything" to "Everything" in inserter settings so you can just put a new station over the old one and settings will be updated)
 
 ###### <span style="color:white">12:30 UTC 31.08.2020</color>
 - Fixed snapping on "2:1 Exit U-turned"
@@ -320,7 +320,7 @@ There are also in-game tutorials (button under the minimap)
 - Forgot to use an upgrade planner on red belt station books, fixed
 
 ###### <span style="color:white">18:00 UTC 05.12.2020</color>
-- Moved signals from exits of rail blueprints to their entrances as suggested by Josch. Helps blueprints connect better by mitigating some conflicts (if you're planning to use this update on a save where you already have used older versions, you should place a signal in the middle of a big rail block that forms where old rails connect with new. That's not a perfect solution, but anything better would require to replace signalling on all old rails)
+- Moved signals from exits of rail blueprints to their entrances as suggested by Josch. Helps blueprints connect better by mitigating some conflicts (if you're planning to use this update on a save where you already have used older versions, you should place a signal in the middle of a big rail block that forms where old rails connect with new. That's not a perfect solution, but anything better would require replacing signalling on all old rails)
 - Improved signalling on all "u-turned" blueprints from 4:2:1 books
 - Changed "Diagonal U-turn" from 4 Lane books so it is upgradable to "Diagonal Lane Switch U-turn" as originally intended
 - If you're playing on 1.1, Factorio saves cable connections in blueprints now, you know what that means
@@ -337,9 +337,9 @@ There are also in-game tutorials (button under the minimap)
 
 ###### <span style="color:white">19:30 UTC 18.12.2020</color>
 (Compatible with older versions)
-- All blueprints containing a 90° turn including the various 90° Turns have been redesigned to actually do so. Exceptions are: 1) the entirety of Category B, since it was impossible to do, 2)curved/diagonal blueprints from Category C - impossible or already compatible
+- All blueprints containing a 90° turn including the various 90° Turns have been redesigned to actually do so. Exceptions are 1) the entirety of Category B, since it was impossible to do, 2)curved/diagonal blueprints from Category C - impossible or already compatible
 - Solar blueprints have been redesigned accordingly
-- Overall this update increases number of blueprints that both 2 Lane and 4 Lane 90° Turns can be upgraded into
+- Overall this update increases the number of blueprints that both 2 Lane and 4 Lane 90° Turns can be upgraded into
 - Great thanks to An Entire Sleeve for helping out
 
 ###### <span style="color:white">21:00 UTC 18.12.2020</color>
@@ -356,18 +356,18 @@ There are also in-game tutorials (button under the minimap)
 ###### <span style="color:white">1:00 UTC 28.12.2020</color>
 (Compatible with older versions)
 - Fixed signalling in category D (some blueprints had signals on the wrong side of the rail)
-- deleted blueprints from category D in solar book that had the singular lane connected to only one side of the main track
+- deleted blueprints from category D in the 'Solar' book that had the singular lane connected to only one side of the main track
 
 ###### <span style="color:white">15:00 UTC 28.12.2020</color>
 (Compatible with older versions)
-- Added grid snapping to non-diagonal blueprints from category D. It actually works and its amazing. Unfortunately it's not possible to do this to diagonal blueprints right now
+- Added grid snapping to non-diagonal blueprints from category D. It actually works and it's amazing. Unfortunately, it's not possible to do this to diagonal blueprints right now
 
 ###### <span style="color:white">19:00 UTC 29.12.2020</color>
 (Stations were completely reworked, but there shouldn't be any compatibility issues as long as you don't fiddle with the ones you already placed)
-- Complete rework of the stations, more freedom with their setup, better belt layouts, switched from circuit-based balancing to mechanical on provider stations - thanks to this there is also less fiddling with LTN stations, no need to worry about where each wire is connected and so on. There is less blueprints overall and instead of having 2 separate books for red and blue belts, now there is only one with red ones, upgradable with a provided upgrade planners. Largely influenced by Nilaus's tutorials
+- Complete rework of the stations, more freedom with their setup, better belt layouts, switched from circuit-based balancing to mechanical on provider stations - thanks to this there is also less fiddling with LTN stations, no need to worry about where each wire is connected and so on. There are fewer blueprints overall and instead of having 2 separate books for red and blue belts, now there is only one with red ones, upgradable with a provided upgrade planners. Largely influenced by Nilaus's tutorials
 - Added 4:2 4-way with three ends with 4 lanes and one end with 2 lanes
 - Added 10 car and 5 car stackers
-- It's a big update so there is more potential for bug than normally, I'll fix them as I get reports or notice the m myself
+- It's a big update so there is more potential for bugs than normal, I'll fix them as I get reports or notice them myself
 
 ###### <span style="color:white">14:00 UTC 30.12.2020</color>
 (Compatible with older versions)
@@ -375,7 +375,7 @@ There are also in-game tutorials (button under the minimap)
 
 ###### <span style="color:white">16:30 UTC 30.12.2020</color>
 (Compatible with older versions)
-- Lane split isn't fixed to a specific position on straight lane like it was before giving more freedom with it's positioning
+- Lane split isn't fixed to a specific position on a straight line like it was before giving more freedom with its positioning
 - 4:1 4-ways were replaced with a 4:1 4-way that actually is 4-way. 
 
 ###### <span style="color:white">22:30 UTC 30.12.2020</color>
@@ -385,7 +385,7 @@ There are also in-game tutorials (button under the minimap)
 
 ###### <span style="color:white">20:00 UTC 31.12.2020</color>
 (Compatible with older versions)
-- Added an outline of a  42x42 square of stone bricks to the Tiles book, it's the same size as the grid on which all rail blueprints a re based on, so it can be used as a placeholder for future rails
+- Added an outline of a  42x42 square of stone bricks to the Tiles book, it's the same size as the grid that all rail blueprints are based on, so it can be used as a placeholder for future rails
 - some minor fixes like correcting spelling mistakes, changing blueprint tooltips a bit and so on
 
 ###### <span style="color:white">18:00 UTC 01.01.2021</color>
@@ -431,7 +431,7 @@ There are also in-game tutorials (button under the minimap)
 - Blueprints from Entry/Exit books now have normal signals instead of chain signals at their ends, increased throughput
 
 ###### <span style="color:white">16:30 UTC 20.01.2021</color>
-(Technically compatible but station names changed so you'll have to change the names of your existing stations accordingly or suffer OCD damage for the rest of the run. Alternatively you can copy your stations book, and replace the one from this update with it to get the rest)
+(Technically compatible but station names changed so you'll have to change the names of your existing stations accordingly or suffer OCD damage for the rest of the run. Alternatively, you can copy your 'Stations' book, and replace the one from this update with it to get the rest)
 - Station names changed from coloured text to icons of respective logistic chests resulting in drastically reduced length
 - Added 8 car stations
 - Added 2 lane buffered 4-way intersections based on "Whirlpool" by Tallinu
@@ -447,19 +447,19 @@ There are also in-game tutorials (button under the minimap)
 - Added another 4:2 4-way. This one has two 4L ends opposite of two 2L ends. Both straight and diagonal versions
 - Added Power Indicators book. Who knows what's inside?
 - Added Safe Rail Crossing blueprints
-- With 1.1 release it is now possible to flip blueprints using F and G. Because of this there is no reason to maintain both Left and Right versions of station buffers and as such they were removed
+- With the 1.1 release it is now possible to flip blueprints using F and G. Because of this there is no reason to maintain both Left and Right versions of station buffers and as such, they were removed
 - Slightly modified the "L" shaped wall so that it doesn't overlap with diagonal U-turns
 
 ###### <span style="color:white">21:30 UTC 30.01.2021</color>
-(Train stop names in LTN depots have been changed - simple copy paste will do) 
+(Train stop names in LTN depots have been changed - simple copy-paste will do) 
 - Added Train Limit Control blueprints for vanilla Provider and Requester stations
 - Added vanilla train Depots
 - Added 3 more splits to 4:2:1 books
 - (fix) Added green wire connecting vanilla requester stations' buffers
 - All Station Buffers now have listed their storage capacity for different stack sizes
-- Reworked color-coding/symbolism in Stations book to make it more consistent
- - LTN Depots now use Roboport Icon instead of the Depot Signal and are color-coded gray 
- - Stackers book now uses purple, and books/blueprints inside it are plain white as blue was reserved for requesters
+- Reworked colour-coding/symbolism in Stations book to make it more consistent
+ - LTN Depots now use Roboport Icon instead of the Depot Signal and are colour-coded grey 
+ - 'Stackers' book now uses purple, and books/blueprints inside it are plain white as blue was reserved for requesters
 
 ###### <span style="color:white">12:30 UTC 31.01.2021</color>
 (Compatible with older versions)
@@ -474,7 +474,7 @@ There are also in-game tutorials (button under the minimap)
 
 ###### <span style="color:white">15:00 UTC 07.02.2021</color>
 (Compatible with older versions)
-- Added 1, 2 an 3 car balance fluid buffers and modified 4 car ones slightly so that it is possible to transfer information about stored fluid through green wire. All are based on Nilaus's design.
+- Added 1, 2 and 3 car balance fluid buffers and modified 4 car ones slightly so that it is possible to transfer information about stored fluid through a green wire. All are based on Nilaus's design.
 - (fix) 7 car stacker book now has the right blueprints
 
 ###### <span style="color:white">18:00 UTC 07.02.2021</color>
@@ -509,7 +509,7 @@ There are also in-game tutorials (button under the minimap)
 
 ######  <span style="color:white">17:30 UTC 09.03.2021</color>
 (Compatible with older versions)
-- In "Tiles" book you can now find 4 new books (2 vanilla/2 modded) containing parts that let you construct new tile patterns like the pre-made ones but with custom size and rail spacing
+- In the "Tiles" book you can now find 4 new books (2 vanilla/2 modded) containing parts that let you construct new tile patterns like the pre-made ones but with custom size and rail spacing
 
 ######  <span style="color:white">12:30 UTC 13.03.2021</color>
 (Compatible with older versions)
@@ -521,7 +521,7 @@ There are also in-game tutorials (button under the minimap)
 
 ######  <span style="color:white">19:30 UTC 02.06.2021</color>
 (Compatible with older versions)
-- (fix) better gate behavior in safe rail crossings, smaller probability of getting stuck inside
+- (fix) better gate behaviour in safe rail crossings, smaller probability of getting stuck inside
 
 ######  <span style="color:white">18:00 UTC 09.06.2021</color>
 (Compatible with older versions)
@@ -542,8 +542,8 @@ end```)
 
 ######  <span style="color:white">21:30 UTC 23.01.2022</color>
 (Compatible with older versions)
-- maintenance train schedules updated to latest station naming scheme
-- maintenance requesters will now request a new delivery when any item goes below 20-25% (dependent on the item) of requested amount (was 50 items below request); you can safely paste over the new blueprints over the old ones
+- maintenance train schedules updated to the latest station naming scheme
+- maintenance requesters will now request a new delivery when any item goes below 20-25% (dependent on the item) of the requested amount (was 50 items below request); you can safely paste over the new blueprints over the old ones
 - maintenance requester stations had their request numbers modified to require exactly 20 stacks for full delivery so that a maintenance train can carry 2 whole requesters' worth of supply
 - filters in maintenance trains' wagons modified accordingly
 - replaced storage chests with passive provider chests in maintenance requesters, don't even ask me it wasn't that way from the outset
@@ -552,14 +552,19 @@ end```)
 
 ######  <span style="color:white">13:00 UTC 05.02.2022</color>
 (Compatible with older versions)
-- Added 2 new lategame unloading buffers, efficient, small and cheap
+- Added 2 new late-game unloading buffers, efficient, small and cheap
 - General improvements to station buffer naming/descriptions
-- Removed Statiom Construction Books - I'm constantly forgetting to bring them up to date with the main station books, and those main books became so customizable by now, that I don't feel like they're needed for anything anymore
+- Removed Station Construction Books - I'm constantly forgetting to bring them up to date with the main station books, and those main books became so customizable by now, that I don't feel like they're needed for anything anymore
 - Book names now use bold font for better aesthetics
 
 ######  <span style="color:white">20:00 UTC 04.04.2022</color>
 (Compatible with older versions)
 - Fixed a deadlock case in the 'Entry/Exit' blueprints (not entire books, just the blueprints with 'Entry/Exit' in the name have been altered slightly)
+
+######  <span style="color:white">10:30 UTC 31.05.2022</color>
+(Compatible with older versions)
+- Fixed that one of the cornerpieces in 'Gates' book was a duplicate of another one
+- Changed some symbols in the 'Wall' book to more accurately represent the shape of the pieces with some more fancy symbols
 
 </details>
 
@@ -577,4 +582,4 @@ If You have any suggestions, ideas, questions, requests or encounter problems I'
 - An Entire Sleeve for helping out with testing, many reports and suggestions
 - [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his fluid buffer designs
 - MadZuri for his balanced train loading/unloading designs (used in previous versions)
-- Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
+- Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book 
