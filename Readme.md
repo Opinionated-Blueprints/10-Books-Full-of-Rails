@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 10:30 UTC 31.05.2022</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 11.06.2022</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from the "4 Lane Solar" book
@@ -566,6 +566,12 @@ end```)
 - Fixed that one of the cornerpieces in 'Gates' book was a duplicate of another one
 - Changed some symbols in the 'Wall' book to more accurately represent the shape of the pieces with some more fancy symbols
 
+######  <span style="color:white">15:00 UTC 11.06.2022</color>
+(Compatible with older versions)
+- Added Solar Array book. For now contains 3 designs, in variants with and without radars. Thanks to Omega for the idea and 2 of the designs.
+- Fixed instructions for setting up the Train Limit Control for Vanilla Requesters (instructions for arithmetic combinators were switched)
+
+
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
@@ -578,8 +584,8 @@ If You have any suggestions, ideas, questions, requests or encounter problems I'
 
 ---
 
-### Thank You
+### Special Thank You
 - An Entire Sleeve for helping out with testing, many reports and suggestions
 - [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his fluid buffer designs
 - MadZuri for his balanced train loading/unloading designs (used in previous versions)
-- Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book 
+- Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
