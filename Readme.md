@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:00 UTC 11.06.2022</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 13:30 UTC 22.06.2022</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from the "4 Lane Solar" book
@@ -571,6 +571,9 @@ end```)
 - Added Solar Array book. For now contains 3 designs, in variants with and without radars. Thanks to Omega for the idea and 2 of the designs.
 - Fixed instructions for setting up the Train Limit Control for Vanilla Requesters (instructions for arithmetic combinators were switched)
 
+######  <span style="color:white">13:30 UTC 22.06.2022</color>
+(Compatible with older versions)
+- missing rail piece in '4:2 T Junction (Left)' in '4:2:1 rail' (non soal) book fixed
 
 </details>
 
