@@ -244,7 +244,7 @@ There are also in-game tutorials (button under the minimap)
 
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 13:30 UTC 22.06.2022</summary>
+  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:50 UTC 13.07.2022</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from the "4 Lane Solar" book
@@ -574,6 +574,11 @@ end```)
 ######  <span style="color:white">13:30 UTC 22.06.2022</color>
 (Compatible with older versions)
 - missing rail piece in '4:2 T Junction (Left)' in '4:2:1 rail' (non soal) book fixed
+
+######  <span style="color:white">15:50 UTC 13.07.2022</color>
+(Compatible with older versions)
+- Fixed 1-car fluid buffer being what the 2-car one was supposed to be
+- Fixed 2-car buffer being just completely wrong
 
 </details>
 
