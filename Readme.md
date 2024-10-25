@@ -1,3 +1,8 @@
+#### Notice: 
+##### This is an initial "update" for Space Age. Update is in quotes as the changes brought with Factorio 2.0 are so extensive (even if sometimes small), that pretty much everything has to be made basically from scratch. Updates will come out gradually as I get more and more parts of this book up to date with the times. I'll redo the description at some point (for now it's inaccurate).
+
+---
+
 At this point the original title is inaccurate. There no longer are just 10 books... but over 50. And that's only the endpoints of the book tree. Keeping for historical reasons and my satisfaction every time I see how this book grew
 
 ---
@@ -242,9 +247,24 @@ There are also in-game tutorials (button under the minimap)
 
 </details>
 
+<details>
+  <summary><span style="color:cyan">2.0 Change Log. Latest = v2.0</summary>
+
+###### <span style="color:white">v2.0</color>
+Factorio 2.0 broke everything and there's a lot, so the updated book will be released across multiple updates.
+This is the first of many and includes:
+- Basic rail blueprints (pure ground level, pure elevated and level switch)
+- 7 large 4-way interchanges
+- 3 large 3-way interchanges
+- All interchanges/intersections that do not feature diagonal exits are throughput tested with scores presented in descriptions (the tester doesn't support diagonal exits yet)
+- Sane versioning
+
+
+  </summary>
+</details>
 
 <details>
-  <summary><span style="color:cyan">Change Log (Last Content Update/Fix: 15:30 UTC 13.07.2022</summary>
+  <summary><span style="color:cyan">1.0 Change Log</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from the "4 Lane Solar" book
