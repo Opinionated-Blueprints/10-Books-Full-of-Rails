@@ -247,21 +247,7 @@ There are also in-game tutorials (button under the minimap)
 
 </details>
 
-<details>
-  <summary><span style="color:cyan">2.0 Change Log. Latest = v2.0</summary>
-
-###### <span style="color:white">v2.0</color>
-Factorio 2.0 broke everything and there's a lot, so the updated book will be released across multiple updates.
-This is the first of many and includes:
-- Basic rail blueprints (pure ground level, pure elevated and level switch)
-- 7 large 4-way interchanges
-- 3 large 3-way interchanges
-- All interchanges/intersections that do not feature diagonal exits are throughput tested with scores presented in descriptions (the tester doesn't support diagonal exits yet)
-- Sane versioning
-
-
-  </summary>
-</details>
+2.0 Change Log in releases.
 
 <details>
   <summary><span style="color:cyan">1.0 Change Log</summary>
