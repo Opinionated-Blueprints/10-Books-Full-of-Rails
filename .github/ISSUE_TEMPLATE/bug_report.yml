@@ -1,0 +1,76 @@
+---
+name: "Bug report"
+description: "Report a clear bug with the Factorio blueprints only. All other issues will be closed."
+title: "Brief description of the blueprint issue"
+labels: ["triage"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **⚠️ READ THIS FIRST ⚠️**
+
+        Thank you for helping improve this Factorio blueprint book! To keep issues focused:
+
+        * This issue tracker is **only for clear 'bugs'** with the blueprints.
+        * If your issue does not relate to a specific, reproducible bug, it will be closed.
+        * _Everything_ else should go to the [Discussions Forum](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/discussions).
+
+        Before creating this issue, please confirm you have checked the following:
+
+  - type: checkboxes
+    id: prior_checklist
+    attributes:
+      label: "Have you checked the following resources?"
+      description: "Please review the resources below before submitting your bug report."
+      options:
+        - label: "[Wiki](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/wiki)"
+        - label: "[Discussions Forum](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/discussions)"
+        - label: "[Open and Closed Issues](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/issues)"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: "Version of the Book"
+      description: "Please provide the version of the blueprint book you're using."
+      placeholder: "e.g., v1.2.3"
+    validations:
+      required: true
+
+  - type: input
+    id: bug_description
+    attributes:
+      label: "Bug Description"
+      description: "A concise description of the bug with the blueprint."
+      placeholder: "Briefly bescribe the bug here."
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_repro
+    attributes:
+      label: "How to reproduce the problem"
+      description: "What can we do to reproduce the problem?"
+      placeholder: "Describe steps to reproduce the problem here."
+    validations:
+      required: true
+
+  - type: input
+    id: bug_expectation
+    attributes:
+      label: "What did you expect?"
+      description: "What did you expect or want to happen?"
+      placeholder: "Describe what you expected."
+    validations:
+      required: true
+
+  - type: input
+    id: bug_actual
+    attributes:
+      label: "What happened instead?"
+      description: "What actually happened that was contrary to your expectations?"
+      placeholder: "Describe what happened."
+    validations:
+      required: true
