@@ -1,253 +1,121 @@
-#### Notice: 
-##### This is an initial "update" for Space Age. Update is in quotes as the changes brought with Factorio 2.0 are so extensive (even if sometimes small), that pretty much everything has to be made basically from scratch. Updates will come out gradually as I get more and more parts of this book up to date with the times. I'll redo the description at some point (for now it's inaccurate).
+The biggest (and probably most bloated) rail book out there, updated for 2.0.
+For I'm focusing on updating it with the new features. I'll make a showcase later.
 
----
+##### [GitHub](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails) is the main page of the project.
 
-At this point the original title is inaccurate. There no longer are just 10 books... but over 50. And that's only the endpoints of the book tree. Keeping for historical reasons and my satisfaction every time I see how this book grew
+##### For issues with the blueprints themselves, make a [GitHub issue](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/issues)
 
----
-
-# Summary:
-Have you ever fought to yourself "Man, I really could use over 100 different rail blueprints... Oh! And make it double by putting some solar panels here and there"? If not - worry not for I did. And then I found a week to bring it to life. Basically, it's a "Modular Rail System" with "Absolute Reference Point" enabled for "Chunk Aligned Network" like benefits, several intersections that most people will probably never find a use for, but they're still here just in case. Each intersection has one duplicate with solar panels and accumulators taking up the free space between the lanes. If you wonder - no, those are not all possible intersections for their size. Speaking of size, the train length that will have the best time on those rails is 6 but nothing stops you from using other lengths. 2, 3 & 12 are just behind. Everything is kept highly upgradeable. There also is a set of wall blueprints to protect your rails from natives. On top of that, you can find stations for all train sizes from 2 to 12 cars (including LTN variants), as well as some basic stackers. Everything is spiced up with rich text.
-
----
-
-### Details:
-<sup>(click to expand)</sup>
+##### For questions, check the [wiki](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/wiki). If you can't find anything there, check if it has been asked in [discussions](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/discussions) and finally if that still doesn't help, make a new discussion thread.
+Asking for anything on factorioprints is discouraged as it's hard to search for already asked questions and I have to repeat myself a bunch. I may also just miss it easily.
 
 <details>
-  <summary><span style="color:cyan">Features</summary>
+  <summary><span style="color:cyan">2.0 Change Log. Latest = v2.7.0</summary>
 
-<details>
-  <summary><span style="color:yellow">Rails</summary>
-<img src = "https://user-images.githubusercontent.com/70019596/106368255-9e538180-6348-11eb-955d-388e757714ec.png" width = 100%>
-<font size = 1><div align="center"> All of them in non-solar variants | see Rail Book Categories for close ups<br>
-right click & open image in new tab for better resolution
-</font></div>
+###### <span style="color:white">v2.7.0</color>
+- Added underpass entry/exit blueprints
+- Added parallel input addons for bufferless providers
+- Moved bufferless provider blueprints to their own book
 
-- All blueprints are always upgradable into their equivalents from other books placed lower on the list in the "Rail Book Categories" section as long as they are in the same category
- - many blueprints are upgradable into others from the same book or even other categories
-   - some of that upgradability was sacrificed for the sake of throughput (extreme edge cases)
- - to achieve that, some blueprints don't have the best possible signal placement, but it's still perfect signalling (no 2 crosses of rail are in the same block)
-- Each book comes in 2 variants:
- - standard (no ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png))
- - ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) &![accumulator](https://wiki.factorio.com/images/thumb/Accumulator.png/32px-Accumulator.png) included because why would you want to waste so much space (aesthetics first though)
-   - there are some paths left between solar panels so you can get run over by a train again
-   - not a perfect ratio, I'm not a masochist and it "probably" would be impossible anyway
-- Rail Spacing: ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) - - ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)
-- Optimized for 6 ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) long trains, but works well with its multiples and divisors. Any length will work, those are just suggestions  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) (to avoid deadlocks there should be space equivalent to, or larger to the length of your longest train between intersections.)
-- ![green wire](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) & ![red wire](https://wiki.factorio.com/images/thumb/Red_wire.png/32px-Red_wire.png) + ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
-- Modular
-- Right-Hand Drive
-- Each section is 21x21 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) or 42x42 tiles big (books are focused on throughput for 6  ![locomotive](https://wiki.factorio.com/images/thumb/Locomotive.png/32px-Locomotive.png)/![cargo wagon](https://wiki.factorio.com/images/thumb/Cargo_wagon.png/32px-Cargo_wagon.png) trains and that is exactly the border length of the square in which all blueprints here fit, hence they are not chunk aligned)
-- Grid snapping is on, so you can use them like a "chunk aligned network" (blueprints can only be placed on an artificial grid that lets you start building from 2 completely disconnected points on the map and ensures that they can still be perfectly connected, see [FFF #357](https://factorio.com/blog/post/fff-357) under the "Snapping" section)
-- Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
-- Pretty ![copper_cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) connections
+###### <span style="color:white">v2.6.0</color>
+- Added bufferless providers (solids only)
+- Added inline bufferless providers (solids only)
 
+- Fixed inline 2-4-0 providers having wrong signals set in some combinators
+
+###### <span style="color:white">v2.5.1</color>
+- Removed check for carbon in train interrupts that prevented trains from importing when the DLC wasn't enabled
+- Removed Carbon from the `Fuel Priority` signal group in the fuel supply stations that prevented them from importing when the DLC wasn't enabled
+- Replaced the `depot` blueprint with a `platforms`-like book with whole depots premade as it was annoying to set up especially with depots not needing any power poles included in the platforms
+
+
+###### <span style="color:white">v2.5.0</color>
+- Added inline providers and requesters for 2-4-0, 1-2-0 and 1-1-0 trains
+- Added inline depots for 6, 3 and 2-car trains
+- Fixed Straight Stackers using legacy rails
+- Added a `requester is not full` condition to trains for leaving providers to prevent annoying alerts for no path.
+
+For existing saves: if you're fine with the no path alerts then you don't have to do anything. Otherwise, make your provider interrupts look like this with each occurrence of the parameter replaced by the appropriate `Train Group` icon:
+![image](https://github.com/user-attachments/assets/0331d1cf-c6d0-4b0e-954c-29508431be8a)
+
+Also add a similar condition to your refuelling train's schedule:
+
+![image](https://github.com/user-attachments/assets/a2a71b49-ceff-4c15-bb84-bae207563c5f)
+
+###### <span style="color:white">v2.4.0</color>
+- Added walls (now officially and not by accident) - no maintenance system yet
+- Removed some unneeded and non-functional signals from the windmill interchange
+- Changed the refuelling interrupt to use Fuel (Any) instead of Fuel (All) - it's just a bit better, but (Any) works too so you don't need to change anything on existing saves if you don't want to
+- Reworked the Refuelling Station (again, I know) - the old design has issues with nuclear fuel, so this one needs replacing again unfortunately
+
+###### <span style="color:white">v2.3.3</color>
+- Added Crossover Displaced Left Turn Interchange
+- Fixed trains going to depots with full cargo when no requester was open and freeing the provider for more trains to get cargo they don't have a requester to dump to.
+
+For existing saves: add an `Empty cargo inventory` condition to the Depot interrupt
+
+###### <span style="color:white">v2.3.2</color>
+- fixed depot name lacking a space between the symbols which made it not match with the interrupts
+
+###### <span style="color:white">v2.3.1</color>
+- Fixed issues with refuelling interrupts
+- Rotated a total of 3 (there!) inserters in both refuelling stations (I have no idea how this happened, I tested them and it all worked before)
+
+What to do if you have stations/trains from the v2.2.0+ versions:
+- Super Force Build the corrected fuel-related stations over old ones
+- Delete your train groups and interrupts 
+- Place new trains to create new and updated groups and interrupts
+- Re-add your trains to all the appropriate groups
+
+###### <span style="color:white">v2.3.0</color>
+- Added Solar versions for existing rail books except for the elevated ones because I don't see the point (you may try to convince me)
+
+###### <span style="color:white">v2.2.0</color>
+We're back above 10 books, yay!
+- Added station books, there are some changes from pre-2.0
+    - Platforms - simple straight rail between 2 and 12 car lengths with a station
+    - Providers - Train Limit and Priority Controllers, Buffers
+    - Depot
+    - Refuelling system - probably a bit overengineered, will add some alternatives later
+    - Stackers
+- Added some solar arrays in the same grid as rails
+- Added trains with preset interrupts for recommended sizes and a way to make custom configurations
+- Fixed U-turn (again but for a different reason) not being centred
+- Improved some signalling
+
+There is a whole system going on with the trains and all the stations now that uses the interrupts, it's explained in (some) detail in the book itself.
+
+This update is pretty big so I've been testing it "a bit" along with some other people, but I wouldn't be surprised if there are some big issues we've missed. You've been warned.
+
+Big thanks to Niventill for huge help with finding my dumb mistakes nigh-instantly and teaching me how interrupts (and some other things) work. Without him, this would be more buggy than some AAA games and would need to go through like 3 more complete revisions afterwards...
+
+
+###### <span style="color:white">v2.1.2</color>
+- fixed a bunch of redundant or missing signalling (nothing that would break something)
+
+###### <span style="color:white">v2.1.1</color>
+-fixed U-turns (for real)
+-fixed straights (I copied the diagonal bp by accident)
+
+
+###### <span style="color:white">v2.1</color>
+- Added Entry/Exit blueprints (ground and elevated, only copies from the pre-2.0 versions for now)
+- Changed Entry/Exit blueprints from pre-2.0: the naming is now network-centric instead of station-centric
+- Changed Large Power Pole positioning on both orthogonal and diagonal straight pieces so that each power pole can reach 2 others in each direction with all possible connections being used. This allows for deleting power poles when super force building Entry/Exit blueprints without severing power and circuit connections, effectively eliminating all previously existing blindspots. The same idea applies to elevated entry/exists with their supports.
+Tested all orthogonal intersections/interchanges for 1-4-1 and 1-1-1 trains
+- Fixed misaligned U-turns
+
+###### <span style="color:white">v2.0</color>
+Factorio 2.0 broke everything and there's a lot, so the updated book will be released across multiple updates.
+This is the first of many and includes:
+- Basic rail blueprints (pure ground level, pure elevated and level switch)
+- 7 large 4-way interchanges
+- 3 large 3-way interchanges
+- All interchanges/intersections that do not feature diagonal exits are throughput tested with scores presented in descriptions (the tester doesn't support diagonal exits yet)
+- Sane versioning
+
+
+  </summary>
 </details>
-
-
-<details>
-  <summary><span style="color:yellow">Stations</summary>
-
-<img src = "https://user-images.githubusercontent.com/70019596/152643032-4d3e9b68-ad39-4577-a181-9536622db968.png" width = 100%>
-
-<font size = 1><div align="center">
-Vanilla stations and Buffers <br>
-LTN Stations and depots are not visible here <br>
-right click & open image in new tab for better resolution
-</font></div>
-
-- Modular design to fit all your needs
-- Every station module comes in 2 variants:
-   - Vanilla
-   - [Logistic Train Network](https://mods.factorio.com/mods/Optera/LogisticTrainNetwork) mod compatible
-- Some basic train stackers of lengths 2-12 - nothing special, but still nice to have
-- Multiple buffer choices
-- Depots for both vanilla and LTN
-- Train Limit Control Addon blueprints included
-- ![small lamp](https://wiki.factorio.com/images/thumb/Lamp.png/32px-Lamp.png) included
-- Every blueprint has ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay to allow placing on water (Shift+LMB to place landfill, and LMB to place blueprint, you can also just double-click Shift+LMB)
-- Naming/symbolism/colour-coding tries to resemble that of the logistic system's components
-
-</details>
-
-
-<details>
-  <summary><span style="color:yellow">Wall</summary>
-
-<img src = "https://user-images.githubusercontent.com/70019596/106266452-b9c76b00-6228-11eb-9fc9-6e45222ec9b6.png" width = 100%>
-
-<font size = 1><div align="center">
-Wall Yoga <br>
-Everything on this picture was placed from blueprints <br>
-right click & open image in new tab for better resolution
-</font></div>
-
-- Every wall blueprint has grid snapping for the same grid as rails
-   - There is no overlap with rails, so you never have to manually correct anything
-   - They connect nicely with each other
-- There are gates too, but no diagonal ones as there is no logic in the game itself that would allow for placing gates on diagonal rails
-- No ![landfill](https://wiki.factorio.com/images/thumb/Landfill.png/32px-Landfill.png) underlay - who needs walls on water?
-- There is a book called "Maintenance" where you can find:
-   - Stations suited for maintaining your walls in good shape
-   - Trains with set schedules to make use of those stations
-   - A blueprint of a roboport with a buffer chest to supply your walls no matter how far from the station they span
-   - Another book, with the same blueprints except for the fact that they care about artillery. It is meant to be used before you research artillery, and stations that can service artillery wagons won't work without it.
-
-
-</details>
-</details>
-
-<details>
-  <summary><span style="color:cyan">Rail Book Categories</summary>
-
-- ##### Category A - Basic Blueprints
-(90% of every rail network ever made)
-
- - <span style="color:orange">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
- - <span style="color:cyan">2 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
-
-<img src = "https://user-images.githubusercontent.com/70019596/106368261-a6abbc80-6348-11eb-98d8-0dfe3476df0b.png" width = 100%>
-<font size = 1><div align="center">
-2 Lane Solar | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends  <br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
- - <span style="color:orange">4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (18bp)
- - <span style="color:cyan"> 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (18bp)
-
-<img src = "https://user-images.githubusercontent.com/70019596/103366614-6516c000-4ac3-11eb-85a3-4aaab788c4db.png" width = 100%>
-<font size = 1><div align="center">
-4 Lane | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends <br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
-- ##### Category B1 - Lane Mergers/Splitters
-(ends don't have equal number of lanes)
-
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png)</span> (16bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
-
-
-<img src = "https://user-images.githubusercontent.com/70019596/106368271-b1fee800-6348-11eb-9124-0a4a7b42793d.png" width = 100%>
-<font size = 1><div align="center">
-4:2:1 Lan   |   No Particular Order <br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
-- ##### Category B2 - Lane Mergers/Splitters (Diagonal)
-(ends don't have equal number of lanes)
-
- - <span style="color:orange">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal </span>(16bp)
- - <span style="color:cyan">4:2:1 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Diagonal ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (16bp)
-
-<img src = "https://user-images.githubusercontent.com/70019596/106368274-bc20e680-6348-11eb-882a-9b716e6efef5.png" width = 100%>
-<font size = 1><div align="center">
-4:2:1 Lane Diagonal   |   No Particular Order <br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
-- ##### Category C - Split Junctions
-(not all turns are possible)
-
- - <span style="color:orange">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split</span> (23bp)
- - <span style="color:cyan">2 & 4 ![rail](https://wiki.factorio.com/images/thumb/Straight_rail.png/32px-Straight_rail.png) Split ![solar panel](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png)</span> (23bp)
-
-<img src = "https://user-images.githubusercontent.com/70019596/103171368-f8de5700-484b-11eb-92ad-bc931ca16982.png" width = 100%>
-<font size = 1><div align="center">
-2 & 4 Lane Split Junctions | Row 1: Vertical/Horizontal ends | Row 2: Vertical/Horizontal/Diagonal ends | Row 3: Diagonal ends<br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
-- ##### Category D - Station Entrances/Exits
-Slap one of these anywhere on your straight piece and you're good to go, you can even have multiple of them if you want
-
- - <span style="color:orange">Entry/Exit</span> (10bp)
- - <span style="color:cyan">Entry/Exit</span> (10bp)
-
-<img src = "https://user-images.githubusercontent.com/70019596/104123891-e7b63f80-534d-11eb-8eef-d1fe9f8d1384.png" width = 100%>
-<font size = 1><div align="center">
-Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
-right click & open image in new tab for better resolution
-</font></div>
-
-
- - <span style="color:orange">Entry/Exit Diagonal</span> (10bp)
- - <span style="color:cyan">Entry/Exit Diagonal</span> (10bp)
-
-<img src = "https://user-images.githubusercontent.com/70019596/104123892-ea189980-534d-11eb-802f-53ffa8a9e12a.png" width = 100%>
-<font size = 1><div align="center">
-Station Entrance/Exit | Row 1: 2 Lanes | Row 2: 4 Lanes<br>
-right click & open image in new tab for better resolution
-</font></div>
-
-###### *Categories do not represent book nesting
-</details>
-
-
-<details>
-  <summary><span style="color:cyan">Notes</summary>
-
-### Rails:
-
-- Most of your network will consist of blueprints from Category A, Category B will find some use for sure, but these books are more specialized, and Category C will be used very rarely if at all
-- Outer lanes in 4-way Intersections from 4 Lane books (category A) do not have left turns. Use Line changers provided
-- Some chain signals may seem unnecessary. Their sole purpose is to divide larger blocks inside a junction into two smaller ones so the train leaves the first one faster thus allowing other trains that would also cross through that block to start accelerating faster
-- Category B has some split junctions. The main difference between B and C is that category C blueprints all have the same number of lanes. Blueprints from category B don't
-- Remember to leave enough space between each section with lanes crossing each other to fit the longest train that is going to use that part of your network. Otherwise, when it stops on the next signal, it WILL block trains on other lanes. That is true for any train network, not only one built with my blueprints
-- No ![roboport](https://wiki.factorio.com/images/thumb/Roboport.png/32px-Roboport.png) between rails: 1. bots have a limited supply of power. 2. When it depletes, they go to recharge at the nearest roboport. 3. They go straight to their destination without considering their power reserves. That means that if you have a "C" shaped logistic network (that often forms with rails), where the distance in a straight line between both ends of this "C" is 2x greater than your bot's range, it won't reach its destination and instead, its power reserves will deplete, tan he bot will come back to where it started to recharge and try again thus falling into an endless loop
-- ![copper cable](https://wiki.factorio.com/images/thumb/Copper_cable.png/32px-Copper_cable.png) look cool
-- I've included the floor tiles I've created to help me make these blueprints so you can use them yourself, take inspiration or whatever else you'd like. They require [Dectorio](https://mods.factorio.com/mod/https://mods.factorio.com/mod/Dectorio) mod to work, (there is a vanilla version too, but it's not as pretty). They are made for 6 car trains, so if you're going for a different size inspiration is where it ends unless you can rescale them
-
-### Other:
-
-- There is a lot of Factorio's in-game Rich Text - it's awesome, believe me
-- If you don't have the aforementioned mods (LTN, Dectorio) You'll get some error messages in the chat when importing this book. It only means that you won't be able to use blueprints that require those mods. All of them have vanilla friendly equivalents. You don't need those mods to make use of my blueprints
-- I'm no master of LTN nor do I consider myself to be any close to one, so the logic is one of the simplest you can do. If you'd like to make something more sophisticated that would be compatible with my blueprints, go ahead, but post it as your own. Let me know, and I'll link it here
-
-</details>
-
-
-
-<details>
-  <summary><span style="color:cyan">Known Issues</summary>
-- Presumably one of the mods I'm using causes some entities to disappear seemingly at random from blueprints during their editing. Because of just how random it is I can't pinpoint which mod is causing that and therefore you may encounter some blueprints that just lack a single piece of rail or an inserter. Please report it if you do.
-
-If you encounter something, I can't guarantee a quick response if you comment here, but I'm always hanging out on factorio discord, so you can catch me there (@Bocian#4023)
-</details>
-
-
-
-<details>
- <summary><span style="color:cyan">Tutorials/Guides</summary>
-Not for this book specifically, just some general stuff explaining how things work; all you should need to know to use this book is included in blueprint tooltips. If you're still having trouble, you can contact me on discord; Bocian#4023
-
-### Rail Network/Signalling
-- [Train Signals | Factorio](https://www.youtube.com/watch?v=N6a8k5x_oV8)
-- [A Guide to Signals - Factorio 0.16 train tutorial #3](https://www.youtube.com/watch?v=Q6xCGExnens)
-- [Tutorial:Train signals](https://wiki.factorio.com/Tutorial:Train_signals) on Factorio Wiki
-- [Getting Started with TRAINS & SIGNALS - Everything You Need To Know | Factorio Tutorial/Guide/How-to](https://www.youtube.com/watch?v=3TKBs6TD7WU)
-- [Stations, Junctions, and all things deadlock - IMAGE HEAVY](https://forums.factorio.com/viewtopic.php?f=18&t=18621)
-- [Factorio Train Automation](https://drive.google.com/drive/folders/0B22HAM7WzR-RdjFYZHZlX29pSVE)
-- [Train Limits in 1.1 and how to Upgrade Many-to-Many Train Networks | Factorio Tutorial/Guide/How-to](https://www.youtube.com/watch?v=x2CfoEXa77M)
-- And the famous 1.5-hour-long video on absolute basics: [Factorio Train Tutorial - Absolute Basics](https://www.youtube.com/watch?v=Co136r7pkTk)
-There are also in-game tutorials (button under the minimap)
-
-### Logistic Train Network
-- [LTN - Logistic Train Network - Manual](https://forums.factorio.com/viewtopic.php?t=51072)
-- [Guide for a Low-Effort LTN User](https://www.reddit.com/r/factorio/comments/73xyd5/guide_for_a_loweffort_ltn_user/)
-- [LTN Mod Tutorial - Logistic Train Network](https://www.youtube.com/watch?v=a3ujEdPfGHk)
-- [Factorio 0.17 Logistic Train Network Tutorial](https://www.youtube.com/watch?v=bpfVzfWeqj8)
-
-</details>
-
-2.0 Change Log in releases.
 
 <details>
   <summary><span style="color:cyan">1.0 Change Log</summary>
@@ -590,16 +458,10 @@ end```)
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
 
-If You have any suggestions, ideas, questions, requests or encounter problems I'm Bocian#4023 on discord. Comment on Factorio Prints will work too, but it may take a long time for me to see it and respond as I don't get any notifications about them
-
----
-
-<s>I think it may be the longest blueprint string on Factorio Prints.</s> Scratch that, forgot about songs<br>
-
 ---
 
 ### Special Thank You
-- An Entire Sleeve for helping out with testing, many reports and suggestions
-- [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his fluid buffer designs
-- MadZuri for his balanced train loading/unloading designs (used in previous versions)
+- An Entire Sleeve,  for helping out with testing, many reports and suggestions
+- [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his 1.0 fluid buffer designs (used in 1.0 versions)
+- MadZuri for his balanced train loading/unloading designs (used in earlier versions)
 - Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
