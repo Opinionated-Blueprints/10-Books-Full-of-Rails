@@ -1,0 +1,9 @@
+---
+body:
+  - type: textarea
+    id: discussion-field
+    attributes:
+      label: Tell us more.
+      description: Explain your idea in this field.
+    validations:
+      required: true

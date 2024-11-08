@@ -1,0 +1,22 @@
+---
+body:
+  - type: input
+    id: book-version
+    attributes:
+      label: What version of 10 Books Full of Rails are you using?
+      description: |
+        Check the [blueprint book](https://wiki.factorio.com/Blueprint_book) description.
+    validations:
+      required: true
+
+  - type: textarea
+    id: the-question
+    attributes:
+      label: Please tell us more about your question or problem.
+      description: |
+        Include plenty of detail about how you're using the blueprints, what you've already tried,
+        and what's still going wrong.
+
+        Screenshots are encouraged.
+    validations:
+      required: true

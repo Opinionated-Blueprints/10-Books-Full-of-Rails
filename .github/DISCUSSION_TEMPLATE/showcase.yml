@@ -1,0 +1,10 @@
+---
+body:
+  - type: textarea
+    id: showcase
+    attributes:
+      label: Here's where you can show off how you're using the rails.
+      description: |
+        We'd love to know what sort of uses folks are using the book for! Here's your time to shine!
+    validations:
+      required: true
