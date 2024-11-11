@@ -1,124 +1,13 @@
-The biggest (and probably most bloated) rail book out there, updated for 2.0.
-For I'm focusing on updating it with the new features. I'll make a showcase later.
+The biggest (and probably most bloated) rail book out there, updated for 2.0 and Space Age.
 
 ##### [GitHub](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails) is the main page of the project.
 
 ##### For issues with the blueprints themselves, make a [GitHub issue](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/issues)
 
 ##### For questions, check the [wiki](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/wiki). If you can't find anything there, check if it has been asked in [discussions](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/discussions) and finally if that still doesn't help, make a new discussion thread.
-Asking for anything on factorioprints is discouraged as it's hard to search for already asked questions and I have to repeat myself a bunch. I may also just miss it easily.
 
 <details>
-  <summary><span style="color:cyan">2.0 Change Log. Latest = v2.7.0</summary>
-
-###### <span style="color:white">v2.7.0</color>
-- Added underpass entry/exit blueprints
-- Added parallel input addons for bufferless providers
-- Moved bufferless provider blueprints to their own book
-
-###### <span style="color:white">v2.6.0</color>
-- Added bufferless providers (solids only)
-- Added inline bufferless providers (solids only)
-
-- Fixed inline 2-4-0 providers having wrong signals set in some combinators
-
-###### <span style="color:white">v2.5.1</color>
-- Removed check for carbon in train interrupts that prevented trains from importing when the DLC wasn't enabled
-- Removed Carbon from the `Fuel Priority` signal group in the fuel supply stations that prevented them from importing when the DLC wasn't enabled
-- Replaced the `depot` blueprint with a `platforms`-like book with whole depots premade as it was annoying to set up especially with depots not needing any power poles included in the platforms
-
-
-###### <span style="color:white">v2.5.0</color>
-- Added inline providers and requesters for 2-4-0, 1-2-0 and 1-1-0 trains
-- Added inline depots for 6, 3 and 2-car trains
-- Fixed Straight Stackers using legacy rails
-- Added a `requester is not full` condition to trains for leaving providers to prevent annoying alerts for no path.
-
-For existing saves: if you're fine with the no path alerts then you don't have to do anything. Otherwise, make your provider interrupts look like this with each occurrence of the parameter replaced by the appropriate `Train Group` icon:
-![image](https://github.com/user-attachments/assets/0331d1cf-c6d0-4b0e-954c-29508431be8a)
-
-Also add a similar condition to your refuelling train's schedule:
-
-![image](https://github.com/user-attachments/assets/a2a71b49-ceff-4c15-bb84-bae207563c5f)
-
-###### <span style="color:white">v2.4.0</color>
-- Added walls (now officially and not by accident) - no maintenance system yet
-- Removed some unneeded and non-functional signals from the windmill interchange
-- Changed the refuelling interrupt to use Fuel (Any) instead of Fuel (All) - it's just a bit better, but (Any) works too so you don't need to change anything on existing saves if you don't want to
-- Reworked the Refuelling Station (again, I know) - the old design has issues with nuclear fuel, so this one needs replacing again unfortunately
-
-###### <span style="color:white">v2.3.3</color>
-- Added Crossover Displaced Left Turn Interchange
-- Fixed trains going to depots with full cargo when no requester was open and freeing the provider for more trains to get cargo they don't have a requester to dump to.
-
-For existing saves: add an `Empty cargo inventory` condition to the Depot interrupt
-
-###### <span style="color:white">v2.3.2</color>
-- fixed depot name lacking a space between the symbols which made it not match with the interrupts
-
-###### <span style="color:white">v2.3.1</color>
-- Fixed issues with refuelling interrupts
-- Rotated a total of 3 (there!) inserters in both refuelling stations (I have no idea how this happened, I tested them and it all worked before)
-
-What to do if you have stations/trains from the v2.2.0+ versions:
-- Super Force Build the corrected fuel-related stations over old ones
-- Delete your train groups and interrupts 
-- Place new trains to create new and updated groups and interrupts
-- Re-add your trains to all the appropriate groups
-
-###### <span style="color:white">v2.3.0</color>
-- Added Solar versions for existing rail books except for the elevated ones because I don't see the point (you may try to convince me)
-
-###### <span style="color:white">v2.2.0</color>
-We're back above 10 books, yay!
-- Added station books, there are some changes from pre-2.0
-    - Platforms - simple straight rail between 2 and 12 car lengths with a station
-    - Providers - Train Limit and Priority Controllers, Buffers
-    - Depot
-    - Refuelling system - probably a bit overengineered, will add some alternatives later
-    - Stackers
-- Added some solar arrays in the same grid as rails
-- Added trains with preset interrupts for recommended sizes and a way to make custom configurations
-- Fixed U-turn (again but for a different reason) not being centred
-- Improved some signalling
-
-There is a whole system going on with the trains and all the stations now that uses the interrupts, it's explained in (some) detail in the book itself.
-
-This update is pretty big so I've been testing it "a bit" along with some other people, but I wouldn't be surprised if there are some big issues we've missed. You've been warned.
-
-Big thanks to Niventill for huge help with finding my dumb mistakes nigh-instantly and teaching me how interrupts (and some other things) work. Without him, this would be more buggy than some AAA games and would need to go through like 3 more complete revisions afterwards...
-
-
-###### <span style="color:white">v2.1.2</color>
-- fixed a bunch of redundant or missing signalling (nothing that would break something)
-
-###### <span style="color:white">v2.1.1</color>
--fixed U-turns (for real)
--fixed straights (I copied the diagonal bp by accident)
-
-
-###### <span style="color:white">v2.1</color>
-- Added Entry/Exit blueprints (ground and elevated, only copies from the pre-2.0 versions for now)
-- Changed Entry/Exit blueprints from pre-2.0: the naming is now network-centric instead of station-centric
-- Changed Large Power Pole positioning on both orthogonal and diagonal straight pieces so that each power pole can reach 2 others in each direction with all possible connections being used. This allows for deleting power poles when super force building Entry/Exit blueprints without severing power and circuit connections, effectively eliminating all previously existing blindspots. The same idea applies to elevated entry/exists with their supports.
-Tested all orthogonal intersections/interchanges for 1-4-1 and 1-1-1 trains
-- Fixed misaligned U-turns
-
-###### <span style="color:white">v2.0</color>
-Factorio 2.0 broke everything and there's a lot, so the updated book will be released across multiple updates.
-This is the first of many and includes:
-- Basic rail blueprints (pure ground level, pure elevated and level switch)
-- 7 large 4-way interchanges
-- 3 large 3-way interchanges
-- All interchanges/intersections that do not feature diagonal exits are throughput tested with scores presented in descriptions (the tester doesn't support diagonal exits yet)
-- Sane versioning
-
-
-  </summary>
-</details>
-
-<details>
-  <summary><span style="color:cyan">1.0 Change Log</summary>
+  <summary><span style="color:cyan">1.0 Change Log (pre factorio 2.0)</summary>
 
 ###### <span style="color:white">18:00 UTC 22.08.2020</color>
 - Added the missing accumulator to "Diagonal 4-way" from the "4 Lane Solar" book
@@ -457,6 +346,108 @@ end```)
 </details>
 
 ###### <span style="color:red">Before updating to a new version be sure to check logs, as there may be some compatibility issues with older ones </color>
+# General Info
+
+<details>
+ <summary>(click to expand)</summary>
+
+- Rails are based on a 42x42 tile grid, which matches 6-car trains perfectly. Supports 3-car and 2-car trains well too
+- Blueprints for up to 12 cars are available
+- Straight and Turn -> T-Junction -> 4-way in both elevations are directly upgradable
+- There are lamps (probably too many tbh)
+- ![red circuit](https://github.com/user-attachments/assets/0f4f54c1-5259-49cd-ac2c-6cb983b83d50) and ![green circuit](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) connections between large power poles
+- (very) wide selection of blueprints: ground, elevated, elevation switch, grade-separated interchanges and more
+- above but also with ![solar pannels](https://wiki.factorio.com/images/thumb/Solar_panel.png/32px-Solar_panel.png) and ![accumulator](https://github.com/user-attachments/assets/62d02975-a510-4a2d-b435-523d05f30cac)
+ crammed in. Can be placed directly over non-solar blueprints.
+- Modular stations with a selection of loading and unloading designs and dynamic train limit and priority control based on the number of items in the buffers
+- Alternative (and objectively better :p) bufferless provider stations
+- Depots
+- Refuelling system with a central supply station and dedicated logistic train that can supply all refuelling stations
+- Inline stations - optimised for the smallest possible footprint by placing in-between and very close to straight rails
+- Wide selection of stacker designs for all train lengths 2-12
+- Premade trains in some common configurations for 2-, 3- and 6-car lengths + DIY locomotives with preset interrupts for more eccentric configurations
+- Wall blueprints that follow the same grid as rails (due for an overhaul, currently can't survive 100% evolution)
+- Solar array blueprints that follow the same grid as rails (currently only Nauvis ratios)
+
+</details>
+
+# Showcase
+
+### Book Structure
+
+![image](https://github.com/user-attachments/assets/9946e36c-b1f9-4a09-ba4c-52815736ad13)
+![image](https://github.com/user-attachments/assets/ddcb859c-4ee1-4885-b36c-490fa607bea9)
+
+### Level Switch blueprints
+
+https://github.com/user-attachments/assets/61ba7c37-fec8-43a3-a11b-e9a41d5eb2fb
+
+### Wide selection of grade-separated interchanges
+All are scored for throughput, with test results in descriptions.
+
+https://github.com/user-attachments/assets/1ded018b-a13a-4c55-a9d4-131c1e841136
+
+### Entry/Exit blueprints
+High-precision conversion to single track for building stations.
+There are no blindspots as large power poles on straight rail are dense enough that removing one with super-force-building doesn't remove the power connection.
+The same is available for elevated rail with care to replace any broken supports so no additional manual work is required.
+
+https://github.com/user-attachments/assets/19a82445-3b68-4bd4-a698-3fcb3d447e33
+
+### Upgreadability of basic blueprints
+
+https://github.com/user-attachments/assets/41c7e9d6-eeb7-4a96-912f-0b67cf128878
+
+https://github.com/user-attachments/assets/a8e48359-0a12-4566-9b87-b82be69068da
+
+https://github.com/user-attachments/assets/abf0173e-35b0-45d0-a360-7204a1b194b0
+
+#### All rails upgrade into solar counterparts
+
+https://github.com/user-attachments/assets/95d37614-fc8b-41a8-832b-d50c3163e072
+
+### Stations with stackers
+
+https://github.com/user-attachments/assets/177cc15f-2282-4462-8baf-a4d2e7d894c8
+
+https://github.com/user-attachments/assets/8d082ab7-fd27-4a60-9d5a-fadc47a9d502
+
+https://github.com/user-attachments/assets/59ff87ca-f81b-4cc3-92d2-3dee4ede8158
+
+### Setting up modular stations
+
+https://github.com/user-attachments/assets/d3de5948-d00c-43b4-a419-9eb50a676f09
+
+https://github.com/user-attachments/assets/9226d311-599d-44a8-9767-101b5f8ea263
+
+https://github.com/user-attachments/assets/02ce2ab0-92f5-494b-a13f-f3ca983cf3f5
+
+### Inline stations
+
+https://github.com/user-attachments/assets/8b7e6c23-dde5-472b-acf1-a9551bafb610
+
+### Loader and Unloader designs have been tasted for each stage of the game
+The inserters required to maintain full throughput are listed in blueprint descriptions
+
+![inserter requirements](https://github.com/user-attachments/assets/e23bc27b-6862-40e9-974d-2c654f60afc7)
+
+### Trains
+
+https://github.com/user-attachments/assets/bf36e778-96be-46ba-b345-8247e207ebe5
+
+### Smart Refuelling System
+Fuel-priority based
+Priority is set in a constant combinator signal group
+Higher-priority fuel will be handled preferentially. If a higher-priority fuel shows up than is currently available, the stations/locomotives will be depleted of it in favour of the higher-priority one and it will be brought back to the Fuel Supply Provider Station.
+This behaviour can be seen in the videos below:
+
+https://github.com/user-attachments/assets/5c7e33db-d02b-414c-932a-828757ec05d4
+
+https://github.com/user-attachments/assets/89f0a33d-2e8c-4c33-938d-826a47f8b2b9
+
+https://github.com/user-attachments/assets/7e488f43-d66d-413c-961b-796f02a8961a
+
+### More to come
 
 ---
 
