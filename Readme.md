@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/e9443a2e-ca3e-4f66-885d-6c9a8bca87c3
 The biggest (and probably most bloated) rail book out there, updated for 2.0 and Space Age.
 
 ##### [GitHub](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails) is the main page of the project.
@@ -375,7 +377,7 @@ end```)
 
 ### Book Structure
 
-![image](https://github.com/user-attachments/assets/9946e36c-b1f9-4a09-ba4c-52815736ad13)
+![image](https://github.com/user-attachments/assets/f95f4051-b607-4b97-a31c-36e2ee2c51bd)
 ![image](https://github.com/user-attachments/assets/ddcb859c-4ee1-4885-b36c-490fa607bea9)
 
 ### Level Switch blueprints
@@ -389,7 +391,7 @@ https://github.com/user-attachments/assets/1ded018b-a13a-4c55-a9d4-131c1e841136
 
 ### Entry/Exit blueprints
 High-precision conversion to single track for building stations.
-There are no blindspots as large power poles on straight rail are dense enough that removing one with super-force-building doesn't remove the power connection.
+There are no blind spots as large power poles on straight rail are dense enough that removing one with super-force-building doesn't remove the power connection.
 The same is available for elevated rail with care to replace any broken supports so no additional manual work is required.
 
 https://github.com/user-attachments/assets/19a82445-3b68-4bd4-a698-3fcb3d447e33
@@ -447,12 +449,20 @@ https://github.com/user-attachments/assets/89f0a33d-2e8c-4c33-938d-826a47f8b2b9
 
 https://github.com/user-attachments/assets/7e488f43-d66d-413c-961b-796f02a8961a
 
+### Experimental Feature: Hypermodular Rail
+These blueprints have a much smaller 14x14 grid, exactly 1/3 of the regular size, allowing for unmatched flexibility and they integrate well into the regular blueprints.
+
+https://github.com/user-attachments/assets/f77fbdd6-fbfb-456a-b0c7-b97f4f9dfbf2
+
+https://github.com/user-attachments/assets/d322f5e7-90b8-4d5e-80a0-ee15ec282eb7
+
 ### More to come
 
 ---
 
 ### Special Thank You
-- An Entire Sleeve,  for helping out with testing, many reports and suggestions
+- Kelvin, who first came up with hypermodular rails
+- An Entire Sleeve, for helping out with testing, many reports and suggestions
 - [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his 1.0 fluid buffer designs (used in 1.0 versions)
 - MadZuri for his balanced train loading/unloading designs (used in earlier versions)
 - Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
