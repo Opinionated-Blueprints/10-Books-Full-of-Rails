@@ -367,7 +367,7 @@ end```)
 - Wide selection of stacker designs for all train lengths 2-12
 - Premade trains in some common configurations for 2-, 3- and 6-car lengths + DIY locomotives with preset interrupts for more eccentric configurations
 - Wall blueprints that follow the same grid as rails (due for an overhaul, currently can't survive 100% evolution)
-- Solar array blueprints that follow the same grid as rails (currently only Nauvis ratios)
+- Solar array blueprints that follow the same grid as rails for Nauvis, Vulcanus and Gleba ratios
 
 </details>
 
