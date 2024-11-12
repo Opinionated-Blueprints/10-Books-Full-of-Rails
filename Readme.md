@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/e9443a2e-ca3e-4f66-885d-6c9a8bca87c3
 The biggest (and probably most bloated) rail book out there, updated for 2.0 and Space Age.
 
 ##### [GitHub](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails) is the main page of the project.
@@ -380,6 +378,14 @@ end```)
 ![image](https://github.com/user-attachments/assets/f95f4051-b607-4b97-a31c-36e2ee2c51bd)
 ![image](https://github.com/user-attachments/assets/ddcb859c-4ee1-4885-b36c-490fa607bea9)
 
+### Hypermodular Rail
+While most blueprints in this book are designed around a 42x42 tile grid, this set of blueprints functions on a much smaller, 14x14 one, allowing for unmatched flexibility. They integrate nicely with the regular 42x42 blueprints being exactly 1/3 of their size.
+Elevated versions are also available.
+
+https://github.com/user-attachments/assets/f77fbdd6-fbfb-456a-b0c7-b97f4f9dfbf2
+
+https://github.com/user-attachments/assets/d322f5e7-90b8-4d5e-80a0-ee15ec282eb7
+
 ### Level Switch blueprints
 
 https://github.com/user-attachments/assets/61ba7c37-fec8-43a3-a11b-e9a41d5eb2fb
@@ -448,13 +454,6 @@ https://github.com/user-attachments/assets/5c7e33db-d02b-414c-932a-828757ec05d4
 https://github.com/user-attachments/assets/89f0a33d-2e8c-4c33-938d-826a47f8b2b9
 
 https://github.com/user-attachments/assets/7e488f43-d66d-413c-961b-796f02a8961a
-
-### Experimental Feature: Hypermodular Rail
-These blueprints have a much smaller 14x14 grid, exactly 1/3 of the regular size, allowing for unmatched flexibility and they integrate well into the regular blueprints.
-
-https://github.com/user-attachments/assets/f77fbdd6-fbfb-456a-b0c7-b97f4f9dfbf2
-
-https://github.com/user-attachments/assets/d322f5e7-90b8-4d5e-80a0-ee15ec282eb7
 
 ### More to come
 
