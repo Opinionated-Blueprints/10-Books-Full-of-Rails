@@ -462,6 +462,7 @@ https://github.com/user-attachments/assets/7e488f43-d66d-413c-961b-796f02a8961a
 ### Special Thank You
 - Kelvin, who first came up with hypermodular rails
 - An Entire Sleeve, for helping out with testing, many reports and suggestions
+- @Niventill for testing and teaching me about the interrupts
 - [Nilaus](https://www.youtube.com/channel/UCD80bzqJh1N7lOqn7n0vKTg) for his 1.0 fluid buffer designs (used in 1.0 versions)
 - MadZuri for his balanced train loading/unloading designs (used in earlier versions)
 - Hactar for [his rail network](https://gist.github.com/HactarCE/bc85d8c49d3e686d66d181d471cd50b1), I've been using before making this book
