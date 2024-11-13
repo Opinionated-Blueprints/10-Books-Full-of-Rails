@@ -353,6 +353,7 @@ end```)
 
 - Rails are based on a 42x42 tile grid, which matches 6-car trains perfectly. Supports 3-car and 2-car trains well too
 - Blueprints for up to 12 cars are available
+- Alternative hypermodular rail blueprints on a tiny 14x14 (2 car length) grid, exactly 1/3 of the regular grid. Both sets are compatible with each other.
 - Straight and Turn -> T-Junction -> 4-way in both elevations are directly upgradable
 - There are lamps (probably too many tbh)
 - ![red circuit](https://github.com/user-attachments/assets/0f4f54c1-5259-49cd-ac2c-6cb983b83d50) and ![green circuit](https://wiki.factorio.com/images/thumb/Green_wire.png/32px-Green_wire.png) connections between large power poles
