@@ -362,6 +362,7 @@ end```)
  crammed in. Can be placed directly over non-solar blueprints.
 - Modular stations with a selection of loading and unloading designs and dynamic train limit and priority control based on the number of items in the buffers
 - Alternative (and objectively better :p) bufferless provider stations
+- Out-of-the-box support for mixed items regardless of stack size or even if it becomes mixed on the train due to rotting. Just load mixed items at the provider and ensure requester stations exist for each item.
 - Depots
 - Refuelling system with a central supply station and dedicated logistic train that can supply all refuelling stations
 - Inline stations - optimised for the smallest possible footprint by placing in-between and very close to straight rails
@@ -455,6 +456,11 @@ https://github.com/user-attachments/assets/5c7e33db-d02b-414c-932a-828757ec05d4
 https://github.com/user-attachments/assets/89f0a33d-2e8c-4c33-938d-826a47f8b2b9
 
 https://github.com/user-attachments/assets/7e488f43-d66d-413c-961b-796f02a8961a
+
+### Mixed items
+Just load mixed items on a train and it will deliver them all to the correct stations in order
+
+https://github.com/user-attachments/assets/1d1fd71f-79bc-469c-9a81-442801c9b8a2
 
 ### More to come
 
