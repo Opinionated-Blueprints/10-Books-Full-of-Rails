@@ -22,7 +22,7 @@ body:
     id: prior_checklist
     attributes:
       label: "Have you checked the following resources?"
-      description: "Please review the resources below before submitting your bug report."
+      description: "Review the resources below before submitting your bug report."
       options:
         - label: "[Wiki](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/wiki)"
         - label: "[Discussions Forum](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/discussions)"
@@ -34,7 +34,7 @@ body:
     id: version
     attributes:
       label: "Version of the Book"
-      description: "Please provide the version of the blueprint book you're using."
+      description: "Provide the version of the blueprint book you're using."
       placeholder: "e.g., v1.2.3"
     validations:
       required: true
