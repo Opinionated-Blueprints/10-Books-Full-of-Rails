@@ -1,8 +1,16 @@
 ---
 name: "Bug report"
 description: "Report a clear bug with the Factorio blueprints only. All other issues will be closed."
-title: "Brief description of the blueprint issue"
 labels: ["triage"]
+title:
+  - type: input
+    id: issue_title
+    attributes:
+      label: "Title"
+      description: "Provide a clear and concise title for the issue."
+      placeholder: "e.g., Inserters fail to pick up items under specific conditions"
+    validations:
+      required: true
 
 body:
   - type: markdown
