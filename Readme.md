@@ -362,13 +362,13 @@ end```)
  crammed in. Can be placed directly over non-solar blueprints.
 - Modular stations with a selection of loading and unloading designs and dynamic train limit and priority control based on the number of items in the buffers
 - Alternative (and objectively better :p) bufferless provider stations
-- Out-of-the-box support for mixed items regardless of stack size or even if it becomes mixed on the train due to spoiling. Just load mixed items at the provider and ensure requester stations exist for each item.
+- Out-of-the-box support for mixed items regardless of stack size or even if they become mixed on the train due to spoiling. Just load mixed items at the provider and ensure requester stations exist for each item.
 - Depots
 - Refuelling system with a central supply station and dedicated logistic train that can supply all refuelling stations
 - Inline stations - optimised for the smallest possible footprint by placing in-between and very close to straight rails
 - Wide selection of stacker designs for all train lengths 2-12
 - Premade trains in some common configurations for 2-, 3- and 6-car lengths + DIY locomotives with preset interrupts for more eccentric configurations
-- Wall blueprints that follow the same grid as rails (due for an overhaul, currently can't survive 100% evolution)
+- Wall blueprints that follow the same grid as rails and survive 100% evolution on Nauvis. Probably not Gleba.
 - Solar array blueprints that follow the same grid as rails for Nauvis, Vulcanus and Gleba ratios
 
 </details>
