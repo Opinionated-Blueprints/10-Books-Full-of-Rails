@@ -377,8 +377,8 @@ end```)
 
 ### Book Structure
 
-![image](https://github.com/user-attachments/assets/f95f4051-b607-4b97-a31c-36e2ee2c51bd)
-![image](https://github.com/user-attachments/assets/ddcb859c-4ee1-4885-b36c-490fa607bea9)
+![image](https://github.com/user-attachments/assets/baf2bb8f-204b-41bf-8f9c-27d270a75087)
+![image](https://github.com/user-attachments/assets/2a894419-735c-4c91-8918-a3f36e2988cd)
 
 ### Hypermodular Rail
 While most blueprints in this book are designed around a 42x42 tile grid, this set of blueprints functions on a much smaller, 14x14 one, allowing for unmatched flexibility. They integrate nicely with the regular 42x42 blueprints being exactly 1/3 of their size.
