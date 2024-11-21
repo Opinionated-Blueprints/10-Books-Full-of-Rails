@@ -368,8 +368,9 @@ end```)
 - Inline stations - optimised for the smallest possible footprint by placing in-between and very close to straight rails
 - Wide selection of stacker designs for all train lengths 2-12
 - Premade trains in some common configurations for 2-, 3- and 6-car lengths + DIY locomotives with preset interrupts for more eccentric configurations
-- Wall blueprints that follow the same grid as rails and survive 100% evolution on Nauvis. Probably not Gleba.
+- Wall blueprints that follow the same grid as rails and survive 100% evolution on Nauvis. Gleba is planned at some point.
 - Solar array blueprints that follow the same grid as rails for Nauvis, Vulcanus and Gleba ratios
+- Cityblock utilising mixed elevation rails and supporting 6/3/2 car trains.
 
 </details>
 
@@ -461,6 +462,12 @@ https://github.com/user-attachments/assets/7e488f43-d66d-413c-961b-796f02a8961a
 Just load mixed items on a train and it will deliver them all to the correct stations in order
 
 https://github.com/user-attachments/assets/1d1fd71f-79bc-469c-9a81-442801c9b8a2
+
+### Mixed Elevation Cityblock
+By keeping one of the tracks elevated and the other on the ground at all times, we can cross over the ground track with an elevated stacker making for a relatively compact cityblock station setup with stackers for every station.
+
+https://github.com/user-attachments/assets/ffc737f9-a255-4d95-b9f4-e3df592796cf
+
 
 ### More to come
 
