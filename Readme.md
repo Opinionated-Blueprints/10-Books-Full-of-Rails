@@ -468,6 +468,15 @@ By keeping one of the tracks elevated and the other on the ground at all times, 
 
 https://github.com/user-attachments/assets/ffc737f9-a255-4d95-b9f4-e3df592796cf
 
+### Modular stackers for double-headed trains
+These are made up of multiple different blueprints
+
+Stacker has it's own track separate from mainline
+![image](https://github.com/user-attachments/assets/53deab9f-fba5-4f22-9eca-58de668a34ee)
+
+Mainline is weaved directly through the stacker with 0 conflict points
+![image](https://github.com/user-attachments/assets/a77038c4-5e7d-4e93-ad74-7db9d86a5333)
+
 
 ### More to come
 
