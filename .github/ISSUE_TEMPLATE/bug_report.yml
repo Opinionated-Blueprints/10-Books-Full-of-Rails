@@ -1,6 +1,7 @@
 ---
 name: "Bug report"
 description: "Report a clear bug with the Factorio blueprints only. All other issues will be closed."
+placeholder: "Brief description of the blueprint issue."
 labels: ["triage"]
 
 body:
