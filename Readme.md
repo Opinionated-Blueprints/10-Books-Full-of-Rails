@@ -3,6 +3,8 @@ and Space Age.
 
 ##### [GitHub](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails) is the main page of the project.
 
+##### To download the blueprints, go to the [Releases](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/releases) page and check under "Assets".
+
 ##### For issues with the blueprints themselves, make a [GitHub issue](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/issues)
 
 ##### For questions, check the [wiki](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/wiki). If you can't find anything there, check if it has been asked in [discussions](https://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/discussions) and finally if that still doesn't help, make a new discussion thread.
