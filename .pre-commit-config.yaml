@@ -5,8 +5,10 @@ repos:
     hooks:
       - id: check-merge-conflict
       - id: end-of-file-fixer
+        exclude: '10_Books_Full_of_Rails.txt'
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
+        exclude: '10_Books_Full_of_Rails.txt'
 
   - repo: https://github.com/executablebooks/mdformat
     rev: 0.7.19
