@@ -1,0 +1,35 @@
+{
+  "index": 3,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Skip Wagon",
+    "description": "Add on to the Refuelling Sation to spots where a wagon will stand if there are locomotives further back",
+    "shift_x": -1,
+    "shift_y": 0,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 1.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 2.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 3.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 4.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 5.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 7.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 4.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 5.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 5.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 7.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 6.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "position": {"x": 7.5, "y": 3.5}},
+      {"name": "medium-electric-pole", "position": {"x": -0.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": 2.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 6.5, "y": 1.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "cargo-wagon"}}],
+    "snap-to-grid": {"x": 7, "y": 4},
+    "wires": [["0,2", 1, "7,2", 1], ["0,2", 2, "7,2", 2], ["0,2", 5, "7,2", 5]]
+  }
+}

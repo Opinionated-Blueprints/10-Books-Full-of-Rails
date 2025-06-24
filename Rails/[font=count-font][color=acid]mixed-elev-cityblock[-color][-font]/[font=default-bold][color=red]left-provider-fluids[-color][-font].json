@@ -1,0 +1,214 @@
+{
+  "index": 25,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[font=default-bold][color=red]Left Provider Fluids[/color][/font]",
+    "description": "With the addon stations, there's not enough room on the right side of it for all the combinators, so this is specifically for those ones.\n\nSets the train limit to the number of full trainloads available, capped at a specified maximum.\nSets prority to chosen value + number of full trainloads available.",
+    "shift_x": 1157,
+    "shift_y": 117,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "player_description": "[virtual-signal=signal-P] = base priority\n[item=red-wire][virtual-signal=signal-L] = number of full deliveries this station can provide\nSets priority to [item=red-wire][virtual-signal=signal-L]+[virtual-signal=signal-P]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "+",
+            "first_signal": {"name": "signal-P", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-P", "type": "virtual"},
+            "second_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": -0.5, "y": 2}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "player_description": "[virtual-signal=signal-each] = numer of items stored in buffer\n[virtual-signal=signal-C] = calculated train cargo capacity\n[virtual-signal=signal-L] = number of full deliveries this station can provide\nCalculates [virtual-signal=signal-L]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal": {"name": "signal-C", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 0, "y": 0.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 4,
+        "player_description": "[virtual-signal=signal-L] = max train limit\n[virtual-signal=signal-P] = base priority\n[virtual-signal=signal-W] = cargo wagons\n[virtual-signal=signal-V] = fluid wagon volume\nW*V = [virtual-signal=signal-C] = total train cargo volume\n",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "signal-L",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-P",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-W",
+                    "comparator": "=",
+                    "count": 4,
+                    "index": 4,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-V",
+                    "comparator": "=",
+                    "count": 50000,
+                    "index": 5,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-C",
+                    "comparator": "=",
+                    "count": 200000,
+                    "index": 6,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": -0.5, "y": 6.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "player_description": "[virtual-signal=signal-L] = Train Limit\nEnsures [virtual-signal=signal-L] is minimum 1",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"comparator": "=", "first_signal": {"name": "signal-L", "type": "virtual"}}],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-L", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 0, "y": 3.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "player_description": "[item=green-wire][virtual-signal=signal-L] = max train limit\n[item=red-wire][virtual-signal=signal-L] = number of full deliveries this station can provide\nOutput = [item=red-wire][virtual-signal=signal-L]\nTogether with the other decider outputs [virtual-signal=signal-L] from [item=green-wire] or [item=red-wire], whichever is lower.",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "comparator": ">",
+                "first_signal": {"name": "signal-L", "type": "virtual"},
+                "first_signal_networks": {"green": true, "red": false},
+                "second_signal": {"name": "signal-L", "type": "virtual"},
+                "second_signal_networks": {"green": false, "red": true}
+              }
+            ],
+            "outputs": [{"networks": {"green": false, "red": true}, "signal": {"name": "signal-L", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 0, "y": 4.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "player_description": "[item=green-wire][virtual-signal=signal-L] = max train limit\n[item=red-wire][virtual-signal=signal-L] = number of full deliveries this station can provide\nOutput = [item=green-wire][virtual-signal=signal-L]\nTogether with the other decider outputs [virtual-signal=signal-L] from [item=green-wire] or [item=red-wire], whichever is lower.",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "comparator": "≤",
+                "first_signal": {"name": "signal-L", "type": "virtual"},
+                "first_signal_networks": {"green": true, "red": false},
+                "second_signal": {"name": "signal-L", "type": "virtual"},
+                "second_signal_networks": {"green": false, "red": true}
+              }
+            ],
+            "outputs": [{"networks": {"green": true, "red": false}, "signal": {"name": "signal-L", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 0, "y": 5.5}
+      },
+      {
+        "name": "display-panel",
+        "direction": 4,
+        "show_in_chart": true,
+        "control_behavior": {
+          "parameters": [
+            {
+              "condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-anything", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            }
+          ]
+        },
+        "position": {"x": 0.5, "y": 1.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 6.5}},
+      {"name": "straight-rail", "position": {"x": 2, "y": 0}},
+      {"name": "straight-rail", "position": {"x": 2, "y": 2}},
+      {"name": "straight-rail", "position": {"x": 2, "y": 4}},
+      {"name": "straight-rail", "position": {"x": 2, "y": 6}},
+      {
+        "name": "train-stop",
+        "station": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-fluid-parameter]",
+        "control_behavior": {
+          "set_priority": true,
+          "set_trains_limit": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "signal-L", "type": "virtual"}
+        },
+        "position": {"x": 4, "y": 0}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "signal-fluid-parameter", "type": "virtual"}}],
+    "parameters": [
+      {"name": "Group", "id": "parameter-0", "type": "id"},
+      {"name": "Max Train Limit", "number": "1", "type": "number"},
+      {"name": "Base Priority", "number": "50", "type": "number"},
+      {"name": "Fluid Wagons", "number": "4", "type": "number", "variable": "W"},
+      {"name": "Fluid Wagon Volume", "number": "50000", "type": "number", "variable": "V"}
+    ],
+    "wires": [
+      ["0.5,0.5", 1, "0,6.5", 1],
+      ["0.5,0.5", 2, "1,1.5", 2],
+      ["0.5,0.5", 2, "1,6.5", 2],
+      ["0.5,0.5", 3, "0.5,5.5", 1],
+      ["4.5,0", 1, "0.5,3.5", 3],
+      ["4.5,0", 2, "0,2", 4],
+      ["4.5,0", 2, "0.5,4.5", 4],
+      ["1,2.5", 1, "1,6.5", 1],
+      ["1,2.5", 2, "1,1.5", 2],
+      ["1,2.5", 2, "1,6.5", 2],
+      ["1,2.5", 5, "1,6.5", 5],
+      ["1,1.5", 2, "1,6.5", 2],
+      ["0,2", 1, "0.5,4.5", 1],
+      ["0,2", 2, "0,6.5", 2],
+      ["0.5,4.5", 1, "0.5,5.5", 1],
+      ["0.5,4.5", 2, "0,6.5", 2],
+      ["0.5,4.5", 4, "0.5,3.5", 2],
+      ["0.5,4.5", 4, "0.5,5.5", 4],
+      ["0.5,5.5", 2, "0,6.5", 2]
+    ]
+  }
+}

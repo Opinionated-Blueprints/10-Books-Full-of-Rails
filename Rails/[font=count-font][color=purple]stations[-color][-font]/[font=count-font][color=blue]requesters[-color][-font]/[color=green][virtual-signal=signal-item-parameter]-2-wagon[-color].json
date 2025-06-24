@@ -1,0 +1,240 @@
+{
+  "index": 13,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[color=green][virtual-signal=signal-item-parameter] 2/wagon[/color]",
+    "description": "[item=fast-transport-belt]=[item=fast-inserter]\n[item=express-transport-belt]=[item=bulk-inserter]\n[item=turbo-transport-belt]=[item=bulk-inserter]\n[item=turbo-transport-belt]x2[virtual-signal=signal-stack-size]=[item=stack-inserter,quality=uncommon]\n[item=turbo-transport-belt]x3[virtual-signal=signal-stack-size]=[item=stack-inserter,quality=rare]\n[item=turbo-transport-belt]x4[virtual-signal=signal-stack-size]=[item=stack-inserter,quality=epic]",
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 1.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 3.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 1.5, "y": 6.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 3.5, "y": 6.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 4.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 6.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 4.5, "y": 6.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 6.5, "y": 6.5}
+      },
+      {
+        "name": "fast-inserter",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 1.5, "y": 9.5}
+      },
+      {
+        "name": "fast-inserter",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 3.5, "y": 9.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 1.5, "y": 11.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 3.5, "y": 11.5}
+      },
+      {
+        "name": "fast-inserter",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 4.5, "y": 9.5}
+      },
+      {
+        "name": "fast-inserter",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 6.5, "y": 9.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 4.5, "y": 11.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_hand_read_mode": 1,
+          "circuit_read_hand_contents": true,
+          "circuit_condition": {"comparator": "=", "constant": 0, "first_signal": {"name": "signal-everything", "type": "virtual"}}
+        },
+        "position": {"x": 6.5, "y": 11.5}
+      },
+      {
+        "name": "fast-splitter",
+        "output_priority": "left",
+        "filter": {"name": "deconstruction-planner", "comparator": "=", "quality": "normal"},
+        "position": {"x": 3, "y": 0.5}
+      },
+      {
+        "name": "fast-splitter",
+        "output_priority": "right",
+        "filter": {"name": "deconstruction-planner", "comparator": "=", "quality": "normal"},
+        "position": {"x": 5, "y": 0.5}
+      },
+      {"name": "fast-transport-belt", "position": {"x": 3.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 1.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 2.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "position": {"x": 3.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "position": {"x": 2.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "position": {"x": 4.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "position": {"x": 4.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 5.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 4.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "position": {"x": 5.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 1.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "position": {"x": 2.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 4.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "position": {"x": 5.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 12.5}},
+      {"name": "fast-underground-belt", "type": "output", "position": {"x": 2.5, "y": 1.5}},
+      {"name": "fast-underground-belt", "type": "output", "position": {"x": 5.5, "y": 1.5}},
+      {"name": "fast-underground-belt", "type": "input", "position": {"x": 2.5, "y": 4.5}},
+      {"name": "fast-underground-belt", "type": "output", "position": {"x": 2.5, "y": 5.5}},
+      {"name": "fast-underground-belt", "type": "input", "position": {"x": 5.5, "y": 4.5}},
+      {"name": "fast-underground-belt", "type": "output", "position": {"x": 5.5, "y": 5.5}},
+      {"name": "fast-underground-belt", "type": "input", "position": {"x": 2.5, "y": 11.5}},
+      {"name": "fast-underground-belt", "type": "input", "position": {"x": 5.5, "y": 11.5}},
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 7.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 10.5}},
+      {"name": "medium-electric-pole", "position": {"x": 7.5, "y": 10.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 4.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 7.5, "y": 4.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 11.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 7.5, "y": 11.5}},
+      {"name": "steel-chest", "position": {"x": 1.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 3.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 4.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 6.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 1.5, "y": 10.5}},
+      {"name": "steel-chest", "position": {"x": 3.5, "y": 10.5}},
+      {"name": "steel-chest", "position": {"x": 4.5, "y": 10.5}},
+      {"name": "steel-chest", "position": {"x": 6.5, "y": 10.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-2", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "cargo-wagon"}}
+    ],
+    "snap-to-grid": {"x": 7, "y": 13},
+    "wires": [
+      ["0,5", 1, "7,5", 1],
+      ["0,5", 1, "1,6", 1],
+      ["0,5", 1, "0,10", 1],
+      ["0,5", 2, "1,5", 2],
+      ["0,5", 2, "7,5", 2],
+      ["0,5", 2, "0,10", 2],
+      ["0,5", 5, "7,5", 5],
+      ["0,5", 5, "0,10", 5],
+      ["1,5", 2, "3,5", 2],
+      ["4,5", 2, "3,5", 2],
+      ["4,5", 2, "6,5", 2],
+      ["6,5", 2, "7,5", 2],
+      ["7,5", 1, "6,6", 1],
+      ["7,5", 1, "7,10", 1],
+      ["7,5", 2, "7,10", 2],
+      ["7,5", 5, "7,10", 5],
+      ["1,6", 1, "3,6", 1],
+      ["4,6", 1, "3,6", 1],
+      ["4,6", 1, "6,6", 1],
+      ["1,9", 1, "3,9", 1],
+      ["1,9", 1, "0,10", 1],
+      ["4,9", 1, "3,9", 1],
+      ["4,9", 1, "6,9", 1],
+      ["6,9", 1, "7,10", 1],
+      ["0,10", 1, "7,10", 1],
+      ["0,10", 2, "1,10", 2],
+      ["0,10", 2, "7,10", 2],
+      ["0,10", 5, "7,10", 5],
+      ["1,10", 2, "3,10", 2],
+      ["4,10", 2, "3,10", 2],
+      ["4,10", 2, "6,10", 2],
+      ["6,10", 2, "7,10", 2]
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "index": 12,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-diagonal-cross] 2-3 Adapter",
+    "description": "For connecting diagonal hypermodular to diagonal regular rail.",
+    "absolute-snapping": true,
+    "shift_x": -2,
+    "shift_y": -3,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 16, "y": 3}},
+      {"name": "big-electric-pole", "position": {"x": 2, "y": 17}},
+      {"name": "elevated-curved-rail-b", "direction": 2, "position": {"x": 11, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 10, "position": {"x": 9, "y": 6}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 13, "y": 10}},
+      {"name": "elevated-curved-rail-b", "direction": 4, "position": {"x": 17, "y": 8}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 6, "y": 9}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 4, "y": 11}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 2, "y": 13}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 0, "y": 15}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 10, "y": 13}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 8, "y": 15}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 6, "y": 17}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 4, "y": 19}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 13, "y": 0}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 1, "y": 14}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 19, "y": 6}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 5, "y": 18}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "signal-A", "type": "virtual"}}],
+    "snap-to-grid": {"x": 14, "y": 14},
+    "wires": [["16,3", 1, "2,17", 1], ["16,3", 2, "2,17", 2], ["16,3", 5, "2,17", 5]]
+  }
+}

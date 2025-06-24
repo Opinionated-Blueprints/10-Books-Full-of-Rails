@@ -1,0 +1,11 @@
+{
+  "index": 14,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][planet=nauvis] [color=180,200,150]Wall[/color][/font]",
+    "description": "                                  [color=red](x_x)[/color] [item=rail] [entity=behemoth-biter]                                                                                                                                      [color=green](^-^)[/color] [item=rail][item=flamethrower-turret] [item=laser-turret] [item=stone-wall] [entity=behemoth-biter]                                                                                                                                           protecc",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "stone-wall"}}]
+  }
+}

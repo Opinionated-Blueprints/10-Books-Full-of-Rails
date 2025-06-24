@@ -1,0 +1,45 @@
+{
+  "index": 2,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Fuelling",
+    "description": "Add on to the Refuelling Sation to spots where a locomotive will stand",
+    "shift_x": -1,
+    "shift_y": 0,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "fast-inserter", "position": {"x": 2.5, "y": 3.5}},
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "filter_mode": "blacklist",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 3.5, "y": 3.5}
+      },
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 3.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 1.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "position": {"x": 3.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 4.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 5.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 7.5, "y": 0.5}},
+      {"name": "fast-underground-belt", "direction": 4, "type": "input", "position": {"x": 2.5, "y": 2.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 7.5, "y": 2.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": -0.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": 2.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": -0.5, "y": 1.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "locomotive"}}],
+    "snap-to-grid": {"x": 7, "y": 4},
+    "wires": [["0,2", 1, "7,2", 1], ["0,2", 2, "7,2", 2], ["0,2", 5, "7,2", 5], ["4,3", 1, "7,2", 1]]
+  }
+}

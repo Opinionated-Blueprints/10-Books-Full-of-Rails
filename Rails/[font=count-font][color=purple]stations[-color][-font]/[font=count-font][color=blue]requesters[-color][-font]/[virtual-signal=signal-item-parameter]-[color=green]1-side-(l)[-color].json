@@ -1,0 +1,87 @@
+{
+  "index": 6,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=signal-item-parameter] [color=green]1/side (L)[/color]",
+    "description": "DON'T FLIP!!!\n[item=fast-transport-belt]=[item=fast-inserter]\n[item=express-transport-belt]=[item=bulk-inserter]\n[item=turbo-transport-belt]=[item=bulk-inserter]\n[item=turbo-transport-belt]x2[virtual-signal=signal-stack-size]=[item=stack-inserter,quality=uncommon]\n[item=turbo-transport-belt]x3[virtual-signal=signal-stack-size]=[item=stack-inserter,quality=rare]\n[item=turbo-transport-belt]x4[virtual-signal=signal-stack-size]=[item=stack-inserter,quality=epic]",
+    "shift_x": 2,
+    "shift_y": 0,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 0.5, "y": 3.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 1.5, "y": 3.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 2.5, "y": 3.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 3.5, "y": 3.5}},
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 0.5, "y": 5.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 1.5, "y": 5.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 2.5, "y": 5.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 3.5, "y": 5.5}
+      },
+      {
+        "name": "fast-splitter",
+        "direction": 12,
+        "output_priority": "left",
+        "filter": {"name": "deconstruction-planner", "comparator": "=", "quality": "normal"},
+        "position": {"x": 0.5, "y": 1}
+      },
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 3.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 0.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 2.5, "y": 2.5}},
+      {"name": "fast-underground-belt", "type": "output", "position": {"x": 1.5, "y": 2.5}},
+      {"name": "fast-underground-belt", "type": "output", "position": {"x": 3.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": -1.5, "y": 4.5}},
+      {"name": "medium-electric-pole", "position": {"x": 5.5, "y": 4.5}},
+      {"name": "steel-chest", "position": {"x": 0.5, "y": 4.5}},
+      {"name": "steel-chest", "position": {"x": 1.5, "y": 4.5}},
+      {"name": "steel-chest", "position": {"x": 2.5, "y": 4.5}},
+      {"name": "steel-chest", "position": {"x": 3.5, "y": 4.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-1", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "signal-L", "type": "virtual"}}
+    ],
+    "snap-to-grid": {"x": 7, "y": 8},
+    "wires": [
+      ["0,4", 1, "7,4", 1],
+      ["0,4", 1, "2,5", 1],
+      ["0,4", 2, "2,4", 2],
+      ["0,4", 2, "7,4", 2],
+      ["0,4", 5, "7,4", 5],
+      ["2,4", 2, "3,4", 2],
+      ["4,4", 2, "3,4", 2],
+      ["4,4", 2, "5,4", 2],
+      ["5,4", 2, "7,4", 2],
+      ["7,4", 1, "5,5", 1],
+      ["2,5", 1, "3,5", 1],
+      ["4,5", 1, "3,5", 1],
+      ["4,5", 1, "5,5", 1]
+    ]
+  }
+}

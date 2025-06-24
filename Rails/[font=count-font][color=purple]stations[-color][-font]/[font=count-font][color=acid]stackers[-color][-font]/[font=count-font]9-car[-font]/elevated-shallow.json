@@ -1,0 +1,59 @@
+{
+  "index": 12,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Elevated Shallow",
+    "description": "Can be placed over straight rail. Super-force-build if you need, but avoid removing 2 large power poles in a row.\n",
+    "absolute-snapping": true,
+    "shift_x": -45,
+    "shift_y": -9,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "elevated-curved-rail-a", "direction": 4, "position": {"x": 7, "y": 34}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 77, "y": 0}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 16, "y": 30}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 20, "y": 28}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 24, "y": 26}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 28, "y": 24}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 48, "y": 14}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 52, "y": 12}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 56, "y": 10}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 60, "y": 8}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 32, "y": 22}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 36, "y": 20}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 40, "y": 18}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 44, "y": 16}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 12, "y": 32}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 64, "y": 6}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 68, "y": 4}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 72, "y": 2}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 0, "y": 34}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 2, "y": 34}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 4, "y": 34}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 80, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 82, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 84, "y": 0}},
+      {
+        "name": "rail-signal",
+        "direction": 11,
+        "rail_layer": "elevated",
+        "position": {"x": 13.5, "y": 32.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 11,
+        "rail_layer": "elevated",
+        "position": {"x": 75.5, "y": 1.5}
+      },
+      {"name": "rail-support", "direction": 3, "position": {"x": 30, "y": 23}},
+      {"name": "rail-support", "direction": 3, "position": {"x": 18, "y": 29}},
+      {"name": "rail-support", "direction": 3, "position": {"x": 46, "y": 15}},
+      {"name": "rail-support", "direction": 3, "position": {"x": 58, "y": 9}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 5, "y": 34}},
+      {"name": "rail-support", "direction": 3, "position": {"x": 66, "y": 5}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 79, "y": 0}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "rail-support"}}],
+    "snap-to-grid": {"x": 2, "y": 14}
+  }
+}

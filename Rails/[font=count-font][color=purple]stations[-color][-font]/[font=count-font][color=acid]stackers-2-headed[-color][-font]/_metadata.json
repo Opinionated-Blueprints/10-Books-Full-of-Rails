@@ -1,0 +1,15 @@
+{
+  "index": 11,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=acid]Stackers 2-Headed[/color][/font]",
+    "description": "This only works for double-headed trains.",
+    "active_index": 4,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "locomotive"}},
+      {"index": 2, "signal": {"name": "rail"}},
+      {"index": 3, "signal": {"name": "signal-2", "type": "virtual"}}
+    ]
+  }
+}

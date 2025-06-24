@@ -1,0 +1,74 @@
+{
+  "index": 11,
+  "upgrade_planner": {
+    "item": "upgrade-planner",
+    "label": "[item=passive-provider-chest] Upgrade Planner",
+    "version": 562949957025792,
+    "settings": {
+      "description": "Apply carefully, some tiers don't require an inserter upgrade. For upgrading the bleprits itself, clone this and remove the unneeded inserter upgrades.",
+      "icons": [{"index": 1, "signal": {"name": "passive-provider-chest"}}],
+      "mappers": [
+        {
+          "index": 0,
+          "from": {"name": "transport-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "fast-transport-belt", "type": "entity"}
+        },
+        {
+          "index": 1,
+          "from": {"name": "fast-transport-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "express-transport-belt", "type": "entity"}
+        },
+        {
+          "index": 2,
+          "from": {"name": "express-transport-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "turbo-transport-belt", "type": "entity"}
+        },
+        {
+          "index": 3,
+          "from": {"name": "fast-inserter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "bulk-inserter", "type": "entity"}
+        },
+        {
+          "index": 4,
+          "from": {"name": "underground-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "fast-underground-belt", "type": "entity"}
+        },
+        {
+          "index": 5,
+          "from": {"name": "fast-underground-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "express-underground-belt", "type": "entity"}
+        },
+        {
+          "index": 6,
+          "from": {"name": "express-underground-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "turbo-underground-belt", "type": "entity"}
+        },
+        {
+          "index": 7,
+          "from": {"name": "bulk-inserter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "stack-inserter", "type": "entity"}
+        },
+        {
+          "index": 8,
+          "from": {"name": "splitter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "fast-splitter", "type": "entity"}
+        },
+        {
+          "index": 9,
+          "from": {"name": "fast-splitter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "express-splitter", "type": "entity"}
+        },
+        {
+          "index": 10,
+          "from": {"name": "express-splitter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "turbo-splitter", "type": "entity"}
+        },
+        {
+          "index": 11,
+          "from": {"name": "stack-inserter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "stack-inserter", "quality": "uncommon", "type": "entity"}
+        }
+      ]
+    }
+  }
+}

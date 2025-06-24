@@ -1,0 +1,240 @@
+{
+  "index": 1,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Refuelling Station",
+    "description": "Align the [font=default-bold]Refuelling Station[/font] so that the [color=green]Green Station[/color] extends in front of the [color=white][font=default-bold]Platform[/font][/color]\nIf higher priority fuel is supplied, will send back all lower priority fuel from the buffer. All visiting trains will also have their locomotives emptied of the lower-priority fuel and replaced with the higher one. The lower-priority fuel will later be brought back to the supply station by a supply train.",
+    "shift_x": 7,
+    "shift_y": 0,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "+",
+            "second_constant": 50,
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-P", "type": "virtual"}
+          }
+        },
+        "position": {"x": 3, "y": 1.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 4,
+        "player_description": "Lower value = higher priority",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "group": "Fuel Priority",
+                "index": 1,
+                "filters": [
+                  {"name": "nuclear-fuel", "comparator": "=", "count": 1, "index": 1, "quality": "normal"},
+                  {"name": "rocket-fuel", "comparator": "=", "count": 2, "index": 2, "quality": "normal"},
+                  {"name": "solid-fuel", "comparator": "=", "count": 3, "index": 3, "quality": "normal"},
+                  {"name": "coal", "comparator": "=", "count": 4, "index": 4, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": -1.5, "y": 3.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "player_description": "passes the priority of each [item=green-wire]  fuel signal if it receives the same signal on [item=red-wire], regardless of value",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "comparator": ">",
+                "first_signal": {"name": "signal-each", "type": "virtual"},
+                "first_signal_networks": {"green": true, "red": false}
+              }
+            ],
+            "outputs": [{"networks": {"green": false, "red": true}, "signal": {"name": "signal-each", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": -2, "y": 1.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "player_description": "Calls a supply run when storage runs low. Temporarily closes the station for refuelling until supply more fuel is supplied\nTo add fuel, add it as a condition:\n[font=default-bold][fuel item] <= stack size * 8[/font]",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {"comparator": "≤", "compare_type": "and", "constant": 400, "first_signal": {"name": "coal"}},
+              {"comparator": "≤", "compare_type": "and", "constant": 400, "first_signal": {"name": "solid-fuel"}},
+              {"comparator": "≤", "compare_type": "and", "constant": 160, "first_signal": {"name": "rocket-fuel"}},
+              {"comparator": "≤", "compare_type": "and", "constant": 8, "first_signal": {"name": "nuclear-fuel"}}
+            ],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-green", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 3, "y": 3.5}
+      },
+      {"name": "fast-inserter", "position": {"x": -4.5, "y": 1.5}},
+      {"name": "fast-inserter", "position": {"x": -4.5, "y": 3.5}},
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "filter_mode": "blacklist",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": -3.5, "y": 1.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 12,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": -2.5, "y": 2.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": -3.5, "y": 3.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "filter_mode": "blacklist",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 1.5, "y": 3.5}
+      },
+      {"name": "fast-inserter", "position": {"x": 4.5, "y": 3.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": -4.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": -3.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": -2.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": -1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": -0.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 0.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 1.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 1.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 4.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 5.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 7.5, "y": 0.5}},
+      {
+        "name": "fast-transport-belt",
+        "direction": 4,
+        "control_behavior": {"circuit_contents_read_mode": 2, "circuit_read_hand_contents": true},
+        "position": {"x": 4.5, "y": 2.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": -1.5, "y": 2.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 3.5, "y": 2.5}
+      },
+      {"name": "fast-underground-belt", "direction": 4, "type": "input", "position": {"x": 5.5, "y": 2.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 7.5, "y": 2.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": -2.5, "y": 3.5}},
+      {"name": "medium-electric-pole", "position": {"x": 2.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": 2.5}},
+      {
+        "name": "selector-combinator",
+        "direction": 4,
+        "player_description": "passes the fuel signal with the highest priority",
+        "control_behavior": {"index_constant": 0, "operation": "select", "select_max": false},
+        "position": {"x": 0, "y": 1.5}
+      },
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 6.5, "y": 1.5}},
+      {"name": "steel-chest", "position": {"x": -4.5, "y": 2.5}},
+      {"name": "steel-chest", "position": {"x": -3.5, "y": 2.5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -6, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -4, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -2, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 5}},
+      {
+        "name": "train-stop",
+        "direction": 12,
+        "station": "Fuel Supply [item=requester-chest]",
+        "color": {"a": 1, "b": 0, "g": 1, "r": 0},
+        "control_behavior": {
+          "read_from_train": true,
+          "send_to_train": false,
+          "set_trains_limit": true,
+          "circuit_condition": {"comparator": "=", "constant": 1, "first_signal": {"name": "signal-green", "type": "virtual"}},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "signal-green", "type": "virtual"}
+        },
+        "position": {"x": -6, "y": 3}
+      },
+      {
+        "name": "train-stop",
+        "direction": 12,
+        "manual_trains_limit": 1,
+        "station": "[item=parameter-0] Refuelling",
+        "color": {"a": 1, "b": 0, "g": 0, "r": 0},
+        "control_behavior": {
+          "circuit_enabled": true,
+          "send_to_train": false,
+          "set_priority": true,
+          "circuit_condition": {"comparator": "≠", "constant": 1, "first_signal": {"name": "signal-green", "type": "virtual"}},
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"}
+        },
+        "position": {"x": 0, "y": 3}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "signal-fuel-parameter", "type": "virtual"}}],
+    "parameters": [{"name": "Group", "id": "parameter-0", "type": "id"}],
+    "snap-to-grid": {"x": 14, "y": 6},
+    "wires": [
+      ["2.5,1", 1, "3.5,3", 1],
+      ["2.5,1", 1, "3.5,2", 1],
+      ["4,1", 1, "4.5,3", 1],
+      ["4,1", 2, "3.5,3", 2],
+      ["4,1", 2, "8.5,2", 2],
+      ["4,1", 2, "9,3", 4],
+      ["4,1", 4, "6,1", 2],
+      ["6,1", 3, "8.5,2", 1],
+      ["6,1", 4, "9,1", 2],
+      ["9,1", 4, "8.5,2", 2],
+      ["0,2.5", 2, "2.5,2", 2],
+      ["0,2.5", 2, "3.5,3", 2],
+      ["2.5,3", 1, "3.5,3", 1],
+      ["2.5,3", 1, "3.5,2", 1],
+      ["2.5,2", 1, "9,3", 1],
+      ["2.5,2", 2, "3.5,3", 2],
+      ["3.5,3", 1, "3.5,2", 1],
+      ["3.5,3", 1, "8.5,2", 1],
+      ["3.5,3", 2, "8.5,2", 2],
+      ["3.5,3", 2, "9,3", 4],
+      ["3.5,3", 5, "8.5,2", 5],
+      ["3.5,2", 1, "8.5,2", 1],
+      ["6,2.5", 2, "8.5,2", 2],
+      ["7.5,3", 1, "8.5,2", 1],
+      ["8.5,2", 1, "12.5,2", 1],
+      ["8.5,2", 2, "10.5,2", 2],
+      ["8.5,2", 2, "12.5,2", 2],
+      ["8.5,2", 5, "12.5,2", 5]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "index": 19,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=signal-fluid-parameter][color=green] 2x[item=fluid-wagon] capacity[/color]",
+    "description": "2 wagons' worth per wagon",
+    "shift_x": 3,
+    "shift_y": 1,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "medium-electric-pole", "position": {"x": -2.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 4.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 2.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 3.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 4.5}},
+      {"name": "pump", "position": {"x": -0.5, "y": 6}},
+      {"name": "pump", "position": {"x": 0.5, "y": 6}},
+      {"name": "pump", "position": {"x": 3.5, "y": 6}},
+      {"name": "storage-tank", "direction": 4, "position": {"x": -1.5, "y": 0.5}},
+      {"name": "storage-tank", "position": {"x": -1.5, "y": 3.5}},
+      {"name": "storage-tank", "position": {"x": 1.5, "y": 0.5}},
+      {"name": "storage-tank", "position": {"x": 2.5, "y": 3.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-2", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "fluid-wagon"}}
+    ],
+    "snap-to-grid": {"x": 7, "y": 10},
+    "wires": [
+      ["1,0", 2, "1,3", 2],
+      ["4,0", 2, "5,3", 2],
+      ["1,3", 2, "5,3", 2],
+      ["5,3", 2, "7,5", 2],
+      ["0,5", 2, "7,5", 2],
+      ["0,5", 5, "7,5", 5]
+    ]
+  }
+}

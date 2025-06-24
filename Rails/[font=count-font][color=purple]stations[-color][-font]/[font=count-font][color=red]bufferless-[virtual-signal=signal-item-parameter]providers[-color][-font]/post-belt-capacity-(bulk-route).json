@@ -1,0 +1,28 @@
+{
+  "index": 4,
+  "upgrade_planner": {
+    "item": "upgrade-planner",
+    "label": "post-belt capacity (bulk route)",
+    "version": 562949957025792,
+    "settings": {
+      "description": "Can be used to upgrade existing stations with unuffered loaders between levels 5-7 while taking the bulk inserter path.\nRecommended to apply to the unbuffered inline provider blueprints as you reach requirements.",
+      "mappers": [
+        {
+          "index": 0,
+          "from": {"name": "bulk-inserter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "bulk-inserter", "quality": "uncommon", "type": "entity"}
+        },
+        {
+          "index": 4,
+          "from": {"name": "bulk-inserter", "comparator": "=", "quality": "uncommon", "type": "entity"},
+          "to": {"name": "bulk-inserter", "quality": "rare", "type": "entity"}
+        },
+        {
+          "index": 8,
+          "from": {"name": "bulk-inserter", "comparator": "=", "quality": "rare", "type": "entity"},
+          "to": {"name": "bulk-inserter", "quality": "epic", "type": "entity"}
+        }
+      ]
+    }
+  }
+}

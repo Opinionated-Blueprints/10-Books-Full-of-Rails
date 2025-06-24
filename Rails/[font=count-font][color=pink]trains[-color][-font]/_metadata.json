@@ -1,0 +1,11 @@
+{
+  "index": 13,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=pink]Trains[/color][/font]",
+    "description": "[font=default-bold][cargo type] A-B-C[/font]\nA = forward-facing [item=locomotive]\nB = [item=cargo-wagon]/[item=fluid-wagon]\nC = backward-facing [item=locomotive]\nIcon = train length\n\nTrain Groups apply to stations as well. Trains will only go to stations in their own group. Use this to separate different train lengths/configurations. Do not put trains in different configurations into the same group. Do not mix solid/fluid trains in the same group.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "locomotive"}}]
+  }
+}

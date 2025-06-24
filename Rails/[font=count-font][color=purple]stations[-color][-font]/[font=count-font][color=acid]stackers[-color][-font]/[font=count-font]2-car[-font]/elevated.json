@@ -1,0 +1,45 @@
+{
+  "index": 13,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Elevated",
+    "description": "Can be placed over straight rail. Super-force-build if you need, but avoid removing 2 large power poles in a row.\n",
+    "absolute-snapping": true,
+    "shift_x": -17,
+    "shift_y": -3,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 31, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 4, "position": {"x": 5, "y": 20}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 26, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 4, "position": {"x": 10, "y": 18}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 15, "y": 13}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 13, "y": 15}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 23, "y": 5}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 21, "y": 7}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 19, "y": 9}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 17, "y": 11}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 0, "y": 20}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 2, "y": 20}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 34, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 36, "y": 0}},
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 24.5, "y": 5.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 12.5, "y": 17.5}
+      },
+      {"name": "rail-support", "direction": 2, "position": {"x": 18, "y": 10}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 3, "y": 20}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 33, "y": 0}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "rail-support"}}],
+    "snap-to-grid": {"x": 2, "y": 14}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "index": 9,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=brown]Inline Depots[/color][/font]",
+    "description": "Premade stations for the recommended train lengths.\nInset into straight rail for extra compactness.\nNot recommended in places where you might want to change the railway layout in the future.\nA train can use  a depot as long as it fits, it doesn't have to be the exact length. They'll still only use the one asigned to the same group though.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "rail"}}, {"index": 2, "signal": {"name": "roboport"}}]
+  }
+}

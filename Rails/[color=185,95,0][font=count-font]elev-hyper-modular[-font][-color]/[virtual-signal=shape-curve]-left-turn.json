@@ -1,0 +1,47 @@
+{
+  "index": 8,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-curve] Left Turn",
+    "absolute-snapping": true,
+    "shift_x": -2,
+    "shift_y": 3,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 2, "y": 11}},
+      {"name": "big-electric-pole", "position": {"x": 16, "y": 4}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 12, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 12, "y": 8}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 7, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 7, "y": 10}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 2, "y": 7}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 4, "y": 5}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 15, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 0, "y": 9}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 4, "y": 13}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 15, "y": 8}},
+      {
+        "name": "rail-signal",
+        "direction": 4,
+        "rail_layer": "elevated",
+        "position": {"x": 15.5, "y": -1.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 4.5, "y": 14.5}
+      },
+      {"name": "rail-support", "direction": 2, "position": {"x": 1, "y": 8}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 5, "y": 12}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 16, "y": 0}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 16, "y": 8}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "down-left-arrow", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "left-arrow", "type": "virtual"}}
+    ],
+    "snap-to-grid": {"x": 14, "y": 14},
+    "wires": [["16,5.5", 1, "2,12.5", 1], ["16,5.5", 2, "2,12.5", 2], ["16,5.5", 5, "2,12.5", 5]]
+  }
+}

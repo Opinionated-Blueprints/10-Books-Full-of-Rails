@@ -1,0 +1,36 @@
+{
+  "index": 30,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Straight",
+    "absolute-snapping": true,
+    "shift_x": 3,
+    "shift_y": 0,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 4, "y": 0}},
+      {"name": "big-electric-pole", "position": {"x": 4, "y": 14}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 1}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 3}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 5}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 7}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 9}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 11}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 13}},
+      {"name": "rail-signal", "rail_layer": "elevated", "position": {"x": -1.5, "y": 0.5}},
+      {"name": "rail-signal", "direction": 8, "position": {"x": 9.5, "y": 13.5}},
+      {"name": "rail-support", "position": {"x": 0, "y": 0}},
+      {"name": "rail-support", "position": {"x": 0, "y": 14}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 1}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 3}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 5}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 7}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 9}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 11}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 13}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "shape-horizontal", "type": "virtual"}}],
+    "snap-to-grid": {"x": 14, "y": 14},
+    "wires": [["5.5,0", 1, "5.5,14", 1], ["5.5,0", 2, "5.5,14", 2], ["5.5,0", 5, "5.5,14", 5]]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "index": 0,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Fuel Supply",
+    "description": "-Only the highest-priority fuel present in the buffer will be loaded.\n-If a higher priority fuel type reaches the scanned belt, the inserter will first take all lower-priority fuel off the belt before loading the higher-priority one. All lower-priority fuel will then be transferred to the other chest. If a supply train comes back with lower-priority fuel, it will also be unloaded into the same chest. You will have to decide what to do with the lower priority fuel form this point on by yourself.",
+    "shift_x": 1,
+    "shift_y": 1,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "constant-combinator",
+        "direction": 12,
+        "player_description": "Lower value = higher priority",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "group": "Fuel Priority",
+                "index": 1,
+                "filters": [
+                  {"name": "nuclear-fuel", "comparator": "=", "count": 1, "index": 1, "quality": "normal"},
+                  {"name": "rocket-fuel", "comparator": "=", "count": 2, "index": 2, "quality": "normal"},
+                  {"name": "solid-fuel", "comparator": "=", "count": 3, "index": 3, "quality": "normal"},
+                  {"name": "coal", "comparator": "=", "count": 4, "index": 4, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 1.5, "y": 1.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 12,
+        "player_description": "passes the priority of each [item=green-wire]  fuel signal if it receives the same signal on [item=red-wire], regardless of value",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "comparator": ">",
+                "first_signal": {"name": "signal-each", "type": "virtual"},
+                "first_signal_networks": {"green": false, "red": true}
+              }
+            ],
+            "outputs": [{"networks": {"green": true, "red": false}, "signal": {"name": "signal-each", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 2, "y": 0.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 12,
+        "player_description": "Makes sure there's always at least 1 item on the wired belt so filters don't break",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"comparator": "≥", "constant": 4, "first_signal": {"name": "signal-anything", "type": "virtual"}}],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-green", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 2, "y": 2.5}
+      },
+      {
+        "name": "fast-inserter",
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_set_filters": true,
+          "circuit_condition": {"comparator": "=", "constant": 1, "first_signal": {"name": "signal-green", "type": "virtual"}}
+        },
+        "position": {"x": 3.5, "y": 0.5}
+      },
+      {
+        "name": "fast-inserter",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 3.5, "y": 2.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 12,
+        "filter_mode": "blacklist",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 4.5, "y": 1.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 8,
+        "filter_mode": "blacklist",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 5.5, "y": 2.5}
+      },
+      {
+        "name": "fast-transport-belt",
+        "direction": 8,
+        "control_behavior": {"circuit_contents_read_mode": 1, "circuit_read_hand_contents": true},
+        "position": {"x": 3.5, "y": -0.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": 2.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": 13.5, "y": 1.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 13.5, "y": 2.5}},
+      {
+        "name": "selector-combinator",
+        "direction": 12,
+        "player_description": "passes the fuel signal with the lowest priority",
+        "control_behavior": {"index_constant": 0, "operation": "select", "select_max": true},
+        "position": {"x": 0, "y": 0.5}
+      },
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 6.5, "y": 0.5}},
+      {"name": "steel-chest", "position": {"x": 3.5, "y": 1.5}},
+      {"name": "steel-chest", "position": {"x": 5.5, "y": 1.5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 4}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 4}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 4}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 4}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 4}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 4}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 4}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 4}},
+      {
+        "name": "train-stop",
+        "direction": 12,
+        "manual_trains_limit": 1,
+        "station": "Fuel Supply [item=passive-provider-chest]",
+        "color": {"a": 1, "b": 0, "g": 1, "r": 0},
+        "control_behavior": {
+          "set_priority": true,
+          "set_trains_limit": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "locomotive"}
+        },
+        "position": {"x": 0, "y": 2}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "passive-provider-chest"}}],
+    "snap-to-grid": {"x": 16, "y": 6},
+    "wires": [
+      ["0,1", 2, "2,1", 4],
+      ["0,1", 4, "3.5,1", 2],
+      ["0,1", 4, "4.5,2", 2],
+      ["0,1", 4, "3.5,3", 2],
+      ["0,1", 4, "5.5,3", 2],
+      ["2,1", 1, "3.5,0", 1],
+      ["2,1", 2, "1.5,2", 2],
+      ["3.5,0", 2, "2,3", 2],
+      ["3.5,1", 2, "2,3", 4],
+      ["2.5,2", 1, "6.5,2", 1],
+      ["2.5,2", 2, "6.5,2", 2],
+      ["2.5,2", 5, "6.5,2", 5],
+      ["6.5,2", 1, "13.5,2", 1],
+      ["6.5,2", 2, "13.5,2", 2],
+      ["6.5,2", 5, "13.5,2", 5]
+    ]
+  }
+}

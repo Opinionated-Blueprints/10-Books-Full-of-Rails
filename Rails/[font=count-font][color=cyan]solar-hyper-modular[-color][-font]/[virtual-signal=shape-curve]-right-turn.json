@@ -1,0 +1,47 @@
+{
+  "index": 9,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-curve] Right Turn",
+    "absolute-snapping": true,
+    "shift_x": -3,
+    "shift_y": -2,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "accumulator", "position": {"x": 12, "y": 10}},
+      {"name": "accumulator", "position": {"x": 17, "y": 7}},
+      {"name": "accumulator", "position": {"x": 17, "y": 11}},
+      {"name": "big-electric-pole", "position": {"x": 3, "y": 2}},
+      {"name": "big-electric-pole", "position": {"x": 17, "y": 9}},
+      {"name": "curved-rail-a", "direction": 14, "position": {"x": 13, "y": 5}},
+      {"name": "curved-rail-a", "direction": 14, "position": {"x": 13, "y": 13}},
+      {"name": "curved-rail-b", "direction": 14, "position": {"x": 8, "y": 3}},
+      {"name": "curved-rail-b", "direction": 14, "position": {"x": 8, "y": 11}},
+      {"name": "medium-electric-pole", "position": {"x": 9.5, "y": 8.5}},
+      {"name": "rail-signal", "direction": 14, "position": {"x": -0.5, "y": 4.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 16.5, "y": 3.5}},
+      {"name": "solar-panel", "position": {"x": 5.5, "y": 4.5}},
+      {"name": "solar-panel", "position": {"x": 8.5, "y": 6.5}},
+      {"name": "solar-panel", "position": {"x": 11.5, "y": 7.5}},
+      {"name": "solar-panel", "position": {"x": 14.5, "y": 7.5}},
+      {"name": "solar-panel", "position": {"x": 14.5, "y": 10.5}},
+      {"name": "straight-rail", "direction": 6, "position": {"x": 5, "y": 0}},
+      {"name": "straight-rail", "direction": 6, "position": {"x": 1, "y": 4}},
+      {"name": "straight-rail", "direction": 6, "position": {"x": 3, "y": 6}},
+      {"name": "straight-rail", "direction": 6, "position": {"x": 5, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 16, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 16, "y": 13}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "up-left-arrow", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "left-arrow", "type": "virtual"}}
+    ],
+    "snap-to-grid": {"x": 14, "y": 14},
+    "wires": [
+      ["3.5,2", 1, "17.5,9", 1],
+      ["3.5,2", 2, "17.5,9", 2],
+      ["3.5,2", 5, "17.5,9", 5],
+      ["10,8.5", 5, "17.5,9", 5]
+    ]
+  }
+}

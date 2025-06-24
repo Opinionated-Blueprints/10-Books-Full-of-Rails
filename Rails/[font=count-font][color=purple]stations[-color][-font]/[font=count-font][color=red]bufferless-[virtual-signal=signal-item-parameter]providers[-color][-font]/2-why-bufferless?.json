@@ -1,0 +1,13 @@
+{
+  "index": 23,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "2: Why bufferless?",
+    "description": "The only time you lose throughput is when no train is present at the station, but this can be minimized with a stacker and better fuel. Adding just a bit more production and an additional provider will completely solve it. Ultimately, you want production to exceed consumption for a reliable supply anyway.",
+    "shift_x": -179,
+    "shift_y": -665,
+    "version": 562949957025792,
+    "entities": [{"name": "medium-electric-pole", "position": {"x": -0.5, "y": -0.5}}],
+    "icons": [{"index": 1, "signal": {"name": "signal-info", "type": "virtual"}}]
+  }
+}

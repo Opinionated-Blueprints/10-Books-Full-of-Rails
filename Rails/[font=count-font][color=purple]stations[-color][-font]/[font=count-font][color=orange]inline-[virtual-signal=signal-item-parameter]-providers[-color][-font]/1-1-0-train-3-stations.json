@@ -1,0 +1,822 @@
+{
+  "index": 14,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "1-1-0 Train 3 Stations",
+    "absolute-snapping": true,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "direction": 12,
+        "player_description": "[virtual-signal=signal-stack-size] = number of full stacks stored in buffer\n[virtual-signal=signal-C] = calculated train cargo capacity in stacks\n[virtual-signal=signal-L] = number of full deliveries this station can provide\n\nCalculates [virtual-signal=signal-L]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "signal-stack-size", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal": {"name": "signal-C", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 5, "y": -1.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 12,
+        "player_description": "Sum full stacks of each item in buffer.\nOutput as [virtual-signal=signal-stack-size]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-stack-size", "type": "virtual"},
+            "second_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 7, "y": -1.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "player_description": "Sum full stacks of each item in buffer.\nOutput as [virtual-signal=signal-stack-size]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-stack-size", "type": "virtual"},
+            "second_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 6, "y": 6.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 8,
+        "player_description": "[virtual-signal=signal-stack-size] = number of full stacks stored in buffer\n[virtual-signal=signal-C] = calculated train cargo capacity in stacks\n[virtual-signal=signal-L] = number of full deliveries this station can provide\n\nCalculates [virtual-signal=signal-L]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "signal-stack-size", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal": {"name": "signal-C", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 7.5, "y": 7}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "player_description": "[virtual-signal=signal-P] = base priority\n[item=red-wire][virtual-signal=signal-L] = number of full deliveries this station can provide\nSets priority to [item=red-wire][virtual-signal=signal-L]+[virtual-signal=signal-P]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "+",
+            "first_signal": {"name": "signal-P", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-P", "type": "virtual"},
+            "second_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 8.5, "y": 1}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "player_description": "Sum full stacks of each item in buffer.\nOutput as [virtual-signal=signal-stack-size]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-stack-size", "type": "virtual"},
+            "second_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 5, "y": 14.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "player_description": "[virtual-signal=signal-stack-size] = number of full stacks stored in buffer\n[virtual-signal=signal-C] = calculated train cargo capacity in stacks\n[virtual-signal=signal-L] = number of full deliveries this station can provide\n\nCalculates [virtual-signal=signal-L]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "signal-stack-size", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal": {"name": "signal-C", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 7, "y": 14.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "player_description": "[virtual-signal=signal-P] = base priority\n[item=red-wire][virtual-signal=signal-L] = number of full deliveries this station can provide\nSets priority to [item=red-wire][virtual-signal=signal-L]+[virtual-signal=signal-P]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "+",
+            "first_signal": {"name": "signal-P", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-P", "type": "virtual"},
+            "second_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 9, "y": 8.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 8,
+        "player_description": "[virtual-signal=signal-P] = base priority\n[item=red-wire][virtual-signal=signal-L] = number of full deliveries this station can provide\nSets priority to [item=red-wire][virtual-signal=signal-L]+[virtual-signal=signal-P]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "+",
+            "first_signal": {"name": "signal-P", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-P", "type": "virtual"},
+            "second_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 8.5, "y": 15}
+      },
+      {"name": "big-electric-pole", "position": {"x": -14, "y": 7}},
+      {"name": "big-electric-pole", "position": {"x": 12, "y": 8}},
+      {"name": "big-electric-pole", "position": {"x": 28, "y": 7}},
+      {
+        "name": "constant-combinator",
+        "player_description": "[virtual-signal=signal-L] = max train limit\n[virtual-signal=signal-W] = cargo wagons\n[virtual-signal=signal-S] = cargo wagon slots\n[virtual-signal=signal-W]*[virtual-signal=signal-S]=[virtual-signal=signal-C] = total train cargo capacity\n[virtual-signal=signal-P] = base priority",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "signal-L",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-P",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-W",
+                    "comparator": "=",
+                    "count": 4,
+                    "index": 4,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-S",
+                    "comparator": "=",
+                    "count": 40,
+                    "index": 5,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-C",
+                    "comparator": "=",
+                    "count": -1,
+                    "index": 6,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 10.5, "y": -1.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 8,
+        "player_description": "[virtual-signal=signal-L] = max train limit\n[virtual-signal=signal-W] = cargo wagons\n[virtual-signal=signal-S] = cargo wagon slots\n[virtual-signal=signal-W]*[virtual-signal=signal-S]=[virtual-signal=signal-C] = total train cargo capacity\n[virtual-signal=signal-P] = base priority",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "signal-L",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-P",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-W",
+                    "comparator": "=",
+                    "count": 4,
+                    "index": 4,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-S",
+                    "comparator": "=",
+                    "count": 40,
+                    "index": 5,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-C",
+                    "comparator": "=",
+                    "count": -1,
+                    "index": 6,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 2.5, "y": 6.5}
+      },
+      {
+        "name": "constant-combinator",
+        "direction": 8,
+        "player_description": "[virtual-signal=signal-L] = max train limit\n[virtual-signal=signal-W] = cargo wagons\n[virtual-signal=signal-S] = cargo wagon slots\n[virtual-signal=signal-W]*[virtual-signal=signal-S]=[virtual-signal=signal-C] = total train cargo capacity\n[virtual-signal=signal-P] = base priority",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "signal-L",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-P",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-W",
+                    "comparator": "=",
+                    "count": 4,
+                    "index": 4,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-S",
+                    "comparator": "=",
+                    "count": 40,
+                    "index": 5,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-C",
+                    "comparator": "=",
+                    "count": -1,
+                    "index": 6,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 7.5, "y": 15.5}
+      },
+      {"name": "curved-rail-a", "direction": 12, "position": {"x": 2, "y": -3}},
+      {"name": "curved-rail-a", "direction": 6, "position": {"x": 12, "y": -3}},
+      {"name": "curved-rail-a", "direction": 4, "position": {"x": -12, "y": 3}},
+      {"name": "curved-rail-a", "direction": 6, "position": {"x": -12, "y": 11}},
+      {"name": "curved-rail-a", "direction": 4, "position": {"x": -12, "y": 11}},
+      {"name": "curved-rail-a", "direction": 12, "position": {"x": 2, "y": 5}},
+      {"name": "curved-rail-a", "direction": 6, "position": {"x": 12, "y": 5}},
+      {"name": "curved-rail-a", "direction": 14, "position": {"x": 26, "y": 3}},
+      {"name": "curved-rail-a", "direction": 12, "position": {"x": 26, "y": 11}},
+      {"name": "curved-rail-a", "direction": 14, "position": {"x": 26, "y": 11}},
+      {"name": "curved-rail-a", "direction": 14, "position": {"x": 2, "y": 17}},
+      {"name": "curved-rail-a", "direction": 4, "position": {"x": 12, "y": 17}},
+      {
+        "name": "display-panel",
+        "show_in_chart": true,
+        "control_behavior": {
+          "parameters": [
+            {
+              "condition": {"comparator": "≥", "constant": 2, "first_signal": {"name": "signal-I", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            },
+            {
+              "condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-anything", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            }
+          ]
+        },
+        "position": {"x": 6.5, "y": -0.5}
+      },
+      {
+        "name": "display-panel",
+        "direction": 8,
+        "show_in_chart": true,
+        "control_behavior": {
+          "parameters": [
+            {
+              "condition": {"comparator": "≥", "constant": 2, "first_signal": {"name": "signal-I", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            },
+            {
+              "condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-anything", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            }
+          ]
+        },
+        "position": {"x": 5.5, "y": 7.5}
+      },
+      {
+        "name": "display-panel",
+        "direction": 8,
+        "show_in_chart": true,
+        "control_behavior": {
+          "parameters": [
+            {
+              "condition": {"comparator": "≥", "constant": 2, "first_signal": {"name": "signal-I", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            },
+            {
+              "condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-anything", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            }
+          ]
+        },
+        "position": {"x": 5.5, "y": 15.5}
+      },
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 12.5, "y": -1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 13.5, "y": -1.5}},
+      {"name": "fast-inserter", "direction": 12, "position": {"x": 15.5, "y": -0.5}},
+      {"name": "fast-inserter", "direction": 4, "position": {"x": -1.5, "y": 7.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": -2.5, "y": 8.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": -0.5, "y": 8.5}},
+      {"name": "fast-inserter", "direction": 4, "position": {"x": -1.5, "y": 9.5}},
+      {"name": "fast-inserter", "position": {"x": -2.5, "y": 13.5}},
+      {"name": "fast-inserter", "direction": 4, "position": {"x": -1.5, "y": 12.5}},
+      {"name": "fast-inserter", "position": {"x": -0.5, "y": 13.5}},
+      {"name": "fast-inserter", "direction": 4, "position": {"x": -1.5, "y": 14.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 0.5, "y": 6.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 1.5, "y": 6.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 12.5, "y": 0.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 13.5, "y": 0.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 14.5, "y": 0.5}},
+      {"name": "fast-inserter", "direction": 12, "position": {"x": 15.5, "y": 1.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 0.5, "y": 8.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 1.5, "y": 8.5}},
+      {"name": "fast-inserter", "position": {"x": 0.5, "y": 13.5}},
+      {"name": "fast-inserter", "position": {"x": 1.5, "y": 13.5}},
+      {"name": "fast-inserter", "position": {"x": 0.5, "y": 15.5}},
+      {"name": "fast-inserter", "position": {"x": 1.5, "y": 15.5}},
+      {"name": "fast-inserter", "direction": 8, "position": {"x": 16.5, "y": 0.5}},
+      {"name": "fast-splitter", "direction": 8, "position": {"x": 11, "y": -0.5}},
+      {"name": "fast-splitter", "direction": 12, "position": {"x": 5.5, "y": 9}},
+      {"name": "fast-splitter", "direction": 12, "position": {"x": 4.5, "y": 13}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 9.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 9.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 10.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 11.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 11.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 12.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "position": {"x": 13.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "position": {"x": 0.5, "y": 9.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 9.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 3.5, "y": 8.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 2.5, "y": 9.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 9.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 4.5, "y": 8.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 9.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 0.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 1.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 2.5, "y": 12.5}},
+      {"name": "fast-transport-belt", "position": {"x": 2.5, "y": 13.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 3.5, "y": 13.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 5.5, "y": 13.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 13.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 7.5, "y": 13.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "input",
+        "position": {"x": 6.5, "y": -4.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "input",
+        "position": {"x": 7.5, "y": -4.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "input",
+        "position": {"x": 11.5, "y": -4.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "output",
+        "position": {"x": 11.5, "y": -1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": -0.5, "y": 9.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": -0.5, "y": 12.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "output",
+        "position": {"x": 6.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "output",
+        "position": {"x": 7.5, "y": 0.5}
+      },
+      {"name": "fast-underground-belt", "direction": 8, "type": "input", "position": {"x": 6.5, "y": 1.5}},
+      {"name": "fast-underground-belt", "direction": 8, "type": "input", "position": {"x": 7.5, "y": 1.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": 10.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 14.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 4.5, "y": 9.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "output",
+        "position": {"x": 6.5, "y": 8.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "output",
+        "position": {"x": 7.5, "y": 8.5}
+      },
+      {"name": "fast-underground-belt", "direction": 8, "type": "input", "position": {"x": 7.5, "y": 9.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 3.5, "y": 12.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 8,
+        "type": "output",
+        "position": {"x": 7.5, "y": 12.5}
+      },
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": -3, "y": -1}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": 17, "y": -1}},
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": -7, "y": 1}},
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": -3, "y": 7}},
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": -7, "y": 9}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": -7, "y": 13}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": -3, "y": 15}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": 21, "y": 1}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": 17, "y": 7}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": 21, "y": 9}},
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": 17, "y": 15}},
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": 21, "y": 13}},
+      {"name": "medium-electric-pole", "position": {"x": 5.5, "y": -0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 9.5, "y": -0.5}},
+      {"name": "medium-electric-pole", "position": {"x": -1.5, "y": 8.5}},
+      {"name": "medium-electric-pole", "position": {"x": -1.5, "y": 13.5}},
+      {"name": "medium-electric-pole", "position": {"x": 2.5, "y": 7.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": 7.5}},
+      {"name": "medium-electric-pole", "position": {"x": 15.5, "y": 0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 2.5, "y": 15.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": 15.5}},
+      {"name": "rail-signal", "direction": 3, "position": {"x": -10.5, "y": 1.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": -0.5, "y": 1.5}},
+      {"name": "rail-signal", "direction": 12, "position": {"x": -13.5, "y": 12.5}},
+      {"name": "rail-signal", "direction": 13, "position": {"x": -10.5, "y": 12.5}},
+      {"name": "rail-signal", "direction": 11, "position": {"x": -5.5, "y": 9.5}},
+      {"name": "rail-signal", "direction": 12, "position": {"x": 14.5, "y": 12.5}},
+      {"name": "rail-signal", "direction": 5, "position": {"x": 24.5, "y": 1.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 27.5, "y": 1.5}},
+      {"name": "rail-signal", "direction": 13, "position": {"x": 19.5, "y": 9.5}},
+      {"name": "rail-signal", "direction": 11, "position": {"x": 24.5, "y": 12.5}},
+      {
+        "name": "selector-combinator",
+        "direction": 12,
+        "player_description": "Get stack size of each item in buffer",
+        "control_behavior": {"operation": "stack-size"},
+        "position": {"x": 9, "y": -1.5}
+      },
+      {
+        "name": "selector-combinator",
+        "direction": 12,
+        "player_description": "Sets hologram display to the most common item in buffer",
+        "control_behavior": {"operation": "count", "count_signal": {"name": "signal-I", "type": "virtual"}},
+        "position": {"x": 8, "y": -0.5}
+      },
+      {
+        "name": "selector-combinator",
+        "direction": 4,
+        "player_description": "Get stack size of each item in buffer",
+        "control_behavior": {"operation": "stack-size"},
+        "position": {"x": 4, "y": 6.5}
+      },
+      {
+        "name": "selector-combinator",
+        "direction": 4,
+        "player_description": "Sets hologram display to the most common item in buffer",
+        "control_behavior": {"operation": "count", "count_signal": {"name": "signal-I", "type": "virtual"}},
+        "position": {"x": 4, "y": 7.5}
+      },
+      {
+        "name": "selector-combinator",
+        "direction": 4,
+        "player_description": "Get stack size of each item in buffer",
+        "control_behavior": {"operation": "stack-size"},
+        "position": {"x": 3, "y": 14.5}
+      },
+      {
+        "name": "selector-combinator",
+        "direction": 4,
+        "player_description": "Sets hologram display to the most common item in buffer",
+        "control_behavior": {"operation": "count", "count_signal": {"name": "signal-I", "type": "virtual"}},
+        "position": {"x": 4, "y": 15.5}
+      },
+      {"name": "steel-chest", "position": {"x": 12.5, "y": -0.5}},
+      {"name": "steel-chest", "position": {"x": 13.5, "y": -0.5}},
+      {"name": "steel-chest", "position": {"x": 14.5, "y": -0.5}},
+      {"name": "steel-chest", "position": {"x": -0.5, "y": 7.5}},
+      {"name": "steel-chest", "position": {"x": -2.5, "y": 9.5}},
+      {"name": "steel-chest", "position": {"x": -2.5, "y": 12.5}},
+      {"name": "steel-chest", "position": {"x": -0.5, "y": 14.5}},
+      {"name": "steel-chest", "position": {"x": 0.5, "y": 7.5}},
+      {"name": "steel-chest", "position": {"x": 1.5, "y": 7.5}},
+      {"name": "steel-chest", "position": {"x": 0.5, "y": 14.5}},
+      {"name": "steel-chest", "position": {"x": 1.5, "y": 14.5}},
+      {"name": "steel-chest", "position": {"x": 16.5, "y": 1.5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 5, "y": -3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 7, "y": -3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 9, "y": -3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -13, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -11, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -9, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -7, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -5, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -3, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -1, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -13, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -11, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -9, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -7, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -5, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -3, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -1, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 1, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 3, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 5, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 7, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 5, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 7, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 9, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 11, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 13, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 15, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 9, "y": 5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 1, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 3, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 5, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 7, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 9, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 11, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 13, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 15, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 17, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 19, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 21, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 23, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 25, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 27, "y": 3}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 17, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 19, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 21, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 23, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 25, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 27, "y": 11}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 5, "y": 17}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 7, "y": 17}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 9, "y": 17}},
+      {
+        "name": "train-stop",
+        "direction": 12,
+        "manual_trains_limit": 1,
+        "station": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter]",
+        "color": {"a": 1, "b": 0, "g": 0, "r": 0.949999988079071},
+        "control_behavior": {
+          "set_priority": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"}
+        },
+        "position": {"x": 5, "y": -5}
+      },
+      {
+        "name": "train-stop",
+        "direction": 4,
+        "manual_trains_limit": 1,
+        "station": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter]",
+        "color": {"a": 1, "b": 0, "g": 0, "r": 0.949999988079071},
+        "control_behavior": {
+          "set_priority": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"}
+        },
+        "position": {"x": 9, "y": 7}
+      },
+      {
+        "name": "train-stop",
+        "direction": 4,
+        "manual_trains_limit": 1,
+        "station": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter]",
+        "color": {"a": 1, "b": 0, "g": 0, "r": 0.949999988079071},
+        "control_behavior": {
+          "set_priority": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"}
+        },
+        "position": {"x": 9, "y": 19}
+      }
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-2", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "signal-3", "type": "virtual"}}
+    ],
+    "parameters": [
+      {"name": "Group", "id": "parameter-0", "type": "id"},
+      {"name": "Base Priority", "number": "50", "type": "number"},
+      {
+        "name": "Cargo Wagons",
+        "dependent": true,
+        "formula": "1",
+        "number": "4",
+        "type": "number",
+        "variable": "W"
+      },
+      {"name": "Cargo Wagon Slots", "number": "40", "type": "number", "variable": "S"},
+      {
+        "name": "Total Train Capacity (stacks)",
+        "dependent": true,
+        "formula": "W*S",
+        "number": "-1",
+        "type": "number"
+      }
+    ],
+    "snap-to-grid": {"x": 14, "y": 14},
+    "wires": [
+      ["19,0", 2, "22.5,6", 4],
+      ["19,3.5", 1, "24.5,3.5", 1],
+      ["19,3.5", 2, "21,3.5", 4],
+      ["19,3.5", 3, "22.5,6", 1],
+      ["19.5,4.5", 1, "23.5,4.5", 1],
+      ["19.5,4.5", 2, "21,3.5", 2],
+      ["19.5,4.5", 2, "20.5,4.5", 2],
+      ["19.5,4.5", 2, "22,4.5", 2],
+      ["19.5,4.5", 2, "23.5,4.5", 2],
+      ["19.5,4.5", 5, "23.5,4.5", 5],
+      ["19.5,4.5", 5, "20.5,12.5", 5],
+      ["21,3.5", 1, "23,3.5", 3],
+      ["21,3.5", 2, "23,3.5", 2],
+      ["21,3.5", 2, "23.5,4.5", 2],
+      ["20.5,4.5", 1, "22,4.5", 3],
+      ["20.5,4.5", 2, "22,4.5", 2],
+      ["23,3.5", 2, "22,4.5", 2],
+      ["23,3.5", 2, "23.5,4.5", 2],
+      ["22,4.5", 2, "23.5,4.5", 2],
+      ["23.5,4.5", 1, "29.5,5.5", 1],
+      ["23.5,4.5", 2, "26.5,4.5", 2],
+      ["23.5,4.5", 2, "29.5,5.5", 2],
+      ["23.5,4.5", 5, "29.5,5.5", 5],
+      ["23.5,4.5", 5, "26,13", 5],
+      ["24.5,3.5", 2, "22.5,6", 2],
+      ["27.5,4.5", 2, "26.5,4.5", 2],
+      ["27.5,4.5", 2, "28.5,4.5", 2],
+      ["28.5,4.5", 2, "29.5,5.5", 2],
+      ["29.5,5.5", 2, "30.5,6.5", 2],
+      ["0,12", 1, "26,13", 1],
+      ["0,12", 2, "26,13", 2],
+      ["0,12", 5, "26,13", 5],
+      ["13.5,12.5", 2, "14.5,12.5", 2],
+      ["13.5,12.5", 2, "12.5,13.5", 2],
+      ["15.5,12.5", 2, "14.5,12.5", 2],
+      ["15.5,12.5", 2, "16.5,12.5", 2],
+      ["16.5,11.5", 1, "21.5,12", 1],
+      ["16.5,11.5", 2, "23,13.5", 2],
+      ["16.5,12.5", 1, "20.5,12.5", 1],
+      ["16.5,12.5", 1, "12.5,13.5", 1],
+      ["16.5,12.5", 2, "20.5,12.5", 2],
+      ["16.5,12.5", 5, "20.5,12.5", 5],
+      ["16.5,12.5", 5, "12.5,13.5", 5],
+      ["16.5,12.5", 5, "16.5,20.5", 5],
+      ["18,11.5", 2, "20,11.5", 2],
+      ["18,11.5", 3, "20,11.5", 1],
+      ["19.5,12.5", 1, "18,12.5", 3],
+      ["19.5,12.5", 2, "20.5,12.5", 2],
+      ["18,12.5", 2, "20.5,12.5", 2],
+      ["20,11.5", 4, "21.5,12", 2],
+      ["21.5,12", 3, "23,13.5", 1],
+      ["20.5,12.5", 5, "26,13", 5],
+      ["20.5,12.5", 5, "20.5,20.5", 5],
+      ["23,12", 2, "23,13.5", 4],
+      ["42,12", 1, "26,13", 1],
+      ["42,12", 2, "26,13", 2],
+      ["42,12", 5, "26,13", 5],
+      ["11.5,14.5", 2, "12.5,13.5", 2],
+      ["12.5,13.5", 5, "12.5,18.5", 5],
+      ["11.5,17.5", 2, "12.5,18.5", 2],
+      ["12.5,18.5", 1, "16.5,20.5", 1],
+      ["12.5,18.5", 2, "13.5,19.5", 2],
+      ["12.5,18.5", 2, "16.5,20.5", 2],
+      ["12.5,18.5", 5, "16.5,20.5", 5],
+      ["13.5,19.5", 2, "14.5,19.5", 2],
+      ["15.5,19.5", 2, "14.5,19.5", 2],
+      ["15.5,19.5", 2, "16.5,20.5", 2],
+      ["17,19.5", 2, "16.5,20.5", 2],
+      ["17,19.5", 2, "19,19.5", 2],
+      ["17,19.5", 3, "19,19.5", 1],
+      ["16.5,20.5", 1, "20.5,20.5", 1],
+      ["16.5,20.5", 2, "19,19.5", 2],
+      ["16.5,20.5", 2, "18,20.5", 2],
+      ["16.5,20.5", 2, "20.5,20.5", 2],
+      ["16.5,20.5", 5, "20.5,20.5", 5],
+      ["19,19.5", 2, "19.5,20.5", 2],
+      ["19,19.5", 2, "20.5,20.5", 2],
+      ["19,19.5", 4, "21,19.5", 2],
+      ["18,20.5", 2, "19.5,20.5", 2],
+      ["18,20.5", 2, "20.5,20.5", 2],
+      ["18,20.5", 3, "19.5,20.5", 1],
+      ["19.5,20.5", 2, "20.5,20.5", 2],
+      ["21,19.5", 1, "21.5,20.5", 1],
+      ["21,19.5", 3, "22.5,20", 1],
+      ["21.5,20.5", 2, "22.5,20", 2],
+      ["22.5,20", 4, "23,24", 2]
+    ]
+  }
+}

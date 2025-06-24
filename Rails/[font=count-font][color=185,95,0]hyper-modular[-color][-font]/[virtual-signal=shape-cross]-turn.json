@@ -1,0 +1,38 @@
+{
+  "index": 1,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-cross] Turn",
+    "absolute-snapping": true,
+    "shift_x": 3,
+    "shift_y": -12,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 25, "y": 5}},
+      {"name": "big-electric-pole", "position": {"x": 4, "y": 26}},
+      {"name": "curved-rail-a", "direction": 12, "position": {"x": 21, "y": 1}},
+      {"name": "curved-rail-a", "direction": 12, "position": {"x": 21, "y": 9}},
+      {"name": "curved-rail-a", "direction": 2, "position": {"x": 0, "y": 22}},
+      {"name": "curved-rail-a", "direction": 2, "position": {"x": 8, "y": 22}},
+      {"name": "curved-rail-b", "direction": 12, "position": {"x": 16, "y": 3}},
+      {"name": "curved-rail-b", "direction": 12, "position": {"x": 16, "y": 11}},
+      {"name": "curved-rail-b", "direction": 2, "position": {"x": 2, "y": 17}},
+      {"name": "curved-rail-b", "direction": 2, "position": {"x": 10, "y": 17}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 24.5, "y": -0.5}},
+      {"name": "rail-signal", "direction": 8, "position": {"x": 9.5, "y": 25.5}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 13, "y": 6}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 7, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 5, "y": 14}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 11, "y": 8}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 9, "y": 10}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 13, "y": 14}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 24, "y": 1}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 24, "y": 9}},
+      {"name": "straight-rail", "position": {"x": 0, "y": 25}},
+      {"name": "straight-rail", "position": {"x": 8, "y": 25}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "shape-curve", "type": "virtual"}}],
+    "snap-to-grid": {"x": 14, "y": 14},
+    "wires": [["25,5.5", 1, "4,26.5", 1], ["25,5.5", 2, "4,26.5", 2], ["25,5.5", 5, "4,26.5", 5]]
+  }
+}

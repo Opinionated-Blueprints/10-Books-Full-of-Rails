@@ -1,0 +1,260 @@
+{
+  "index": 12,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=signal-item-parameter] 2-4-0",
+    "absolute-snapping": true,
+    "shift_x": 3,
+    "shift_y": 1,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "cargo-wagon",
+        "enable_logistics_while_moving": false,
+        "inventory": null,
+        "orientation": 0.75,
+        "position": {"x": 14.875, "y": 0}
+      },
+      {
+        "name": "cargo-wagon",
+        "enable_logistics_while_moving": false,
+        "inventory": null,
+        "orientation": 0.75,
+        "position": {"x": 21.875, "y": 0}
+      },
+      {
+        "name": "cargo-wagon",
+        "enable_logistics_while_moving": false,
+        "inventory": null,
+        "orientation": 0.75,
+        "position": {"x": 28.875, "y": 0}
+      },
+      {
+        "name": "cargo-wagon",
+        "enable_logistics_while_moving": false,
+        "inventory": null,
+        "orientation": 0.75,
+        "position": {"x": 35.875, "y": 0}
+      },
+      {
+        "name": "locomotive",
+        "enable_logistics_while_moving": false,
+        "orientation": 0.75,
+        "position": {"x": 0.875, "y": 0}
+      },
+      {
+        "name": "locomotive",
+        "enable_logistics_while_moving": false,
+        "orientation": 0.75,
+        "position": {"x": 7.875, "y": 0}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "signal-6", "type": "virtual"}}],
+    "parameters": [{"name": "Group", "id": "parameter-0", "type": "id"}],
+    "schedules": [
+      {
+        "locomotives": ["0,0"],
+        "schedule": {
+          "group": "[virtual-signal=signal-item-parameter] - [item=parameter-0]",
+          "interrupts": [
+            {
+              "name": "[item=parameter-0] [virtual-signal=signal-fuel-parameter] [color=white]Refuel[/color]",
+              "inside_interrupt": true,
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 50, "first_signal": {"name": "coal"}}
+                },
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 25, "first_signal": {"name": "solid-fuel"}}
+                },
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 3, "first_signal": {"name": "rocket-fuel"}}
+                },
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 1, "first_signal": {"name": "nuclear-fuel"}}
+                }
+              ],
+              "targets": [
+                {
+                  "station": "[item=parameter-0] Refuelling",
+                  "wait_conditions": [
+                    {"compare_type": "and", "type": "fuel_full"},
+                    {"compare_type": "or", "ticks": 300, "type": "inactivity"}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter] [color=red]Provider[/color]",
+              "inside_interrupt": false,
+              "conditions": [{"compare_type": "and", "type": "empty"}],
+              "targets": [
+                {
+                  "station": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter]",
+                  "wait_conditions": [
+                    {"compare_type": "and", "type": "full"},
+                    {
+                      "compare_type": "and",
+                      "station": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter]",
+                      "type": "specific_destination_not_full"
+                    },
+                    {"compare_type": "or", "ticks": 120, "type": "inactivity"},
+                    {
+                      "compare_type": "and",
+                      "station": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter]",
+                      "type": "specific_destination_not_full"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter] [color=blue]Requester[/color]",
+              "inside_interrupt": false,
+              "conditions": [{"compare_type": "and", "type": "not_empty"}],
+              "targets": [
+                {
+                  "station": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter]",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "item_count",
+                      "condition": {
+                        "comparator": "=",
+                        "constant": 0,
+                        "first_signal": {"name": "signal-item-parameter", "type": "virtual"}
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "[item=parameter-0] [item=roboport] [color=yellow]Depot[/color]",
+              "inside_interrupt": true,
+              "conditions": [
+                {"compare_type": "and", "type": "destination_full_or_no_path"},
+                {"compare_type": "and", "type": "empty"}
+              ],
+              "targets": [{"station": "[item=parameter-0] [item=roboport]"}]
+            }
+          ]
+        }
+      },
+      {
+        "locomotives": ["7,0"],
+        "schedule": {
+          "group": "[virtual-signal=signal-item-parameter] - [item=parameter-0]",
+          "interrupts": [
+            {
+              "name": "[item=parameter-0] [virtual-signal=signal-fuel-parameter] [color=white]Refuel[/color]",
+              "inside_interrupt": true,
+              "conditions": [
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 50, "first_signal": {"name": "coal"}}
+                },
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 25, "first_signal": {"name": "solid-fuel"}}
+                },
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 3, "first_signal": {"name": "rocket-fuel"}}
+                },
+                {
+                  "compare_type": "and",
+                  "type": "fuel_item_count_any",
+                  "condition": {"comparator": "≤", "constant": 1, "first_signal": {"name": "nuclear-fuel"}}
+                }
+              ],
+              "targets": [
+                {
+                  "station": "[item=parameter-0] Refuelling",
+                  "wait_conditions": [
+                    {"compare_type": "and", "type": "fuel_full"},
+                    {"compare_type": "or", "ticks": 300, "type": "inactivity"}
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter] [color=red]Provider[/color]",
+              "inside_interrupt": false,
+              "conditions": [{"compare_type": "and", "type": "empty"}],
+              "targets": [
+                {
+                  "station": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter]",
+                  "wait_conditions": [
+                    {"compare_type": "and", "type": "full"},
+                    {
+                      "compare_type": "and",
+                      "station": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter]",
+                      "type": "specific_destination_not_full"
+                    },
+                    {"compare_type": "or", "ticks": 120, "type": "inactivity"},
+                    {
+                      "compare_type": "and",
+                      "station": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter]",
+                      "type": "specific_destination_not_full"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter] [color=blue]Requester[/color]",
+              "inside_interrupt": false,
+              "conditions": [{"compare_type": "and", "type": "not_empty"}],
+              "targets": [
+                {
+                  "station": "[item=parameter-0] [item=requester-chest] - [virtual-signal=signal-item-parameter]",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "and",
+                      "type": "item_count",
+                      "condition": {
+                        "comparator": "=",
+                        "constant": 0,
+                        "first_signal": {"name": "signal-item-parameter", "type": "virtual"}
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "[item=parameter-0] [item=roboport] [color=yellow]Depot[/color]",
+              "inside_interrupt": true,
+              "conditions": [
+                {"compare_type": "and", "type": "destination_full_or_no_path"},
+                {"compare_type": "and", "type": "empty"}
+              ],
+              "targets": [{"station": "[item=parameter-0] [item=roboport]"}]
+            }
+          ]
+        }
+      }
+    ],
+    "snap-to-grid": {"x": 14, "y": 2},
+    "stock_connections": [
+      {"back": "7,0", "stock": "0,0"},
+      {"back": "14,0", "front": "0,0", "stock": "7,0"},
+      {"back": "21,0", "front": "7,0", "stock": "14,0"},
+      {"back": "28,0", "front": "14,0", "stock": "21,0"},
+      {"back": "35,0", "front": "21,0", "stock": "28,0"},
+      {"front": "28,0", "stock": "35,0"}
+    ]
+  }
+}

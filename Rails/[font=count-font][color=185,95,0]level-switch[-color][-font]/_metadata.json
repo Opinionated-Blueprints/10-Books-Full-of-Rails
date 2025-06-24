@@ -1,0 +1,11 @@
+{
+  "index": 1,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=185,95,0]Level Switch[/color][/font]",
+    "description": "[font=default-bold][color=blue]Shift + Scroll [/color][/font]while holding the book to adjust ramp position",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "rail-ramp"}}]
+  }
+}

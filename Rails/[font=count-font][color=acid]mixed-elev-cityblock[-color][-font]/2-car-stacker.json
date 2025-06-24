@@ -1,0 +1,103 @@
+{
+  "index": 34,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "2 Car Stacker",
+    "shift_x": 2771,
+    "shift_y": 997,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "elevated-curved-rail-a", "direction": 8, "position": {"x": 0, "y": -31}},
+      {"name": "elevated-curved-rail-a", "direction": 8, "position": {"x": 0, "y": -25}},
+      {"name": "elevated-curved-rail-a", "direction": 14, "position": {"x": 19, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 14, "position": {"x": 21, "y": 0}},
+      {"name": "elevated-curved-rail-b", "direction": 8, "position": {"x": 8, "y": -8}},
+      {"name": "elevated-curved-rail-b", "direction": 8, "position": {"x": 12, "y": -6}},
+      {"name": "elevated-curved-rail-b", "direction": 14, "position": {"x": 14, "y": -2}},
+      {"name": "elevated-curved-rail-b", "direction": 14, "position": {"x": 16, "y": -2}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 2, "y": -26}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 4, "y": -22}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 2, "y": -20}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 6, "y": -18}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 4, "y": -16}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 6, "y": -12}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 8, "y": -14}},
+      {"name": "elevated-half-diagonal-rail", "position": {"x": 10, "y": -10}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": -32}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": -30}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": -28}},
+      {"name": "elevated-straight-rail", "direction": 6, "position": {"x": 11, "y": -5}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 22, "y": 0}},
+      {"name": "medium-electric-pole", "position": {"x": 40.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 47.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 51.5, "y": 2.5}},
+      {"name": "rail-ramp", "direction": 12, "position": {"x": 31, "y": 0}},
+      {
+        "name": "rail-signal",
+        "direction": 15,
+        "rail_layer": "elevated",
+        "position": {"x": 1.5, "y": -24.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 15,
+        "rail_layer": "elevated",
+        "position": {"x": 1.5, "y": -18.5}
+      },
+      {"name": "rail-signal", "direction": 8, "position": {"x": 9.5, "y": -12.5}},
+      {
+        "name": "rail-signal",
+        "direction": 15,
+        "rail_layer": "elevated",
+        "position": {"x": 9.5, "y": -8.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 14,
+        "rail_layer": "elevated",
+        "position": {"x": 11.5, "y": -2.5}
+      },
+      {"name": "rail-signal", "direction": 12, "position": {"x": 40.5, "y": 1.5}},
+      {"name": "rail-support", "direction": 7, "position": {"x": 5, "y": -20}},
+      {"name": "rail-support", "direction": 7, "position": {"x": 5, "y": -14}},
+      {"name": "rail-support", "direction": 6, "position": {"x": 14, "y": -4}},
+      {"name": "rail-support", "direction": 5, "position": {"x": 16, "y": -1}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 40, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 42, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 44, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 46, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 48, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 50, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 52, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 54, "y": 0}},
+      {
+        "name": "train-stop",
+        "direction": 4,
+        "manual_trains_limit": 0,
+        "priority": 49,
+        "station": "",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "control_behavior": {
+          "set_priority": true,
+          "set_trains_limit": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "locomotive"}
+        },
+        "position": {"x": 54, "y": 2}
+      }
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-2", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "signal-S", "type": "virtual"}}
+    ],
+    "wires": [
+      ["40.5,34.5", 1, "47.5,34.5", 1],
+      ["40.5,34.5", 2, "47.5,34.5", 2],
+      ["40.5,34.5", 5, "47.5,34.5", 5],
+      ["47.5,34.5", 1, "51.5,34.5", 1],
+      ["47.5,34.5", 2, "51.5,34.5", 2],
+      ["47.5,34.5", 5, "51.5,34.5", 5]
+    ]
+  }
+}

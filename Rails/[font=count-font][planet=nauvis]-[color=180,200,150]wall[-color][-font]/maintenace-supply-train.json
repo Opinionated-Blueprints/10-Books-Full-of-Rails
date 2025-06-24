@@ -1,0 +1,100 @@
+{
+  "index": 16,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Maintenace Supply Train",
+    "description": "For double-headed trains - just add a locomotive",
+    "shift_x": 507,
+    "shift_y": 209,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "cargo-wagon",
+        "enable_logistics_while_moving": false,
+        "orientation": 0.75,
+        "inventory": {
+          "filters": [
+            {"name": "gate", "comparator": "=", "index": 1, "quality": "normal"},
+            {"name": "pipe", "comparator": "=", "index": 2, "quality": "normal"},
+            {"name": "pump", "comparator": "=", "index": 3, "quality": "normal"},
+            {"name": "laser-turret", "comparator": "=", "index": 4, "quality": "normal"},
+            {"name": "flamethrower-turret", "comparator": "=", "index": 5, "quality": "normal"},
+            {"name": "medium-electric-pole", "comparator": "=", "index": 6, "quality": "normal"},
+            {"name": "buffer-chest", "comparator": "=", "index": 7, "quality": "normal"},
+            {"name": "logistic-robot", "comparator": "=", "index": 8, "quality": "normal"},
+            {"name": "construction-robot", "comparator": "=", "index": 9, "quality": "normal"},
+            {"name": "construction-robot", "comparator": "=", "index": 10, "quality": "normal"},
+            {"name": "gate", "comparator": "=", "index": 11, "quality": "normal"},
+            {"name": "pipe-to-ground", "comparator": "=", "index": 12, "quality": "normal"},
+            {"name": "pipe-to-ground", "comparator": "=", "index": 13, "quality": "normal"},
+            {"name": "land-mine", "comparator": "=", "index": 14, "quality": "normal"},
+            {"name": "big-electric-pole", "comparator": "=", "index": 15, "quality": "normal"},
+            {"name": "medium-electric-pole", "comparator": "=", "index": 16, "quality": "normal"},
+            {"name": "roboport", "comparator": "=", "index": 17, "quality": "normal"},
+            {"name": "logistic-robot", "comparator": "=", "index": 18, "quality": "normal"},
+            {"name": "construction-robot", "comparator": "=", "index": 19, "quality": "normal"},
+            {"name": "construction-robot", "comparator": "=", "index": 20, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 21, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 22, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 23, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 24, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 25, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 26, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 27, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 28, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 29, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 30, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 31, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 32, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 33, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 34, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 35, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 36, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 37, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 38, "quality": "normal"},
+            {"name": "stone-wall", "comparator": "=", "index": 39, "quality": "normal"}
+          ]
+        },
+        "position": {"x": 0.21875, "y": 0}
+      },
+      {
+        "name": "locomotive",
+        "enable_logistics_while_moving": false,
+        "orientation": 0.25,
+        "color": {"a": 1, "b": 0.5882353186607361, "g": 0.7843137383460999, "r": 0.7058823704719543},
+        "position": {"x": 7.21875, "y": 0}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "locomotive"}}],
+    "schedules": [
+      {
+        "locomotives": ["7,0"],
+        "schedule": {
+          "group": "Wall Maintenance",
+          "records": [
+            {
+              "station": "[color=180,200,150]Wall Maintenance[/color] [item=passive-provider-chest]",
+              "wait_conditions": [
+                {
+                  "compare_type": "and",
+                  "station": "[color=180,200,150]Wall Maintenance[/color] [item=requester-chest]",
+                  "type": "specific_destination_not_full"
+                },
+                {
+                  "compare_type": "and",
+                  "type": "circuit",
+                  "condition": {"comparator": "=", "constant": 1, "first_signal": {"name": "signal-check", "type": "virtual"}}
+                }
+              ]
+            },
+            {
+              "station": "[color=180,200,150]Wall Maintenance[/color] [item=requester-chest]",
+              "wait_conditions": [{"compare_type": "or", "ticks": 300, "type": "inactivity"}]
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [{"back": "7,0", "stock": "0,0"}, {"back": "0,0", "stock": "7,0"}]
+  }
+}

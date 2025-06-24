@@ -1,0 +1,15 @@
+{
+  "index": 20,
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "version": 562949957025792,
+    "settings": {
+      "tile_selection_mode": 2,
+      "entity_filters": [
+        {"name": "solar-panel", "comparator": "=", "index": 0, "quality": "normal"},
+        {"name": "accumulator", "comparator": "=", "index": 1, "quality": "normal"},
+        {"name": "substation", "comparator": "=", "index": 2, "quality": "normal"}
+      ]
+    }
+  }
+}

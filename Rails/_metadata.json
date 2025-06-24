@@ -1,0 +1,10 @@
+{
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=purple]Rails[/color][/font]",
+    "description": "RHD[virtual-signal=signal-dot][item=solar-panel]  & [item=accumulator] & [item=small-lamp] & [item=red-wire] & [item=green-wire] included[virtual-signal=signal-dot]optimised for 6/3/2 [item=locomotive]/[item=cargo-wagon]/[item=fluid-wagon][virtual-signal=signal-dot]Spacing: | - - - | [virtual-signal=signal-dot][color=acid]V2.23.0[/color]\nIf you have questions, check here first:\nhttps://github.com/Opinionated-Blueprints/10-Books-Full-of-Rails/wiki",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "rail"}}]
+  }
+}

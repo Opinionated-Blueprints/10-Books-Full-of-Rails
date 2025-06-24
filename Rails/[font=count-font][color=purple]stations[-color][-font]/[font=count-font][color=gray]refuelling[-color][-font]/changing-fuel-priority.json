@@ -1,0 +1,36 @@
+{
+  "index": 5,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Changing Fuel Priority",
+    "description": "This combinator has the current Fuel Priority constant combinator group. By default includes: carbon, coal, solid/rocket/nuclear fuel.\nTo change the priority, simply modify the signal values.\nLower value = higher priority.\nIf you're adding fuel to the priority list, check the decider combinator in refuelling stations to the rails. There are instructions on what to do inside. Do this for every refuel station (and preferrably the blueprint too). Add the fuel to the refuel interrupt as well.",
+    "shift_x": -428,
+    "shift_y": -693,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "constant-combinator",
+        "direction": 4,
+        "player_description": "Lower value = higher priority",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "group": "Fuel Priority",
+                "index": 1,
+                "filters": [
+                  {"name": "nuclear-fuel", "comparator": "=", "count": 1, "index": 1, "quality": "normal"},
+                  {"name": "rocket-fuel", "comparator": "=", "count": 2, "index": 2, "quality": "normal"},
+                  {"name": "solid-fuel", "comparator": "=", "count": 3, "index": 3, "quality": "normal"},
+                  {"name": "coal", "comparator": "=", "count": 4, "index": 4, "quality": "normal"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": -0.5, "y": -0.5}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "constant-combinator"}}]
+  }
+}

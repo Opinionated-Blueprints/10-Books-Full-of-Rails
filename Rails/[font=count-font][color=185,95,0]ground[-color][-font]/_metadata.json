@@ -1,0 +1,11 @@
+{
+  "index": 0,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=185,95,0]Ground[/color][/font]",
+    "description": "Standard stuff, 90% of your network is here.\n[color=blue][font=default-bold]Shift+Click[/font][/color] = [font=default-bold]Force Build[/font] (places every non-colliding entity)\n[color=blue][font=default-bold]Ctrl+Shift+Click[/font][/color] = [font=default-bold]Super Force Build[/font] (removes colliding entities)",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "rail"}}]
+  }
+}

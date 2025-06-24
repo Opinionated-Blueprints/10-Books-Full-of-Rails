@@ -1,0 +1,43 @@
+{
+  "index": 12,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Elevated Steep",
+    "description": "Can be placed over straight rail. Super-force-build if you need, but avoid removing 2 large power poles in a row.\n",
+    "absolute-snapping": true,
+    "shift_x": -17,
+    "shift_y": -5,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 29, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 4, "position": {"x": 5, "y": 24}},
+      {"name": "elevated-curved-rail-b", "direction": 2, "position": {"x": 20, "y": 6}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 24, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 10, "position": {"x": 14, "y": 18}},
+      {"name": "elevated-curved-rail-b", "direction": 4, "position": {"x": 10, "y": 22}},
+      {"name": "elevated-half-diagonal-rail", "direction": 2, "position": {"x": 18, "y": 10}},
+      {"name": "elevated-half-diagonal-rail", "direction": 2, "position": {"x": 16, "y": 14}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 0, "y": 24}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 2, "y": 24}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 32, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 34, "y": 0}},
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 23.5, "y": 4.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 12.5, "y": 21.5}
+      },
+      {"name": "rail-support", "direction": 4, "position": {"x": 31, "y": 0}},
+      {"name": "rail-support", "direction": 1, "position": {"x": 17, "y": 12}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 3, "y": 24}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "rail-support"}}],
+    "snap-to-grid": {"x": 2, "y": 14}
+  }
+}

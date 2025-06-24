@@ -1,0 +1,16 @@
+{
+  "index": 5,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=185,95,0]Elevated Entry/Exit[/color][/font]",
+    "description": "Entry/Exit In relation to the network[virtual-signal=signal-dot][color=185,95,0]L[/color]- left[virtual-signal=signal-dot][color=185,95,0]M[/color] - Middle[virtual-signal=signal-dot][color=185,95,0]R[/color] - Right\nYou can safely [font=default-bold]super force build[/font] ([color=blue][font=default-bold]Ctrl+Shift+Click[/font][/color]) these over the large power poles or rail supports on [font=default-bold]Straight or Diagonal[/font] rail sections as long as you don't remove 2 poles.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-N", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "signal-X", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "rail-support"}},
+      {"index": 4, "signal": {"name": "rail-support"}}
+    ]
+  }
+}

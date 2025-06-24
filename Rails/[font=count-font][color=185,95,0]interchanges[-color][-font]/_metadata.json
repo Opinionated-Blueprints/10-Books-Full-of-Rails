@@ -1,0 +1,15 @@
+{
+  "index": 3,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=185,95,0]Interchanges[/color][/font]",
+    "description": "The buffers of these interchanges only support trains up to 6 cars long. They may deadlock with longer trains. If you still wish to use them, replace all regular rail signals with chain signals using an upgrade planner. Throughput will suffer.\n\nThe tables in blueprint descriptions are the result of a throughput test with a given train configuration (1st number is forward locomotives, 2nd is wagons, 3rd is backwards locomotives). Unless you're making a megabase none of this should matter.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "rail-ramp"}},
+      {"index": 2, "signal": {"name": "rail-support"}},
+      {"index": 3, "signal": {"name": "rail"}}
+    ]
+  }
+}

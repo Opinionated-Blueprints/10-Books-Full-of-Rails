@@ -1,0 +1,49 @@
+{
+  "index": 13,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Elevated",
+    "description": "Can be placed over straight rail. Super-force-build if you need, but avoid removing 2 large power poles in a row.\n",
+    "absolute-snapping": true,
+    "shift_x": -19,
+    "shift_y": -5,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "elevated-curved-rail-a", "direction": 4, "position": {"x": 5, "y": 24}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 35, "y": 0}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 30, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 4, "position": {"x": 10, "y": 22}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 27, "y": 5}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 25, "y": 7}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 23, "y": 9}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 21, "y": 11}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 19, "y": 13}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 17, "y": 15}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 15, "y": 17}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 13, "y": 19}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 0, "y": 24}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 2, "y": 24}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 38, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 40, "y": 0}},
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 28.5, "y": 5.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 12.5, "y": 21.5}
+      },
+      {"name": "rail-support", "direction": 2, "position": {"x": 28, "y": 4}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 20, "y": 12}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 12, "y": 20}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 3, "y": 24}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 37, "y": 0}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "rail-support"}}],
+    "snap-to-grid": {"x": 2, "y": 14}
+  }
+}

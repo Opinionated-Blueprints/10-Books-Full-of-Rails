@@ -1,0 +1,57 @@
+{
+  "index": 4,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Refuel Train",
+    "shift_x": -445,
+    "shift_y": -671,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "cargo-wagon",
+        "enable_logistics_while_moving": false,
+        "inventory": null,
+        "orientation": 0.25,
+        "position": {"x": -0.71875, "y": 0}
+      },
+      {
+        "name": "locomotive",
+        "enable_logistics_while_moving": false,
+        "orientation": 0.75,
+        "color": {"a": 1, "b": 0, "g": 1, "r": 0},
+        "position": {"x": 6.28125, "y": 0}
+      }
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-fuel-parameter", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "locomotive"}}
+    ],
+    "schedules": [
+      {
+        "locomotives": ["7,0"],
+        "schedule": {
+          "group": "[virtual-signal=signal-fuel-parameter] Supply",
+          "interrupts": [{"name": "Fuel Supply", "inside_interrupt": false}],
+          "records": [
+            {
+              "station": "Fuel Supply [item=passive-provider-chest]",
+              "wait_conditions": [
+                {"compare_type": "and", "type": "full"},
+                {
+                  "compare_type": "and",
+                  "station": "Fuel Supply [item=requester-chest]",
+                  "type": "specific_destination_not_full"
+                }
+              ]
+            },
+            {
+              "station": "Fuel Supply [item=requester-chest]",
+              "wait_conditions": [{"compare_type": "and", "ticks": 300, "type": "inactivity"}]
+            }
+          ]
+        }
+      }
+    ],
+    "stock_connections": [{"front": "7,0", "stock": "0,0"}, {"front": "0,0", "stock": "7,0"}]
+  }
+}

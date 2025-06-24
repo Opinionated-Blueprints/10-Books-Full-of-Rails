@@ -1,0 +1,67 @@
+{
+  "index": 13,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-cross] Entry Overpass",
+    "absolute-snapping": true,
+    "shift_x": 1,
+    "shift_y": 3,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "curved-rail-a", "direction": 8, "position": {"x": 0, "y": -29}},
+      {"name": "curved-rail-a", "position": {"x": 6, "y": -15}},
+      {"name": "curved-rail-a", "direction": 8, "position": {"x": 6, "y": -11}},
+      {"name": "curved-rail-a", "direction": 14, "position": {"x": 17, "y": 0}},
+      {"name": "curved-rail-b", "direction": 8, "position": {"x": 8, "y": -6}},
+      {"name": "curved-rail-b", "direction": 14, "position": {"x": 12, "y": -2}},
+      {"name": "elevated-curved-rail-a", "direction": 10, "position": {"x": 0, "y": -3}},
+      {"name": "elevated-curved-rail-a", "direction": 4, "position": {"x": -11, "y": 8}},
+      {"name": "elevated-curved-rail-b", "direction": 10, "position": {"x": -2, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 4, "position": {"x": -6, "y": 6}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": -12, "y": 8}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": -10, "y": 8}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": -8, "y": 8}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": -6, "y": 8}},
+      {"name": "half-diagonal-rail", "position": {"x": 2, "y": -24}},
+      {"name": "half-diagonal-rail", "position": {"x": 4, "y": -20}},
+      {"name": "rail-ramp", "direction": 8, "position": {"x": 0, "y": -13}},
+      {"name": "rail-ramp", "direction": 4, "position": {"x": -21, "y": 8}},
+      {"name": "rail-ramp", "direction": 12, "position": {"x": 3, "y": 8}},
+      {"name": "rail-signal", "direction": 7, "position": {"x": 1.5, "y": -27.5}},
+      {"name": "rail-signal", "direction": 8, "position": {"x": 1.5, "y": -22.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 10.5, "y": -1.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 18.5, "y": -1.5}},
+      {
+        "name": "rail-signal",
+        "direction": 11,
+        "rail_layer": "elevated",
+        "position": {"x": -5.5, "y": 6.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 12,
+        "rail_layer": "elevated",
+        "position": {"x": -7.5, "y": 9.5}
+      },
+      {"name": "rail-support", "direction": 3, "position": {"x": -8, "y": 7}},
+      {"name": "straight-rail", "position": {"x": 0, "y": -30}},
+      {"name": "straight-rail", "position": {"x": 0, "y": -28}},
+      {"name": "straight-rail", "position": {"x": 0, "y": -26}},
+      {"name": "straight-rail", "position": {"x": 0, "y": -24}},
+      {"name": "straight-rail", "position": {"x": 0, "y": -22}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 16, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 18, "y": 0}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "up-right-arrow", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "down-right-arrow", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "shape-horizontal", "type": "virtual"}},
+      {"index": 4, "signal": {"name": "shape-horizontal", "type": "virtual"}}
+    ],
+    "position-relative-to-grid": {"x": 8, "y": 28},
+    "snap-to-grid": {"x": 2, "y": 14}
+  }
+}

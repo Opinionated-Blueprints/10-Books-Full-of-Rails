@@ -1,0 +1,11 @@
+{
+  "index": 2,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=blue]Requesters[/color][/font]",
+    "description": "Use [color=yellow]V[/color] and [color=yellow]H[/color] (by default) to flip [color=green]unloaders[/color]\nWhen placing[color=green] unloaders[/color] on the opposite side to the combinators, connect[item=medium-electric-pole]on both sides with [item=green-wire] AND [item=red-wire]\n\n[font=default-bold]Unbalanced[/font] = some chests are depleted faster than others. Can prolong train unloading process and if there isn't enough deliveries output will suffer",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "requester-chest"}}]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "index": 0,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[font=default-bold][color=red]Bufferless Provider Solids[/color][/font]",
+    "description": "Use with the unbuffered loaders.",
+    "shift_x": -599,
+    "shift_y": -731,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "constant-combinator",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "signal-L",
+                    "comparator": "=",
+                    "count": 1,
+                    "index": 1,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-P",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 1.5, "y": 0.5}
+      },
+      {
+        "name": "display-panel",
+        "show_in_chart": true,
+        "control_behavior": {
+          "parameters": [
+            {
+              "condition": {"comparator": ">", "constant": 0, "first_signal": {"name": "signal-anything", "type": "virtual"}},
+              "icon": {"name": "signal-anything", "type": "virtual"}
+            }
+          ]
+        },
+        "icon": {"name": "parameter-1"},
+        "position": {"x": 2.5, "y": 0.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": 2.5, "y": -0.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": -0.5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 2}},
+      {
+        "name": "train-stop",
+        "direction": 12,
+        "station": "[item=parameter-0] [item=passive-provider-chest] - [virtual-signal=signal-item-parameter]",
+        "color": {"a": 1, "b": 0, "g": 0, "r": 0.949999988079071},
+        "control_behavior": {
+          "send_to_train": false,
+          "set_priority": true,
+          "set_trains_limit": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "signal-L", "type": "virtual"}
+        },
+        "position": {"x": 0, "y": 0}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "signal-item-parameter", "type": "virtual"}}],
+    "parameters": [
+      {"name": "Group", "id": "parameter-0", "type": "id"},
+      {"name": "Item", "id": "parameter-1", "type": "id"},
+      {"name": "Train Limit", "number": "1", "type": "number"},
+      {"name": "Base Priority", "number": "50", "type": "number"}
+    ],
+    "wires": [
+      ["0,0.5", 2, "1.5,1", 2],
+      ["2.5,0", 1, "6.5,0", 1],
+      ["2.5,0", 2, "6.5,0", 2],
+      ["2.5,0", 5, "6.5,0", 5]
+    ]
+  }
+}

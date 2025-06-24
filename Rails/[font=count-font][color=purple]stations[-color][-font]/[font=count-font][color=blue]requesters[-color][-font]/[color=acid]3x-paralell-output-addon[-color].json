@@ -1,0 +1,70 @@
+{
+  "index": 8,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[color=acid]3x paralell output addon[/color]",
+    "description": "Rotate AND flip to match unloaders",
+    "shift_x": 8,
+    "shift_y": 1,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "fast-splitter",
+        "direction": 4,
+        "output_priority": "left",
+        "filter": {"name": "deconstruction-planner", "comparator": "=", "quality": "normal"},
+        "position": {"x": -7.5, "y": 0}
+      },
+      {
+        "name": "fast-splitter",
+        "direction": 4,
+        "output_priority": "right",
+        "filter": {"name": "deconstruction-planner", "comparator": "=", "quality": "normal"},
+        "position": {"x": -0.5, "y": 0}
+      },
+      {
+        "name": "fast-splitter",
+        "direction": 4,
+        "output_priority": "right",
+        "filter": {"name": "deconstruction-planner", "comparator": "=", "quality": "normal"},
+        "position": {"x": 6.5, "y": 0}
+      },
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 0.5, "y": -0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 7.5, "y": -0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": -6.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 0.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 0.5, "y": 1.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "input",
+        "position": {"x": -5.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 1.5, "y": 0.5}
+      },
+      {"name": "fast-underground-belt", "direction": 4, "type": "input", "position": {"x": 1.5, "y": 1.5}},
+      {"name": "fast-underground-belt", "direction": 4, "type": "input", "position": {"x": 2.5, "y": 0.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 7.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 4,
+        "type": "output",
+        "position": {"x": 7.5, "y": 1.5}
+      }
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-3", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "cargo-wagon"}}
+    ],
+    "snap-to-grid": {"x": 16, "y": 8}
+  }
+}

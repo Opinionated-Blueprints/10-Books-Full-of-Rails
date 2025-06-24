@@ -1,0 +1,325 @@
+{
+  "index": 10,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Maintenance Supply Requester",
+    "description": "Supply train will be called to requesters when supply at the reqester is below 50% of requested amount and the train will leave once supply reaches 100%.\n\nFor double-headed trains - extend the station.",
+    "shift_x": 503,
+    "shift_y": 195,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "player_description": "How many logistic bots are allowed in the wall network per maintenance roboport",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": 10,
+            "first_signal": {"name": "signal-R", "type": "virtual"},
+            "output_signal": {"name": "logistic-robot"}
+          }
+        },
+        "position": {"x": 5.5, "y": 4}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 8,
+        "player_description": "Calculates quarter of request as a negative\nThen adds items in buffer (through wire connection)\nEnd result is [items in buffer] - [quarter of request]\nIf any of the results is negative, the station will open for a delivery.",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "second_constant": -4,
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-each", "type": "virtual"}
+          }
+        },
+        "position": {"x": 6.5, "y": 4}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "player_description": "How many construction bots are allowed in the wall network per maintenance roboport",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": 20,
+            "first_signal": {"name": "signal-R", "type": "virtual"},
+            "output_signal": {"name": "construction-robot"}
+          }
+        },
+        "position": {"x": 7.5, "y": 4}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "player_description": "calculates [request] - [items in buffer].\nSets the inserter filters to items below the requestesd amount.\n(Only positive numbers can set filters)",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "-",
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 12.5, "y": 4}
+      },
+      {
+        "name": "bulk-inserter",
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 6.5, "y": 1.5}
+      },
+      {
+        "name": "constant-combinator",
+        "player_description": "No more than 39 stacks total.",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "group": "Wall Maintenance Supply",
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "stone-wall",
+                    "comparator": "=",
+                    "count": 1900,
+                    "index": 1,
+                    "max_count": 2000,
+                    "quality": "normal"
+                  },
+                  {"name": "gate", "comparator": "=", "count": 100, "index": 2, "max_count": 150, "quality": "normal"},
+                  {
+                    "name": "laser-turret",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 3,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "flamethrower-turret",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 4,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "land-mine",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 5,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {"name": "pipe", "comparator": "=", "count": 100, "index": 6, "max_count": 100, "quality": "normal"},
+                  {
+                    "name": "pipe-to-ground",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 7,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {"name": "pump", "comparator": "=", "count": 50, "index": 8, "max_count": 50, "quality": "normal"},
+                  {
+                    "name": "medium-electric-pole",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 9,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "roboport",
+                    "comparator": "=",
+                    "count": 10,
+                    "index": 10,
+                    "max_count": 10,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "logistic-robot",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 11,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "construction-robot",
+                    "comparator": "=",
+                    "count": 200,
+                    "index": 12,
+                    "max_count": 300,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "buffer-chest",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 13,
+                    "max_count": 50,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "big-electric-pole",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 14,
+                    "max_count": 50,
+                    "quality": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 5.5, "y": 1.5}
+      },
+      {
+        "name": "decider-combinator",
+        "player_description": "Filters signals from the arithmetic combinators to those present in the train so as to not clog up inserter filters with non-present items, preventing it from functioning if all 5 filters are set to non-present items.",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [
+              {
+                "comparator": ">",
+                "first_signal": {"name": "signal-each", "type": "virtual"},
+                "first_signal_networks": {"green": false, "red": true}
+              }
+            ],
+            "outputs": [{"networks": {"green": true, "red": false}, "signal": {"name": "signal-each", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 12.5, "y": 2}
+      },
+      {
+        "name": "decider-combinator",
+        "player_description": "Opens the station if any item is below the threshold ( = below 1/4 of request)",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"first_signal": {"name": "signal-anything", "type": "virtual"}}],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-L", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 13.5, "y": 4}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 4,
+        "override_stack_size": 1,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "comparator": ">",
+            "first_signal": {"name": "logistic-robot"},
+            "second_signal": {"name": "signal-Y", "type": "virtual"}
+          }
+        },
+        "filters": [{"name": "logistic-robot", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": 5.5, "y": 2.5}
+      },
+      {
+        "name": "fast-inserter",
+        "direction": 12,
+        "override_stack_size": 1,
+        "use_filters": true,
+        "control_behavior": {
+          "circuit_enabled": true,
+          "circuit_condition": {
+            "comparator": ">",
+            "first_signal": {"name": "construction-robot"},
+            "second_signal": {"name": "signal-T", "type": "virtual"}
+          }
+        },
+        "filters": [{"name": "construction-robot", "comparator": "=", "index": 1, "quality": "normal"}],
+        "position": {"x": 7.5, "y": 2.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 7.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": 14.5, "y": 3.5}},
+      {
+        "name": "passive-provider-chest",
+        "control_behavior": {"circuit_condition_enabled": false},
+        "position": {"x": 6.5, "y": 2.5}
+      },
+      {"name": "rail-signal", "direction": 12, "position": {"x": 0.5, "y": 1.5}},
+      {
+        "name": "roboport",
+        "control_behavior": {"read_items_mode": 0, "read_robot_stats": true},
+        "position": {"x": 3, "y": 3},
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [{"name": "logistic-robot", "comparator": "=", "count": 350, "index": 1, "quality": "normal"}]
+            }
+          ]
+        }
+      },
+      {
+        "name": "roboport",
+        "control_behavior": {"read_items_mode": 0, "read_robot_stats": true},
+        "position": {"x": 10, "y": 3},
+        "request_filters": {
+          "sections": [
+            {
+              "index": 1,
+              "filters": [{"name": "logistic-robot", "comparator": "=", "count": 350, "index": 1, "quality": "normal"}]
+            }
+          ]
+        }
+      },
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 0}},
+      {
+        "name": "train-stop",
+        "direction": 4,
+        "station": "[color=180,200,150]Wall Maintenance[/color] [item=requester-chest]",
+        "color": {"a": 1, "b": 0.5882353186607361, "g": 0.7843137383460999, "r": 0.7058823704719543},
+        "control_behavior": {
+          "read_from_train": true,
+          "set_trains_limit": true,
+          "circuit_condition": {"comparator": "<", "constant": 0, "first_signal": {"name": "signal-anything", "type": "virtual"}},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "signal-L", "type": "virtual"}
+        },
+        "position": {"x": 14, "y": 2}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "requester-chest"}}],
+    "wires": [
+      ["0.5,2.5", 1, "7.5,1.5", 1],
+      ["0.5,2.5", 2, "7.5,1.5", 2],
+      ["0.5,2.5", 5, "7.5,1.5", 5],
+      ["6.5,1.5", 1, "12.5,2", 3],
+      ["5.5,1.5", 2, "6.5,4", 2],
+      ["5.5,1.5", 2, "12.5,4", 2],
+      ["6.5,2.5", 1, "12.5,4", 1],
+      ["6.5,2.5", 2, "6.5,4", 4],
+      ["5.5,2.5", 1, "5.5,4", 3],
+      ["7.5,2.5", 1, "7.5,4", 3],
+      ["7.5,1.5", 1, "14.5,3.5", 1],
+      ["7.5,1.5", 2, "6.5,4", 4],
+      ["7.5,1.5", 2, "14.5,3.5", 2],
+      ["7.5,1.5", 2, "13.5,4", 2],
+      ["7.5,1.5", 5, "14.5,3.5", 5],
+      ["12.5,2", 1, "12.5,4", 3],
+      ["12.5,2", 2, "14,2", 2],
+      ["14,2", 1, "13.5,4", 3],
+      ["3,3", 1, "5.5,4", 1],
+      ["5.5,4", 1, "5.5,4", 3],
+      ["7.5,4", 1, "7.5,4", 3],
+      ["7.5,4", 1, "10,3", 1],
+      ["14.5,3.5", 2, "13.5,4", 2]
+    ]
+  }
+}

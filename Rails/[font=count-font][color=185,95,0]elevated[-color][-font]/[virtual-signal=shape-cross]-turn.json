@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-cross] Turn",
+    "absolute-snapping": true,
+    "shift_x": 17,
+    "shift_y": 25,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 25, "y": -4}},
+      {"name": "big-electric-pole", "position": {"x": 4, "y": 17}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 23, "y": -8}},
+      {"name": "elevated-curved-rail-a", "direction": 2, "position": {"x": 0, "y": 15}},
+      {"name": "elevated-curved-rail-a", "direction": 2, "position": {"x": 8, "y": 15}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 23, "y": 0}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 10, "y": -2}},
+      {"name": "elevated-curved-rail-b", "direction": 2, "position": {"x": 6, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 2, "position": {"x": 10, "y": 10}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 18, "y": 2}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 14, "y": -4}},
+      {"name": "elevated-half-diagonal-rail", "direction": 4, "position": {"x": 18, "y": -6}},
+      {"name": "elevated-half-diagonal-rail", "direction": 2, "position": {"x": 4, "y": 6}},
+      {"name": "elevated-half-diagonal-rail", "direction": 2, "position": {"x": 2, "y": 10}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 15, "y": 5}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 13, "y": 7}},
+      {
+        "name": "rail-signal",
+        "direction": 4,
+        "rail_layer": "elevated",
+        "position": {"x": 24.5, "y": -9.5}
+      },
+      {"name": "rail-signal", "direction": 8, "rail_layer": "elevated", "position": {"x": 9.5, "y": 16.5}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 25, "y": -8}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 8, "y": 0}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 14, "y": 6}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 25, "y": 0}},
+      {"name": "rail-support", "position": {"x": 0, "y": 17}},
+      {"name": "rail-support", "position": {"x": 8, "y": 17}},
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 23.5, "y": -5.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 23.5, "y": -2.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 26.5, "y": -5.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 26.5, "y": -2.5}
+      },
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 2.5, "y": 15.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 5.5, "y": 15.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 2.5, "y": 18.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 5.5, "y": 18.5}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "shape-curve", "type": "virtual"}}],
+    "snap-to-grid": {"x": 42, "y": 42},
+    "wires": [["25,5.5", 1, "4,26.5", 1], ["25,5.5", 2, "4,26.5", 2], ["25,5.5", 5, "4,26.5", 5]]
+  }
+}

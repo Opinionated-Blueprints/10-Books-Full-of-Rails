@@ -1,0 +1,16 @@
+{
+  "index": 5,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=acid]Stackers[/color][/font]",
+    "description": "These books contain [font=default-bold][color=white]Platforms[/color][/font] with integrated stackers allowing for trains to wait just outside the station while another is being loaded/unloaded.\nTo make this work, you want to set the train limit of the station to [font=default-bold]1+number of stacker bays[/font]\n\nYou can use these for double-headed trains too. You can also convert some bays into return track to retain the compactness of double-headed stations.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "locomotive"}},
+      {"index": 2, "signal": {"name": "rail"}},
+      {"index": 3, "signal": {"name": "locomotive"}},
+      {"index": 4, "signal": {"name": "rail"}}
+    ]
+  }
+}

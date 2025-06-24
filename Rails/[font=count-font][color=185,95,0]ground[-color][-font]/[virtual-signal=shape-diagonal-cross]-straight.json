@@ -1,0 +1,140 @@
+{
+  "index": 12,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-diagonal-cross] Straight",
+    "description": "Thanks to the additional [item=big-electric-pole] you can place Entry/Exit blueprints on top with [font=default-bold]super force building[/font] because they all reach two others in each direction so removing one maintains the power and circuit connection.",
+    "absolute-snapping": true,
+    "shift_x": 4,
+    "shift_y": 22,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 28, "y": -12}},
+      {"name": "big-electric-pole", "position": {"x": 17, "y": -1}},
+      {"name": "big-electric-pole", "position": {"x": 38, "y": -22}},
+      {"name": "big-electric-pole", "position": {"x": -4, "y": 20}},
+      {"name": "big-electric-pole", "position": {"x": 6, "y": 10}},
+      {"name": "rail-signal", "direction": 2, "position": {"x": 33.5, "y": -25.5}},
+      {"name": "rail-signal", "direction": 10, "position": {"x": 0.5, "y": 23.5}},
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 15.5, "y": -2.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 18.5, "y": -2.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 36.5, "y": -23.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 39.5, "y": -23.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 36.5, "y": -20.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 39.5, "y": -20.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": -5.5, "y": 18.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": -2.5, "y": 18.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": -5.5, "y": 21.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": -2.5, "y": 21.5}
+      },
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 15.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 18.5, "y": 0.5}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 30, "y": -20}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 28, "y": -18}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 14, "y": -4}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 12, "y": -2}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 22, "y": -12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 20, "y": -10}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 26, "y": -16}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 24, "y": -14}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 18, "y": -8}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 16, "y": -6}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 30, "y": -8}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 28, "y": -6}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 26, "y": -4}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 24, "y": -2}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 34, "y": -24}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 32, "y": -22}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 40, "y": -18}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 38, "y": -16}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 36, "y": -14}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 34, "y": -12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 32, "y": -10}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -2, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -4, "y": 14}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": -6, "y": 16}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 6, "y": 4}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 4, "y": 6}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 10, "y": 0}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 8, "y": 2}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": 8}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 0, "y": 10}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 14, "y": 8}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 12, "y": 10}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 10, "y": 12}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 8, "y": 14}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 22, "y": 0}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 20, "y": 2}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 18, "y": 4}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 16, "y": 6}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 6, "y": 16}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 4, "y": 18}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 2, "y": 20}},
+      {"name": "straight-rail", "direction": 2, "position": {"x": 0, "y": 22}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "shape-diagonal", "type": "virtual"}}],
+    "snap-to-grid": {"x": 42, "y": 42},
+    "wires": [
+      ["44,3.5", 1, "34,13.5", 1],
+      ["44,3.5", 1, "23,24.5", 1],
+      ["44,3.5", 2, "34,13.5", 2],
+      ["44,3.5", 2, "23,24.5", 2],
+      ["44,3.5", 5, "34,13.5", 5],
+      ["44,3.5", 5, "23,24.5", 5],
+      ["34,13.5", 1, "23,24.5", 1],
+      ["34,13.5", 1, "12,35.5", 1],
+      ["34,13.5", 2, "23,24.5", 2],
+      ["34,13.5", 2, "12,35.5", 2],
+      ["34,13.5", 5, "23,24.5", 5],
+      ["34,13.5", 5, "12,35.5", 5],
+      ["23,24.5", 1, "12,35.5", 1],
+      ["23,24.5", 1, "2,45.5", 1],
+      ["23,24.5", 2, "12,35.5", 2],
+      ["23,24.5", 2, "2,45.5", 2],
+      ["23,24.5", 5, "12,35.5", 5],
+      ["23,24.5", 5, "2,45.5", 5],
+      ["12,35.5", 1, "2,45.5", 1],
+      ["12,35.5", 2, "2,45.5", 2],
+      ["12,35.5", 5, "2,45.5", 5]
+    ]
+  }
+}

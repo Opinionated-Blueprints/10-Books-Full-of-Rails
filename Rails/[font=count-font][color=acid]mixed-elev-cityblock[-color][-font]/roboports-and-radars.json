@@ -1,0 +1,271 @@
+{
+  "index": 28,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Roboports and Radars",
+    "absolute-snapping": true,
+    "shift_x": 39,
+    "shift_y": 140,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": -20, "y": -148}},
+      {"name": "big-electric-pole", "position": {"x": -32, "y": -128}},
+      {"name": "big-electric-pole", "position": {"x": 14, "y": -146}},
+      {"name": "big-electric-pole", "position": {"x": 162, "y": -148}},
+      {"name": "big-electric-pole", "position": {"x": 50, "y": -122}},
+      {"name": "big-electric-pole", "position": {"x": 0, "y": -95}},
+      {"name": "big-electric-pole", "position": {"x": 0, "y": -71}},
+      {"name": "big-electric-pole", "position": {"x": 50, "y": -95}},
+      {"name": "big-electric-pole", "position": {"x": 50, "y": -70}},
+      {"name": "big-electric-pole", "position": {"x": 93, "y": -95}},
+      {"name": "big-electric-pole", "position": {"x": 93, "y": -72}},
+      {"name": "big-electric-pole", "position": {"x": 0, "y": -45}},
+      {"name": "big-electric-pole", "position": {"x": 50, "y": -45}},
+      {"name": "big-electric-pole", "position": {"x": 0, "y": -27}},
+      {"name": "big-electric-pole", "position": {"x": 50, "y": -28}},
+      {"name": "big-electric-pole", "position": {"x": 93, "y": -45}},
+      {"name": "big-electric-pole", "position": {"x": 93, "y": -25}},
+      {"name": "big-electric-pole", "position": {"x": 150, "y": -128}},
+      {"name": "big-electric-pole", "position": {"x": -20, "y": 34}},
+      {"name": "big-electric-pole", "position": {"x": -32, "y": 54}},
+      {"name": "big-electric-pole", "position": {"x": -39, "y": 91}},
+      {"name": "big-electric-pole", "position": {"x": 0, "y": 0}},
+      {"name": "big-electric-pole", "position": {"x": 26, "y": 0}},
+      {"name": "big-electric-pole", "position": {"x": 50, "y": 0}},
+      {"name": "big-electric-pole", "position": {"x": 50, "y": 20}},
+      {"name": "big-electric-pole", "position": {"x": 14, "y": 36}},
+      {"name": "big-electric-pole", "position": {"x": 74, "y": 0}},
+      {"name": "big-electric-pole", "position": {"x": 93, "y": 0}},
+      {"name": "big-electric-pole", "position": {"x": 150, "y": 54}},
+      {"name": "big-electric-pole", "position": {"x": 162, "y": 34}},
+      {"name": "medium-electric-pole", "position": {"x": -33.5, "y": -148.5}},
+      {"name": "medium-electric-pole", "position": {"x": -48.5, "y": -41.5}},
+      {"name": "medium-electric-pole", "position": {"x": 148.5, "y": -148.5}},
+      {"name": "medium-electric-pole", "position": {"x": 133.5, "y": -41.5}},
+      {"name": "medium-electric-pole", "position": {"x": -33.5, "y": 33.5}},
+      {"name": "medium-electric-pole", "position": {"x": 148.5, "y": 33.5}},
+      {"name": "radar", "position": {"x": -29.5, "y": -138.5}},
+      {"name": "radar", "position": {"x": 152.5, "y": -138.5}},
+      {"name": "radar", "position": {"x": -29.5, "y": 43.5}},
+      {"name": "radar", "position": {"x": 152.5, "y": 43.5}},
+      {
+        "name": "roboport",
+        "position": {"x": -77, "y": -140},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -40, "y": -184},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -31, "y": -151},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -17, "y": -151},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -32, "y": -125},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -39, "y": -94},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -50, "y": -44},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -40, "y": -2},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 17, "y": -148},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 60, "y": -140},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 105, "y": -140},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 142, "y": -184},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 151, "y": -151},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 165, "y": -151},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 0, "y": -98},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 50, "y": -98},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 93, "y": -98},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 0, "y": -48},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 50, "y": -48},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {"name": "roboport", "position": {"x": 0, "y": -3}, "request_filters": {"sections": [{"index": 1}]}},
+      {
+        "name": "roboport",
+        "position": {"x": 50, "y": -3},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 93, "y": -48},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 93, "y": -3},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 150, "y": -125},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 143, "y": -94},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 132, "y": -44},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 142, "y": -2},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -77, "y": 42},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -31, "y": 31},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -17, "y": 31},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -32, "y": 57},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": -39, "y": 88},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 17, "y": 34},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 60, "y": 42},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 105, "y": 42},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 151, "y": 31},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 165, "y": 31},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 150, "y": 57},
+        "request_filters": {"sections": [{"index": 1}]}
+      },
+      {
+        "name": "roboport",
+        "position": {"x": 143, "y": 88},
+        "request_filters": {"sections": [{"index": 1}]}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "roboport"}}, {"index": 2, "signal": {"name": "radar"}}],
+    "position-relative-to-grid": {"x": -7, "y": -21},
+    "snap-to-grid": {"x": 182, "y": 182},
+    "wires": [
+      ["57,36", 5, "45,56", 5],
+      ["239,36", 5, "227,56", 5],
+      ["127,62", 5, "127,89", 5],
+      ["77,89", 5, "77,113", 5],
+      ["127,89", 5, "127,114", 5],
+      ["170,89", 5, "170,112", 5],
+      ["170,112", 5, "170,139", 5],
+      ["77,113", 5, "77,139", 5],
+      ["127,114", 5, "127,139", 5],
+      ["77,139", 5, "77,157", 5],
+      ["127,139", 5, "127,156", 5],
+      ["170,139", 5, "170,159", 5],
+      ["127,156", 5, "127,184", 5],
+      ["77,157", 5, "77,184", 5],
+      ["170,159", 5, "170,184", 5],
+      ["77,184", 5, "103,184", 5],
+      ["103,184", 5, "127,184", 5],
+      ["127,184", 5, "151,184", 5],
+      ["127,184", 5, "127,204", 5],
+      ["151,184", 5, "170,184", 5],
+      ["57,218", 5, "45,238", 5],
+      ["239,218", 5, "227,238", 5]
+    ]
+  }
+}

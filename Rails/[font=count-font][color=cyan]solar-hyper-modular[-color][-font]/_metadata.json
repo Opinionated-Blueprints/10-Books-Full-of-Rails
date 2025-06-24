@@ -1,0 +1,14 @@
+{
+  "index": 8,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=cyan]Solar Hyper- modular[/color][/font]",
+    "description": "14x14 grid (1/3 of regular rail)\nIntegrates well with other rail blueprints (needs adapter for diagonal)\n(try to) keep long enough distances between intersections to fit a full train (this applies to all rail. It's just easier to mess up here due to the small grid)\n\nSome medium power poles are used to block/remove undesired signals from overlapping blueprints",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-anything", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "solar-panel"}}
+    ]
+  }
+}

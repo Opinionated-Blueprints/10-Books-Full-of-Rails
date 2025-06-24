@@ -1,0 +1,10 @@
+{
+  "index": 0,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=white]Platforms[/color][/font]",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "train-stop"}}]
+  }
+}

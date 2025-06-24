@@ -1,0 +1,11 @@
+{
+  "index": 12,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=purple]Stations[/color][/font]",
+    "description": "All groups are named with a single icon.\nWhen placing a Train Limit Control/Depot/Refuelling blueprint or a train you will be asked to assign it to a group by selecting a corresponding icon.\nTrains will service all stations within the same group.\nGroups can handle multiple item types without issue.\nPrimary use: separate train lengths and configurations into different groups as each configuration requires a dedicated station design.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "train-stop"}}]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "index": 4,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-cross] U-Turn",
+    "absolute-snapping": true,
+    "shift_x": 7,
+    "shift_y": 7,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 14, "y": 14}},
+      {"name": "big-electric-pole", "position": {"x": 14, "y": 35}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 11, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 2, "position": {"x": 0, "y": 11}},
+      {"name": "elevated-curved-rail-a", "direction": 6, "position": {"x": 17, "y": 0}},
+      {"name": "elevated-curved-rail-a", "position": {"x": 28, "y": 11}},
+      {"name": "elevated-curved-rail-a", "direction": 8, "position": {"x": 0, "y": 17}},
+      {"name": "elevated-curved-rail-a", "direction": 10, "position": {"x": 28, "y": 17}},
+      {"name": "elevated-curved-rail-a", "position": {"x": 10, "y": 33}},
+      {"name": "elevated-curved-rail-a", "direction": 2, "position": {"x": 18, "y": 33}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 6, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 2, "position": {"x": 2, "y": 6}},
+      {"name": "elevated-curved-rail-b", "direction": 6, "position": {"x": 22, "y": 2}},
+      {"name": "elevated-curved-rail-b", "position": {"x": 26, "y": 6}},
+      {"name": "elevated-curved-rail-b", "direction": 8, "position": {"x": 2, "y": 22}},
+      {"name": "elevated-curved-rail-b", "position": {"x": 8, "y": 28}},
+      {"name": "elevated-curved-rail-b", "direction": 10, "position": {"x": 26, "y": 22}},
+      {"name": "elevated-curved-rail-b", "direction": 2, "position": {"x": 20, "y": 28}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 14, "y": 0}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 14}},
+      {"name": "elevated-straight-rail", "position": {"x": 28, "y": 14}},
+      {"name": "elevated-straight-rail", "direction": 6, "position": {"x": 5, "y": 25}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 23, "y": 25}},
+      {
+        "name": "rail-signal",
+        "direction": 4,
+        "rail_layer": "elevated",
+        "position": {"x": 13.5, "y": -1.5}
+      },
+      {
+        "name": "rail-signal",
+        "direction": 8,
+        "rail_layer": "elevated",
+        "position": {"x": 19.5, "y": 34.5}
+      },
+      {"name": "rail-support", "direction": 2, "position": {"x": 4, "y": 4}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 13, "y": 0}},
+      {"name": "rail-support", "direction": 7, "position": {"x": 27, "y": 8}},
+      {"name": "rail-support", "direction": 7, "position": {"x": 1, "y": 20}},
+      {"name": "rail-support", "direction": 7, "position": {"x": 9, "y": 30}},
+      {"name": "rail-support", "direction": 1, "position": {"x": 27, "y": 20}},
+      {"name": "rail-support", "position": {"x": 10, "y": 35}},
+      {"name": "rail-support", "position": {"x": 18, "y": 35}},
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 12.5, "y": 12.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 15.5, "y": 12.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 12.5, "y": 15.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 15.5, "y": 15.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 12.5, "y": 33.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 15.5, "y": 33.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 12.5, "y": 36.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": 15.5, "y": 36.5}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "signal-U", "type": "virtual"}}],
+    "snap-to-grid": {"x": 42, "y": 42},
+    "wires": [["14,15.5", 1, "14,36.5", 1], ["14,15.5", 2, "14,36.5", 2], ["14,15.5", 5, "14,36.5", 5]]
+  }
+}

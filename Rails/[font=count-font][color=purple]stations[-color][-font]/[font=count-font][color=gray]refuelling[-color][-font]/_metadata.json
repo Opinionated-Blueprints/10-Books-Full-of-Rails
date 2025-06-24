@@ -1,0 +1,11 @@
+{
+  "index": 4,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=gray]Refuelling[/color][/font]",
+    "description": "Stations will prioritise higher priority fuel. If a higher priority fuel is supplied to the supplier station, it will only serve the higher priority fuel and dump lower priority fuel. Same for the refuelling station. The supply train will additionally bring the lower priority fuel back to the supplier station and all lower priority fuel will end up in the chest on the supplier station that is further back. You need to decide what to do with it from there yourself so you don't run out of space.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "signal-fuel-parameter", "type": "virtual"}}]
+  }
+}

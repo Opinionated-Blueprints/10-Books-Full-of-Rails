@@ -1,0 +1,10 @@
+{
+  "index": 1,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font]11 Car[/font]",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "signal-B", "type": "virtual"}}]
+  }
+}

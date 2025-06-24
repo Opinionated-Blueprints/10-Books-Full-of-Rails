@@ -1,0 +1,31 @@
+{
+  "index": 13,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[color=green][virtual-signal=signal-item-parameter] level 6 stack route[/color]",
+    "description": "Identical to level 7 with stack inserter\nFor [item=turbo-transport-belt] x 3[virtual-signal=signal-stack-size] (Transport Belt Capacity 1 tech)\nRequirements for full throughput:\nInserter: [item=stack-inserter,quality=rare]\nInserter Capacity Bonus Tech: level 7",
+    "shift_x": 0,
+    "shift_y": 1,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 1.5}},
+      {"name": "medium-electric-pole", "position": {"x": 7.5, "y": 1.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 0.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 7.5, "y": 0.5}},
+      {"name": "stack-inserter", "quality": "rare", "position": {"x": 2.5, "y": 2.5}},
+      {"name": "stack-inserter", "quality": "rare", "position": {"x": 3.5, "y": 2.5}},
+      {"name": "stack-inserter", "quality": "rare", "position": {"x": 4.5, "y": 2.5}},
+      {"name": "stack-inserter", "quality": "rare", "position": {"x": 5.5, "y": 2.5}},
+      {"name": "turbo-splitter", "direction": 8, "position": {"x": 3, "y": 1.5}},
+      {"name": "turbo-splitter", "direction": 8, "position": {"x": 4, "y": 0.5}},
+      {"name": "turbo-splitter", "direction": 8, "position": {"x": 5, "y": 1.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "turbo-transport-belt"}},
+      {"index": 2, "signal": {"name": "signal-3", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "stack-inserter", "quality": "rare"}}
+    ],
+    "snap-to-grid": {"x": 7, "y": 6},
+    "wires": [["0,1", 1, "7,1", 1], ["0,1", 2, "7,1", 2], ["0,1", 5, "7,1", 5]]
+  }
+}

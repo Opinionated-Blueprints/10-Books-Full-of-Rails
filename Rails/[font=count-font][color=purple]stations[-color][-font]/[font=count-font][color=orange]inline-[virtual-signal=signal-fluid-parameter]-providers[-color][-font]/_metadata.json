@@ -1,0 +1,15 @@
+{
+  "index": 13,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=orange]Inline [virtual-signal=signal-fluid-parameter] Providers[/color][/font]",
+    "description": "Premade stations for the recommended train configs.\nInset into straight rail for extra compactness.\nNot recommended in places where you might want to change the railway layout in the future.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "rail"}},
+      {"index": 2, "signal": {"name": "passive-provider-chest"}},
+      {"index": 3, "signal": {"name": "signal-fluid-parameter", "type": "virtual"}}
+    ]
+  }
+}

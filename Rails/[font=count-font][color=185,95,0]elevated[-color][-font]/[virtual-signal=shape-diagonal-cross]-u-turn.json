@@ -1,0 +1,70 @@
+{
+  "index": 16,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-diagonal-cross] U-Turn",
+    "absolute-snapping": true,
+    "shift_x": 1,
+    "shift_y": 15,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": -1, "y": 27}},
+      {"name": "big-electric-pole", "position": {"x": 20, "y": 6}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 11, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 6, "position": {"x": 15, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 2, "position": {"x": 0, "y": 11}},
+      {"name": "elevated-curved-rail-a", "position": {"x": 26, "y": 11}},
+      {"name": "elevated-curved-rail-a", "direction": 10, "position": {"x": 26, "y": 15}},
+      {"name": "elevated-curved-rail-a", "direction": 10, "position": {"x": 0, "y": 17}},
+      {"name": "elevated-curved-rail-a", "direction": 12, "position": {"x": 9, "y": 26}},
+      {"name": "elevated-curved-rail-a", "direction": 4, "position": {"x": 15, "y": 26}},
+      {"name": "elevated-curved-rail-b", "direction": 10, "position": {"x": -2, "y": 22}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 6, "y": 2}},
+      {"name": "elevated-curved-rail-b", "direction": 2, "position": {"x": 2, "y": 6}},
+      {"name": "elevated-curved-rail-b", "direction": 6, "position": {"x": 20, "y": 2}},
+      {"name": "elevated-curved-rail-b", "position": {"x": 24, "y": 6}},
+      {"name": "elevated-curved-rail-b", "direction": 12, "position": {"x": 4, "y": 28}},
+      {"name": "elevated-curved-rail-b", "direction": 10, "position": {"x": 24, "y": 20}},
+      {"name": "elevated-curved-rail-b", "direction": 4, "position": {"x": 20, "y": 24}},
+      {"name": "elevated-straight-rail", "position": {"x": 0, "y": 14}},
+      {"name": "elevated-straight-rail", "direction": 4, "position": {"x": 12, "y": 26}},
+      {"name": "rail-signal", "direction": 6, "rail_layer": "elevated", "position": {"x": 22.5, "y": 2.5}},
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 3.5, "y": 30.5}
+      },
+      {"name": "rail-support", "direction": 2, "position": {"x": -4, "y": 24}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 13, "y": 0}},
+      {"name": "rail-support", "direction": 1, "position": {"x": 1, "y": 8}},
+      {"name": "rail-support", "position": {"x": 26, "y": 13}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 2, "y": 30}},
+      {"name": "rail-support", "direction": 3, "position": {"x": 18, "y": 25}},
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": -2.5, "y": 25.5}
+      },
+      {
+        "name": "small-lamp",
+        "color": {"a": 1, "b": 1, "g": 1, "r": 1},
+        "position": {"x": -2.5, "y": 28.5}
+      },
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 18.5, "y": 4.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 18.5, "y": 7.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 21.5, "y": 4.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 21.5, "y": 7.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 25.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 28.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "down-left-arrow", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "up-left-arrow", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "shape-diagonal", "type": "virtual"}},
+      {"index": 4, "signal": {"name": "up-right-arrow", "type": "virtual"}}
+    ],
+    "snap-to-grid": {"x": 42, "y": 42},
+    "wires": [["24,6", 1, "3,27", 1], ["24,6", 2, "3,27", 2], ["24,6", 5, "3,27", 5]]
+  }
+}

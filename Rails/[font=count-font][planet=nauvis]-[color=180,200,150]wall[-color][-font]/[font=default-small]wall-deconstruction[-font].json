@@ -1,0 +1,23 @@
+{
+  "index": 15,
+  "deconstruction_planner": {
+    "item": "deconstruction-planner",
+    "label": "[font=default-small]Wall Deconstruction[/font]",
+    "version": 562949957025792,
+    "settings": {
+      "tile_selection_mode": 2,
+      "entity_filters": [
+        {"name": "stone-wall", "index": 0},
+        {"name": "gate", "index": 1},
+        {"name": "laser-turret", "index": 2},
+        {"name": "flamethrower-turret", "index": 3},
+        {"name": "land-mine", "index": 4},
+        {"name": "medium-electric-pole", "index": 5},
+        {"name": "pipe", "index": 6},
+        {"name": "pipe-to-ground", "index": 7},
+        {"name": "pump", "index": 8}
+      ],
+      "icons": [{"index": 1, "signal": {"name": "stone-wall"}}]
+    }
+  }
+}

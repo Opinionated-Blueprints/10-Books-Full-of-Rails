@@ -1,0 +1,18 @@
+{
+  "index": 19,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Roboport Small Grid",
+    "description": "If you want roboports in rails. Not the prettiest solution, but fits without any force building in the main orthogonal pieces.\n\n14x14 grid matching the hypermodular rails.",
+    "absolute-snapping": true,
+    "shift_x": 7,
+    "shift_y": 6,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "medium-electric-pole", "position": {"x": 2.5, "y": 0.5}},
+      {"name": "roboport", "position": {"x": 0, "y": 1}, "request_filters": {"sections": [{"index": 1}]}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "roboport"}}],
+    "snap-to-grid": {"x": 14, "y": 14}
+  }
+}

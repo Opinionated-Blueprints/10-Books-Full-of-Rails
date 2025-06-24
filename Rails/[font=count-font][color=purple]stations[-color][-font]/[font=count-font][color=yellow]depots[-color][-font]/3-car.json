@@ -1,0 +1,43 @@
+{
+  "index": 9,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "3 Car",
+    "shift_x": 1,
+    "shift_y": 3,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "rail-signal", "direction": 4, "position": {"x": 20.5, "y": -1.5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 16, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 18, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 20, "y": 0}},
+      {
+        "name": "train-stop",
+        "direction": 12,
+        "manual_trains_limit": 1,
+        "priority": 49,
+        "station": "[item=parameter-0] [item=roboport]",
+        "color": {"a": 1, "b": 0, "g": 1, "r": 1},
+        "control_behavior": {
+          "set_priority": true,
+          "set_trains_limit": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "locomotive"}
+        },
+        "position": {"x": 0, "y": -2}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "signal-3", "type": "virtual"}}],
+    "parameters": [{"name": "Group", "id": "parameter-0", "type": "id"}],
+    "snap-to-grid": {"x": 22, "y": 4}
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "index": 1,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=red]Providers[/color][/font]",
+    "description": "Use [color=yellow]V[/color] and [color=yellow]H[/color] (by default) to flip [color=green]loaders[/color]\nWhen placing[color=green] loaders[/color]  on the opposite side to the combinators, connect[item=medium-electric-pole]on both sides with [item=green-wire]\nYou can load mixed items. The train will just visit the requesters for each in order until it's empty. It's recommended to use a belt balancer if loading mixed items to disribute them somewhat evenly accross the buffer and train wagons.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "passive-provider-chest"}}]
+  }
+}

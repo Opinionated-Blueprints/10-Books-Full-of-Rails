@@ -1,0 +1,13 @@
+{
+  "index": 11,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Info - [item=roboport], [item=flamethrower-turret]",
+    "description": "Keep the wall logistic networks separate from each other and other networks. There should be 1 wall network per maintenance requester station.\n\nInserters at the requester will replenish bots up to 10 per roboport in the network for logistic bots and 20 per roboport for construction bots. You can change it by adjusting multipliers in arithmetic combinators on the requester station.\n\nFor flamethrower ammo, you can just use a regular fluid stations and trains",
+    "shift_x": 512,
+    "shift_y": 198,
+    "version": 562949957025792,
+    "entities": [{"name": "medium-electric-pole", "position": {"x": 0.5, "y": 0.5}}],
+    "icons": [{"index": 1, "signal": {"name": "signal-info", "type": "virtual"}}]
+  }
+}

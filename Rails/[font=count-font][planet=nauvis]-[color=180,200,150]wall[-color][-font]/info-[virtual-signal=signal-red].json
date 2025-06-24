@@ -1,0 +1,13 @@
+{
+  "index": 17,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Info - [virtual-signal=signal-red]",
+    "description": "If alerts are getting annoying, use this console command to mute or disable them:\n/alerts\nTo check available alerts:\n/help alerts",
+    "shift_x": 512,
+    "shift_y": 198,
+    "version": 562949957025792,
+    "entities": [{"name": "medium-electric-pole", "position": {"x": 0.5, "y": 0.5}}],
+    "icons": [{"index": 1, "signal": {"name": "signal-info", "type": "virtual"}}]
+  }
+}

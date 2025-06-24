@@ -1,0 +1,347 @@
+{
+  "index": 4,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "1-1-0 Train 1 Station",
+    "absolute-snapping": true,
+    "shift_x": 5,
+    "shift_y": 3,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "player_description": "[virtual-signal=signal-P] = Base Priority\n[virtual-signal=signal-L] = Trainloads Missing\nCalculates Priority as [virtual-signal=signal-P] + [virtual-signal=signal-L]",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "+",
+            "first_signal": {"name": "signal-P", "type": "virtual"},
+            "output_signal": {"name": "signal-P", "type": "virtual"},
+            "second_signal": {"name": "signal-L", "type": "virtual"}
+          }
+        },
+        "position": {"x": 7, "y": 3.5}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 8,
+        "player_description": "[virtual-signal=signal-T] = Total Buffer Capacity\n[item=parameter-1] = Requested fluid\nCalculates how much more [item=parameter-1] can fit in the buffer",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "-",
+            "first_signal": {"name": "signal-T", "type": "virtual"},
+            "first_signal_networks": {"green": false, "red": true},
+            "output_signal": {"name": "parameter-1"},
+            "second_signal": {"name": "parameter-1"},
+            "second_signal_networks": {"green": true, "red": false}
+          }
+        },
+        "position": {"x": 8.5, "y": 4}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 4,
+        "player_description": "[item=parameter-1] = How much more [item=parameter-1] can fit in the buffer\n[virtual-signal=signal-C] = Total Train Capacity\nCalculates [virtual-signal=signal-L] as total missing trainloads",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "/",
+            "first_signal": {"name": "parameter-1"},
+            "first_signal_networks": {"green": true, "red": false},
+            "output_signal": {"name": "signal-L", "type": "virtual"},
+            "second_signal": {"name": "signal-C", "type": "virtual"},
+            "second_signal_networks": {"green": false, "red": true}
+          }
+        },
+        "position": {"x": 8, "y": 5.5}
+      },
+      {"name": "big-electric-pole", "position": {"x": -19, "y": 4}},
+      {"name": "big-electric-pole", "position": {"x": 3, "y": 4}},
+      {"name": "big-electric-pole", "position": {"x": 26, "y": 4}},
+      {"name": "big-electric-pole", "position": {"x": 37, "y": 4}},
+      {
+        "name": "constant-combinator",
+        "direction": 8,
+        "player_description": "[item=parameter-1] = Requested fluid\n[virtual-signal=signal-P] = base priority\n[virtual-signal=signal-W] = fluid wagons\n[virtual-signal=signal-V] = fluid wagon volume\nW*V=[virtual-signal=signal-C] = total train cargo capacity\n[virtual-signal=signal-B] = buffer storage tanks per wagon\n[virtual-signal=signal-H] = storage tank volume\nW*B*H=[virtual-signal=signal-T] = calculated buffer volume",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "index": 1,
+                "filters": [
+                  {"name": "parameter-1", "comparator": "=", "count": 1, "index": 1, "quality": "normal"},
+                  {
+                    "name": "signal-P",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 2,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-W",
+                    "comparator": "=",
+                    "count": 4,
+                    "index": 3,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-V",
+                    "comparator": "=",
+                    "count": 50000,
+                    "index": 4,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-C",
+                    "comparator": "=",
+                    "count": -1,
+                    "index": 5,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-B",
+                    "comparator": "=",
+                    "count": -2,
+                    "index": 6,
+                    "max_count": 2147483647,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-H",
+                    "comparator": "=",
+                    "count": 25000,
+                    "index": 7,
+                    "max_count": 2147483647,
+                    "quality": "normal",
+                    "type": "virtual"
+                  },
+                  {
+                    "name": "signal-T",
+                    "comparator": "=",
+                    "count": -3,
+                    "index": 8,
+                    "max_count": 2147483647,
+                    "quality": "normal",
+                    "type": "virtual"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 7.5, "y": 6.5}
+      },
+      {"name": "curved-rail-a", "direction": 4, "position": {"x": -17, "y": 8}},
+      {"name": "curved-rail-a", "direction": 12, "position": {"x": -3, "y": 2}},
+      {"name": "curved-rail-a", "direction": 6, "position": {"x": 17, "y": 2}},
+      {"name": "curved-rail-a", "direction": 14, "position": {"x": 31, "y": 8}},
+      {
+        "name": "decider-combinator",
+        "direction": 4,
+        "player_description": "[virtual-signal=signal-L] = Missing Trainloads\nSets Train Limit to 1 if at least 1 trainload can fit\n(there's no stacker so train limit max = 1)",
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"comparator": "≥", "constant": 1, "first_signal": {"name": "signal-L", "type": "virtual"}}],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-L", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 5, "y": 3.5}
+      },
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": -12, "y": 6}},
+      {"name": "half-diagonal-rail", "direction": 4, "position": {"x": -8, "y": 4}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": 22, "y": 4}},
+      {"name": "half-diagonal-rail", "direction": 6, "position": {"x": 26, "y": 6}},
+      {"name": "medium-electric-pole", "position": {"x": -3.5, "y": 4.5}},
+      {"name": "medium-electric-pole", "position": {"x": 3.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 7.5, "y": 4.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 1.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 0.5, "y": 6.5}},
+      {"name": "pipe", "position": {"x": 1.5, "y": 6.5}},
+      {"name": "pipe", "position": {"x": 2.5, "y": 6.5}},
+      {"name": "pipe", "position": {"x": 3.5, "y": 6.5}},
+      {"name": "pipe", "position": {"x": 10.5, "y": 5.5}},
+      {"name": "pipe", "position": {"x": 10.5, "y": 6.5}},
+      {"name": "pipe-to-ground", "direction": 12, "position": {"x": 2.5, "y": 5.5}},
+      {"name": "pipe-to-ground", "direction": 4, "position": {"x": 9.5, "y": 5.5}},
+      {"name": "pump", "direction": 8, "position": {"x": 0.5, "y": 4}},
+      {"name": "pump", "direction": 8, "position": {"x": 1.5, "y": 4}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": -5.5, "y": -1.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 8.5, "y": -1.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 22.5, "y": -1.5}},
+      {"name": "rail-signal", "direction": 4, "position": {"x": 36.5, "y": -1.5}},
+      {"name": "rail-signal", "direction": 12, "position": {"x": -18.5, "y": 9.5}},
+      {"name": "rail-signal", "direction": 11, "position": {"x": -10.5, "y": 6.5}},
+      {"name": "rail-signal", "direction": 12, "position": {"x": -4.5, "y": 9.5}},
+      {"name": "rail-signal", "direction": 12, "position": {"x": 9.5, "y": 9.5}},
+      {"name": "rail-signal", "direction": 13, "position": {"x": 24.5, "y": 6.5}},
+      {"name": "rail-signal", "direction": 12, "position": {"x": 23.5, "y": 9.5}},
+      {"name": "storage-tank", "position": {"x": -1.5, "y": 4.5}},
+      {"name": "storage-tank", "direction": 4, "position": {"x": 5.5, "y": 5.5}},
+      {"name": "storage-tank", "direction": 4, "position": {"x": 12.5, "y": 5.5}},
+      {"name": "storage-tank", "position": {"x": 15.5, "y": 5.5}},
+      {"name": "storage-tank", "direction": 4, "position": {"x": 18.5, "y": 5.5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -18, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -18, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -16, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -14, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -12, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -10, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -8, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -6, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -4, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -2, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -16, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -14, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -12, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -10, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -8, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -6, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -4, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": -2, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 2}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 16, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 18, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 20, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 22, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 24, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 26, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 28, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 30, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 16, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 18, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 20, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 22, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 24, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 26, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 28, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 30, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 32, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 34, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 36, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 32, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 34, "y": 8}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 36, "y": 8}},
+      {
+        "name": "train-stop",
+        "direction": 4,
+        "station": "[item=parameter-0] [item=requester-chest] - [item=parameter-1]",
+        "color": {"a": 0.49803921580314636, "b": 1, "g": 0, "r": 0},
+        "control_behavior": {
+          "set_priority": true,
+          "set_trains_limit": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"},
+          "trains_limit_signal": {"name": "signal-L", "type": "virtual"}
+        },
+        "position": {"x": 10, "y": 4}
+      }
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-2", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "signal-1", "type": "virtual"}}
+    ],
+    "parameters": [
+      {"name": "Group", "id": "parameter-0", "type": "id"},
+      {"name": "Fluid", "id": "parameter-1", "type": "id"},
+      {"name": "Base Priority", "number": "50", "type": "number"},
+      {
+        "name": "Fluid Wagons",
+        "dependent": true,
+        "formula": "1",
+        "number": "4",
+        "type": "number",
+        "variable": "W"
+      },
+      {"name": "Fluid Wagon Volume", "number": "50000", "type": "number", "variable": "Wv"},
+      {"name": "Storage Tank Volume", "number": "25000", "type": "number", "variable": "Bv"},
+      {
+        "name": "Total Train Volume",
+        "dependent": true,
+        "formula": "W*Wv",
+        "number": "-1",
+        "type": "number"
+      },
+      {
+        "name": "Buffer Storage Tanks",
+        "dependent": true,
+        "formula": "5",
+        "number": "-2",
+        "type": "number",
+        "variable": "B"
+      },
+      {
+        "name": "Total Buffer Volume",
+        "dependent": true,
+        "formula": "B*Bv",
+        "number": "-3",
+        "type": "number"
+      }
+    ],
+    "snap-to-grid": {"x": 14, "y": 14},
+    "wires": [
+      ["0,5.5", 1, "22,5.5", 1],
+      ["0,5.5", 2, "22,5.5", 2],
+      ["0,5.5", 5, "22,5.5", 5],
+      ["15.5,6", 1, "22.5,7", 1],
+      ["15.5,6", 2, "17.5,6", 2],
+      ["15.5,6", 2, "22.5,7", 2],
+      ["15.5,6", 5, "22.5,7", 5],
+      ["17.5,6", 2, "22.5,7", 2],
+      ["17.5,6", 2, "24.5,7", 2],
+      ["22,5.5", 1, "45,5.5", 1],
+      ["22,5.5", 2, "45,5.5", 2],
+      ["22,5.5", 5, "26.5,6", 5],
+      ["22,5.5", 5, "45,5.5", 5],
+      ["22,5.5", 5, "22.5,7", 5],
+      ["24,5", 2, "27,7", 4],
+      ["24,5", 4, "29,5.5", 2],
+      ["26,5", 1, "26.5,8", 1],
+      ["26,5", 2, "27,7", 4],
+      ["26,5", 4, "29,5.5", 2],
+      ["27.5,5.5", 1, "26.5,8", 1],
+      ["27.5,5.5", 2, "26.5,6", 2],
+      ["27.5,5.5", 4, "27,7", 2],
+      ["26.5,6", 1, "22.5,7", 1],
+      ["26.5,6", 1, "26.5,8", 1],
+      ["26.5,6", 2, "22.5,7", 2],
+      ["26.5,6", 2, "24.5,7", 2],
+      ["26.5,6", 2, "31.5,7", 2],
+      ["26.5,6", 5, "22.5,7", 5],
+      ["45,5.5", 1, "56,5.5", 1],
+      ["45,5.5", 2, "56,5.5", 2],
+      ["45,5.5", 5, "56,5.5", 5],
+      ["22.5,7", 2, "24.5,7", 2],
+      ["27,7", 1, "26.5,8", 1],
+      ["31.5,7", 2, "34.5,7", 2],
+      ["34.5,7", 2, "37.5,7", 2]
+    ]
+  }
+}

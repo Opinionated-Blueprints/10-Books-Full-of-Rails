@@ -1,0 +1,87 @@
+{
+  "index": 6,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=signal-item-parameter] [color=green]1 Car[/color]",
+    "description": "[item=fast-transport-belt]=[item=fast-inserter]\n[item=express-transport-belt]=[item=fast-inserter]\n[item=turbo-transport-belt]=[item=bulk-inserter]\n[item=turbo-transport-belt]x2[virtual-signal=signal-stack-size]=[item=bulk-inserter]\n[item=turbo-transport-belt]x3[virtual-signal=signal-stack-size]=[item=stack-inserter]\n[item=turbo-transport-belt]x4[virtual-signal=signal-stack-size]=[item=stack-inserter,quality=uncommon]",
+    "shift_x": 1,
+    "shift_y": 1,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "fast-inserter",
+        "control_behavior": {"circuit_enabled": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 0.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {"circuit_enabled": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 1.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {"circuit_enabled": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 2.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {"circuit_enabled": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 3.5, "y": 4.5}
+      },
+      {"name": "fast-inserter", "position": {"x": 0.5, "y": 6.5}},
+      {"name": "fast-inserter", "position": {"x": 1.5, "y": 6.5}},
+      {"name": "fast-inserter", "position": {"x": 2.5, "y": 6.5}},
+      {"name": "fast-inserter", "position": {"x": 3.5, "y": 6.5}},
+      {
+        "name": "fast-inserter",
+        "control_behavior": {"circuit_enabled": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 4.5, "y": 4.5}
+      },
+      {
+        "name": "fast-inserter",
+        "control_behavior": {"circuit_enabled": true, "circuit_condition": {"comparator": ">", "constant": 0}},
+        "position": {"x": 5.5, "y": 4.5}
+      },
+      {"name": "fast-inserter", "position": {"x": 4.5, "y": 6.5}},
+      {"name": "fast-inserter", "position": {"x": 5.5, "y": 6.5}},
+      {"name": "fast-splitter", "direction": 8, "position": {"x": 3, "y": 1.5}},
+      {"name": "fast-splitter", "direction": 12, "position": {"x": 1.5, "y": 2}},
+      {"name": "fast-splitter", "direction": 8, "position": {"x": 1, "y": 3.5}},
+      {"name": "fast-splitter", "direction": 8, "position": {"x": 3, "y": 3.5}},
+      {"name": "fast-splitter", "direction": 8, "position": {"x": 4, "y": 2.5}},
+      {"name": "fast-splitter", "direction": 8, "position": {"x": 5, "y": 3.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 0.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 4, "position": {"x": 1.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 0.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 2.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 3.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 0.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 2.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": -0.5, "y": 5.5}},
+      {"name": "medium-electric-pole", "position": {"x": 6.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 0.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 1.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 2.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 3.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 4.5, "y": 5.5}},
+      {"name": "steel-chest", "position": {"x": 5.5, "y": 5.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-1", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "cargo-wagon"}}
+    ],
+    "snap-to-grid": {"x": 7, "y": 10},
+    "wires": [
+      ["1,5", 2, "0,5", 2],
+      ["1,5", 2, "2,5", 2],
+      ["0,5", 1, "7,5", 1],
+      ["0,5", 2, "7,5", 2],
+      ["0,5", 5, "7,5", 5],
+      ["3,5", 2, "2,5", 2],
+      ["3,5", 2, "4,5", 2],
+      ["5,5", 2, "4,5", 2],
+      ["5,5", 2, "6,5", 2],
+      ["7,5", 2, "6,5", 2]
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "index": 3,
+  "upgrade_planner": {
+    "item": "upgrade-planner",
+    "label": "pre-belt capacity",
+    "version": 562949957025792,
+    "settings": {
+      "description": "Can be used to upgrade existing stations with unuffered loaders between levels 1-4.\nRecommended to apply to the unbuffered inline provider blueprints as you reach requirements.",
+      "mappers": [
+        {
+          "index": 0,
+          "from": {"name": "transport-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "fast-transport-belt", "type": "entity"}
+        },
+        {
+          "index": 1,
+          "from": {"name": "fast-transport-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "express-transport-belt", "type": "entity"}
+        },
+        {
+          "index": 2,
+          "from": {"name": "express-transport-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "turbo-transport-belt", "type": "entity"}
+        },
+        {
+          "index": 4,
+          "from": {"name": "underground-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "fast-underground-belt", "type": "entity"}
+        },
+        {
+          "index": 5,
+          "from": {"name": "fast-underground-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "express-underground-belt", "type": "entity"}
+        },
+        {
+          "index": 6,
+          "from": {"name": "express-underground-belt", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "turbo-underground-belt", "type": "entity"}
+        },
+        {
+          "index": 8,
+          "from": {"name": "splitter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "fast-splitter", "type": "entity"}
+        },
+        {
+          "index": 9,
+          "from": {"name": "fast-splitter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "express-splitter", "type": "entity"}
+        },
+        {
+          "index": 10,
+          "from": {"name": "express-splitter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "turbo-splitter", "type": "entity"}
+        },
+        {
+          "index": 12,
+          "from": {"name": "fast-inserter", "comparator": "=", "quality": "normal", "type": "entity"},
+          "to": {"name": "bulk-inserter", "type": "entity"}
+        }
+      ]
+    }
+  }
+}

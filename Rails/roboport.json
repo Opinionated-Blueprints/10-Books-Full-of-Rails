@@ -1,0 +1,18 @@
+{
+  "index": 18,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Roboport",
+    "description": "If you want roboports in rails. Not the prettiest solution, but fits without any force building in the main orthogonal pieces.\n\n42x42 grid matching the rails.",
+    "absolute-snapping": true,
+    "shift_x": 20,
+    "shift_y": 22,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "big-electric-pole", "position": {"x": 3, "y": 0}},
+      {"name": "roboport", "position": {"x": 0, "y": 0}, "request_filters": {"sections": [{"index": 1}]}}
+    ],
+    "icons": [{"index": 1, "signal": {"name": "roboport"}}],
+    "snap-to-grid": {"x": 42, "y": 42}
+  }
+}

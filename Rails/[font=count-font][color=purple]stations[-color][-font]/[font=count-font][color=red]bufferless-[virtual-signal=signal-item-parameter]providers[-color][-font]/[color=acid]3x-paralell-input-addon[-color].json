@@ -1,0 +1,90 @@
+{
+  "index": 18,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[color=acid]3x paralell input addon[/color]",
+    "description": "Upgrade with an upgrade planner as you get better belts",
+    "version": 562949957025792,
+    "entities": [
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 4.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 5.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 6.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 7.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 8.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 11.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 12.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 13.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 14.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 15.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 15.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "direction": 8, "position": {"x": 18.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 19.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 20.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 21.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 22.5, "y": 0.5}},
+      {"name": "fast-transport-belt", "position": {"x": 22.5, "y": 1.5}},
+      {"name": "fast-transport-belt", "position": {"x": 22.5, "y": 2.5}},
+      {"name": "fast-transport-belt", "direction": 12, "position": {"x": 23.5, "y": 2.5}},
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 9.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 16.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 17.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "output",
+        "position": {"x": 16.5, "y": 1.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 23.5, "y": 0.5}
+      },
+      {
+        "name": "fast-underground-belt",
+        "direction": 12,
+        "type": "input",
+        "position": {"x": 23.5, "y": 1.5}
+      },
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 7.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 14.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 21.5, "y": 2.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 0.5, "y": 1.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 7.5, "y": 1.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 14.5, "y": 1.5}},
+      {"name": "small-lamp", "color": {"a": 1, "b": 1, "g": 1, "r": 1}, "position": {"x": 21.5, "y": 1.5}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-3", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "cargo-wagon"}}
+    ],
+    "snap-to-grid": {"x": 24, "y": 6},
+    "wires": [
+      ["0,2", 1, "7,2", 1],
+      ["0,2", 2, "7,2", 2],
+      ["0,2", 5, "7,2", 5],
+      ["7,2", 1, "14,2", 1],
+      ["7,2", 2, "14,2", 2],
+      ["7,2", 5, "14,2", 5],
+      ["14,2", 1, "21,2", 1],
+      ["14,2", 2, "21,2", 2],
+      ["14,2", 5, "21,2", 5]
+    ]
+  }
+}

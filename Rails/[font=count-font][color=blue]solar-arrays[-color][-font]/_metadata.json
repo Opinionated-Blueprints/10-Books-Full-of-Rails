@@ -1,0 +1,15 @@
+{
+  "index": 15,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=blue]Solar Arrays[/color][/font]",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "solar-panel"}},
+      {"index": 2, "signal": {"name": "accumulator"}},
+      {"index": 3, "signal": {"name": "accumulator"}},
+      {"index": 4, "signal": {"name": "solar-panel"}}
+    ]
+  }
+}

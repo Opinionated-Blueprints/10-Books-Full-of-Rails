@@ -1,0 +1,13 @@
+{
+  "index": 22,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "1: Why bufferless?",
+    "description": "The provider’s output is limited by its belts' throughput.\n\nIf demand is higher than supply – the buffer will quickly deplete, leaving you effectively loading trains directly from the belts.\n\nIf supply exceeds demand – you still can’t load trains faster than you load the buffer. While individual trains might load faster, the overall rate remains capped by belt throughput, leading to periods where trains aren’t being loaded at all, averaging the loading speed back to the belt’s rate.",
+    "shift_x": -179,
+    "shift_y": -665,
+    "version": 562949957025792,
+    "entities": [{"name": "medium-electric-pole", "position": {"x": -0.5, "y": -0.5}}],
+    "icons": [{"index": 1, "signal": {"name": "signal-info", "type": "virtual"}}]
+  }
+}

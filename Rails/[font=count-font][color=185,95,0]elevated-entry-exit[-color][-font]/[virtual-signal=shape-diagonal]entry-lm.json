@@ -1,0 +1,73 @@
+{
+  "index": 14,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "[virtual-signal=shape-diagonal]Entry LM",
+    "shift_x": -873,
+    "shift_y": -152,
+    "version": 562949957025792,
+    "entities": [
+      {"name": "elevated-curved-rail-a", "position": {"x": 4, "y": 0}},
+      {"name": "elevated-curved-rail-a", "direction": 10, "position": {"x": 4, "y": 4}},
+      {"name": "elevated-curved-rail-a", "direction": 14, "position": {"x": 13, "y": 3}},
+      {"name": "elevated-curved-rail-a", "direction": 4, "position": {"x": 17, "y": 3}},
+      {"name": "elevated-curved-rail-b", "position": {"x": 2, "y": -5}},
+      {"name": "elevated-curved-rail-b", "direction": 14, "position": {"x": 8, "y": 1}},
+      {"name": "elevated-curved-rail-b", "direction": 10, "position": {"x": 2, "y": 9}},
+      {"name": "elevated-curved-rail-b", "direction": 4, "position": {"x": 22, "y": 1}},
+      {"name": "elevated-straight-rail", "direction": 6, "position": {"x": 1, "y": -6}},
+      {"name": "elevated-straight-rail", "direction": 6, "position": {"x": 3, "y": -4}},
+      {"name": "elevated-straight-rail", "direction": 6, "position": {"x": 5, "y": -2}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 7, "y": 4}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 5, "y": 6}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 11, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 9, "y": 2}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 3, "y": 8}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 1, "y": 10}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 23, "y": 0}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 21, "y": 2}},
+      {"name": "elevated-straight-rail", "direction": 2, "position": {"x": 19, "y": 4}},
+      {
+        "name": "rail-chain-signal",
+        "direction": 2,
+        "rail_layer": "elevated",
+        "position": {"x": 9.5, "y": -0.5}
+      },
+      {
+        "name": "rail-chain-signal",
+        "direction": 14,
+        "rail_layer": "elevated",
+        "position": {"x": 5.5, "y": 0.5}
+      },
+      {
+        "name": "rail-chain-signal",
+        "direction": 2,
+        "rail_layer": "elevated",
+        "position": {"x": 5.5, "y": 3.5}
+      },
+      {
+        "name": "rail-chain-signal",
+        "direction": 12,
+        "rail_layer": "elevated",
+        "position": {"x": 15.5, "y": 4.5}
+      },
+      {"name": "rail-signal", "rail_layer": "elevated", "position": {"x": 2.5, "y": 2.5}},
+      {
+        "name": "rail-signal",
+        "direction": 10,
+        "rail_layer": "elevated",
+        "position": {"x": 19.5, "y": 5.5}
+      },
+      {"name": "rail-support", "direction": 6, "position": {"x": 0, "y": -7}},
+      {"name": "rail-support", "position": {"x": 4, "y": 2}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 6, "y": 5}},
+      {"name": "rail-support", "direction": 4, "position": {"x": 15, "y": 3}},
+      {"name": "rail-support", "direction": 2, "position": {"x": 20, "y": 3}}
+    ],
+    "icons": [
+      {"index": 1, "signal": {"name": "down-right-arrow", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "shape-diagonal", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "shape-diagonal", "type": "virtual"}}
+    ]
+  }
+}

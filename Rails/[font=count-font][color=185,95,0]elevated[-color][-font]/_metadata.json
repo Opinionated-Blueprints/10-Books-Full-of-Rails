@@ -1,0 +1,11 @@
+{
+  "index": 2,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=185,95,0]Elevated[/color][/font]",
+    "description": "When building anything (including from other books) over the [font=default-bold]Straight or Diagonal[/font] piece, use [font=default-bold]super forced building[/font] ([color=blue][font=default-bold]Ctrl+Shift+Click[/font][/color]). Even if you remove some power poles, their density will allow to retain an unbroken connection or a replacement will be created by the new blueprint.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [{"index": 1, "signal": {"name": "rail-support"}}]
+  }
+}

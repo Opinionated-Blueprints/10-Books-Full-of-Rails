@@ -1,0 +1,16 @@
+{
+  "index": 17,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=acid]Mixed Elev. Cityblock[/color][/font]",
+    "description": "If you want a smaller/bigger grid, you're welcome to make it exactly how you want... yourself :)\nAdmittedly, this is a bit of a proof of concept for mixed elevation tracks.\n\nOnly every 3rd endpoint will align with regular grid rail. Will always align with hypermodular rails.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "signal-C", "type": "virtual"}},
+      {"index": 2, "signal": {"name": "signal-I", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "signal-T", "type": "virtual"}},
+      {"index": 4, "signal": {"name": "signal-Y", "type": "virtual"}}
+    ]
+  }
+}

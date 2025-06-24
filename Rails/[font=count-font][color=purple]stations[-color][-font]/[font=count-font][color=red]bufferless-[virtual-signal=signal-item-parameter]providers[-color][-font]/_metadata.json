@@ -1,0 +1,16 @@
+{
+  "index": 6,
+  "blueprint_book": {
+    "item": "blueprint-book",
+    "label": "[font=count-font][color=red]Bufferless [virtual-signal=signal-item-parameter]Providers[/color][/font]",
+    "description": "Both buffered and bufferless providers can coexist, even in the same group, though the buffered providers will be preferred at default priority values due to priority control.\n\nYou can load mixed items. The train will just visit the requesters for each in order until it's empty. It's recommended to use a belt balancer if loading mixed items to disribute them somewhat evenly accross the buffer and train wagons.\n\nAdding stackers to bufferless provider stations is highly recommended.",
+    "active_index": 0,
+    "version": 562949957025792,
+    "icons": [
+      {"index": 1, "signal": {"name": "passive-provider-chest"}},
+      {"index": 2, "signal": {"name": "signal-item-parameter", "type": "virtual"}},
+      {"index": 3, "signal": {"name": "signal-deny", "type": "virtual"}},
+      {"index": 4, "signal": {"name": "steel-chest"}}
+    ]
+  }
+}

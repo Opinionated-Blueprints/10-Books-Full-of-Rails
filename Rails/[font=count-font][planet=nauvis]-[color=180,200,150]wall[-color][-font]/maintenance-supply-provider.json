@@ -1,0 +1,234 @@
+{
+  "index": 4,
+  "blueprint": {
+    "item": "blueprint",
+    "label": "Maintenance Supply Provider",
+    "description": "One can supply multiple requesters.\n\nFor double-headed trains - extend the station.",
+    "shift_x": 503,
+    "shift_y": 181,
+    "version": 562949957025792,
+    "entities": [
+      {
+        "name": "arithmetic-combinator",
+        "direction": 8,
+        "player_description": "Sets inserter filter so it takes out items over request amount.\n(the one that takes items out of the train)",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "*",
+            "second_constant": -1,
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "output_signal": {"name": "signal-each", "type": "virtual"}
+          }
+        },
+        "position": {"x": 2.5, "y": 2}
+      },
+      {
+        "name": "arithmetic-combinator",
+        "direction": 8,
+        "player_description": "Finds difference between desired trainload and actual trainload",
+        "control_behavior": {
+          "arithmetic_conditions": {
+            "operation": "-",
+            "first_signal": {"name": "signal-each", "type": "virtual"},
+            "first_signal_networks": {"green": false, "red": true},
+            "output_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal": {"name": "signal-each", "type": "virtual"},
+            "second_signal_networks": {"green": true, "red": false}
+          }
+        },
+        "position": {"x": 3.5, "y": 2}
+      },
+      {
+        "name": "bulk-inserter",
+        "direction": 8,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 6.5, "y": 1.5}
+      },
+      {
+        "name": "constant-combinator",
+        "control_behavior": {
+          "sections": {
+            "sections": [
+              {
+                "group": "Wall Maintenance Supply",
+                "index": 1,
+                "filters": [
+                  {
+                    "name": "stone-wall",
+                    "comparator": "=",
+                    "count": 1900,
+                    "index": 1,
+                    "max_count": 2000,
+                    "quality": "normal"
+                  },
+                  {"name": "gate", "comparator": "=", "count": 100, "index": 2, "max_count": 150, "quality": "normal"},
+                  {
+                    "name": "laser-turret",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 3,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "flamethrower-turret",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 4,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "land-mine",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 5,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {"name": "pipe", "comparator": "=", "count": 100, "index": 6, "max_count": 100, "quality": "normal"},
+                  {
+                    "name": "pipe-to-ground",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 7,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {"name": "pump", "comparator": "=", "count": 50, "index": 8, "max_count": 50, "quality": "normal"},
+                  {
+                    "name": "medium-electric-pole",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 9,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "roboport",
+                    "comparator": "=",
+                    "count": 10,
+                    "index": 10,
+                    "max_count": 10,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "logistic-robot",
+                    "comparator": "=",
+                    "count": 100,
+                    "index": 11,
+                    "max_count": 100,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "construction-robot",
+                    "comparator": "=",
+                    "count": 200,
+                    "index": 12,
+                    "max_count": 300,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "buffer-chest",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 13,
+                    "max_count": 50,
+                    "quality": "normal"
+                  },
+                  {
+                    "name": "big-electric-pole",
+                    "comparator": "=",
+                    "count": 50,
+                    "index": 14,
+                    "max_count": 50,
+                    "quality": "normal"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "position": {"x": 5.5, "y": 1.5}
+      },
+      {
+        "name": "decider-combinator",
+        "direction": 8,
+        "control_behavior": {
+          "decider_conditions": {
+            "conditions": [{"comparator": "=", "first_signal": {"name": "signal-everything", "type": "virtual"}}],
+            "outputs": [{"copy_count_from_input": false, "signal": {"name": "signal-check", "type": "virtual"}}]
+          }
+        },
+        "position": {"x": 1.5, "y": 2}
+      },
+      {
+        "name": "fast-inserter",
+        "override_stack_size": 1,
+        "use_filters": true,
+        "control_behavior": {"circuit_set_filters": true},
+        "position": {"x": 4.5, "y": 1.5}
+      },
+      {"name": "fast-inserter", "direction": 12, "position": {"x": 5.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 0.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 7.5, "y": 2.5}},
+      {"name": "medium-electric-pole", "position": {"x": 12.5, "y": 2.5}},
+      {"name": "rail-signal", "direction": 12, "position": {"x": 0.5, "y": 1.5}},
+      {
+        "name": "requester-chest",
+        "control_behavior": {"circuit_condition_enabled": false, "circuit_mode_of_operation": 1},
+        "position": {"x": 6.5, "y": 2.5},
+        "request_filters": {"trash_not_requested": true, "sections": [{"index": 1}]}
+      },
+      {"name": "roboport", "position": {"x": 10, "y": 3}, "request_filters": {"sections": [{"index": 1}]}},
+      {"name": "steel-chest", "position": {"x": 4.5, "y": 2.5}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 0, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 2, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 4, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 6, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 8, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 10, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 12, "y": 0}},
+      {"name": "straight-rail", "direction": 4, "position": {"x": 14, "y": 0}},
+      {
+        "name": "train-stop",
+        "direction": 4,
+        "station": "[color=180,200,150]Wall Maintenance[/color] [item=passive-provider-chest]",
+        "color": {"a": 1, "b": 0.5882353186607361, "g": 0.7843137383460999, "r": 0.7058823704719543},
+        "control_behavior": {
+          "read_from_train": true,
+          "set_priority": true,
+          "priority_signal": {"name": "signal-P", "type": "virtual"},
+          "train_stopped_signal": {"name": "signal-T", "type": "virtual"}
+        },
+        "position": {"x": 14, "y": 2}
+      }
+    ],
+    "icons": [{"index": 1, "signal": {"name": "passive-provider-chest"}}],
+    "wires": [
+      ["0.5,2.5", 1, "1.5,2", 3],
+      ["0.5,2.5", 1, "3.5,2", 3],
+      ["0.5,2.5", 1, "7.5,2.5", 1],
+      ["0.5,2.5", 2, "3.5,2", 2],
+      ["0.5,2.5", 2, "7.5,2.5", 2],
+      ["0.5,2.5", 5, "7.5,2.5", 5],
+      ["2.5,2", 2, "3.5,2", 4],
+      ["2.5,2", 4, "4.5,1.5", 2],
+      ["1.5,2", 2, "3.5,2", 4],
+      ["3.5,2", 1, "5.5,1.5", 1],
+      ["3.5,2", 2, "7.5,2.5", 2],
+      ["3.5,2", 2, "12.5,2.5", 2],
+      ["3.5,2", 3, "7.5,2.5", 1],
+      ["3.5,2", 3, "12.5,2.5", 1],
+      ["3.5,2", 4, "6.5,1.5", 2],
+      ["5.5,1.5", 2, "6.5,2.5", 2],
+      ["7.5,2.5", 1, "12.5,2.5", 1],
+      ["7.5,2.5", 2, "12.5,2.5", 2],
+      ["7.5,2.5", 2, "14,2", 2],
+      ["7.5,2.5", 5, "12.5,2.5", 5],
+      ["12.5,2.5", 1, "14,2", 1],
+      ["12.5,2.5", 2, "14,2", 2]
+    ]
+  }
+}
