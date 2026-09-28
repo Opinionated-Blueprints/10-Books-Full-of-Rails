@@ -100,7 +100,6 @@
       {"index": 3, "signal": {"name": "shape-horizontal", "type": "virtual"}},
       {"index": 4, "signal": {"name": "shape-horizontal", "type": "virtual"}}
     ],
-    "position-relative-to-grid": {"x": 8, "y": 28},
     "snap-to-grid": {"x": 2, "y": 14}
   }
 }

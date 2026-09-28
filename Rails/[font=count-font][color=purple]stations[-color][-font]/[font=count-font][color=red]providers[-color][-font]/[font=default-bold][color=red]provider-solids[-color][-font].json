@@ -224,7 +224,7 @@
     "icons": [{"index": 1, "signal": {"name": "signal-item-parameter", "type": "virtual"}}],
     "parameters": [
       {"name": "Group", "id": "parameter-0", "type": "id"},
-      {"name": "Max Train Limit", "not-parametrised": true, "number": "1", "type": "number"},
+      {"name": "Max Train Limit", "number": "1", "type": "number"},
       {"name": "Base Priority", "number": "50", "type": "number"},
       {"name": "Cargo Wagons", "number": "4", "type": "number", "variable": "W"},
       {"name": "Cargo Wagon Slots", "number": "40", "type": "number", "variable": "S"},

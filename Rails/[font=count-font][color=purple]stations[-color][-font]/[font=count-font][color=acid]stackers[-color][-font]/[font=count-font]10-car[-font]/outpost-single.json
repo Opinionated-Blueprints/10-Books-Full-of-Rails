@@ -315,7 +315,6 @@
       {"index": 1, "signal": {"name": "signal-O", "type": "virtual"}},
       {"index": 2, "signal": {"name": "signal-1", "type": "virtual"}}
     ],
-    "position-relative-to-grid": {"x": 0, "y": 6},
     "snap-to-grid": {"x": 14, "y": 14},
     "wires": [
       ["113,13.5", 1, "82,15.5", 1],

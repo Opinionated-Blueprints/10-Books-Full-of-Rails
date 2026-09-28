@@ -100,7 +100,7 @@
                   {
                     "name": "signal-C",
                     "comparator": "=",
-                    "count": 200000,
+                    "count": -1,
                     "index": 6,
                     "quality": "normal",
                     "type": "virtual"
@@ -206,7 +206,16 @@
       {"name": "Max Train Limit", "number": "1", "type": "number"},
       {"name": "Base Priority", "number": "50", "type": "number"},
       {"name": "Fluid Wagons", "number": "4", "type": "number", "variable": "W"},
+      {"name": "Buffer Tanks per Wagon", "number": "4", "type": "number", "variable": "B"},
       {"name": "Fluid Wagon Volume", "number": "50000", "type": "number", "variable": "Wv"},
+      {
+        "name": "Total Train Volume",
+        "dependent": true,
+        "formula": "W*Wv",
+        "number": "-1",
+        "type": "number",
+        "variable": "C"
+      },
       {"name": "Buffer Storage Tank Volume", "number": "25000", "type": "number", "variable": "Bv"},
       {
         "name": "Total Buffer Volume",
